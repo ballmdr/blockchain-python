@@ -15,5 +15,3 @@ add_value(last_transaction=get_last_blockchain(), transaction_amount=np.random.r
 add_value(np.random.randint(100), get_last_blockchain())
 add_value(3021, last_transaction=get_last_blockchain())
 
-for i in range(10):
-    add_value(np.random.randint(100), get_last_blockchain())
