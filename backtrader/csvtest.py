@@ -13,7 +13,6 @@ class myFirstStrategy(bt.Strategy):
         sma = btind.SMA(self.data, period=self.p.period)
         self.crossover = btind.CrossOver(self.data, sma)
    
-    
     def next(self):
         if self.crossover > 0:
             self.buy()
@@ -53,9 +52,6 @@ class RSI_momentum(bt.Strategy):
                 print('Sell bias: {} rsi: {}'.format(str(self.bias), str(last_rsi)))
                 self.sell()
                 self.bias = None
-    
-        
-
     
 
 path = '/Users/ballmdr/Documents/EURUSD1440.csv'
