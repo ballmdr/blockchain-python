@@ -1,12 +1,5 @@
 import backtrader as bt
 import numpy as np
-import datetime
-
-indy = bt.indicators
-btfeed = bt.feeds
-
-symbol1 = 'USDJPY'
-symbol2 = 'NZDJPY'
 
 class KalmanPair(bt.Strategy):
     params = (("printlog", False), ("quantity", 1000))
@@ -70,68 +63,3 @@ class KalmanPair(bt.Strategy):
                 self.position_type = "short"
 
         self.log(f"beta: {self.beta[0]}, alpha: {self.beta[1]}")
-
-
-def run():
-    cerebro = bt.Cerebro()
-    cerebro.addstrategy(KalmanPair)
-
-    # startdate = datetime.datetime(2007, 1, 1)
-    # enddate = datetime.datetime(2017, 1, 1)
-
-    # ewa = bt.feeds.YahooFinanceData(dataname="EWA", fromdate=startdate, todate=enddate)
-    # ewc = bt.feeds.YahooFinanceData(dataname="EWC", fromdate=startdate, todate=enddate)
-
-    path = '/Users/ballmdr/Documents/' + symbol1 + '1440.csv'
-    pair1 = btfeed.GenericCSVData(
-        dataname = path,
-        timeframe = bt.TimeFrame.Days,
-        fromdate = datetime.datetime(2013, 1, 1),
-        todate = datetime.datetime(2018, 12, 31),
-        nullvalue = 0.0,
-        dtformat = ('%Y.%m.%d'),
-        tmformat = ('%H:%M'),
-        datetime = 0,
-        time = 1,
-        open = 2,
-        high = 3,
-        low = 4,
-        close = 5,
-        volume = -1,
-        openinterest = -1
-    )
-
-    path = '/Users/ballmdr/Documents/' + symbol2 + '1440.csv'
-    pair2 = btfeed.GenericCSVData(
-        dataname = path,
-        timeframe = bt.TimeFrame.Days,
-        fromdate = datetime.datetime(2018, 1, 1),
-        todate = datetime.datetime(2018, 12, 31),
-        nullvalue = 0.0,
-        dtformat = ('%Y.%m.%d'),
-        tmformat = ('%H:%M'),
-        datetime = 0,
-        time = 1,
-        open = 2,
-        high = 3,
-        low = 4,
-        close = 5,
-        volume = -1,
-        openinterest = -1
-    )
-    cerebro.adddata(pair1)
-    cerebro.adddata(pair2)
-    # cerebro.adddata(ewa)
-    # cerebro.adddata(ewc)
-    # cerebro.broker.setcommission(commission=0.0001)
-    cerebro.broker.setcash(100_000.0)
-
-    print(f"Starting Portfolio Value: {cerebro.broker.getvalue():.2f}")
-    cerebro.run()
-    print('Pair trading: '+ symbol1 + ' <-> ' + symbol2)
-    print(f"Final Portfolio Value: {cerebro.broker.getvalue():.2f}")
-    #cerebro.plot()
-
-
-if __name__ == "__main__":
-    run()

@@ -1,6 +1,7 @@
 import datetime
 import backtrader as bt
 import backtrader.feeds as btfeed
+import quandl
 
 cerebro = bt.Cerebro()
 btind = bt.indicators
@@ -73,8 +74,13 @@ data = btfeed.GenericCSVData(
     openinterest = -1
 )
 
+# df = quandl.get("PERTH/USD_JPY_D", authtoken="BtTbtBEhiWH3aJTHWhEP", start_date="2017-01-01", end_date="2018-12-31")
+# df.rename(columns={'Ask Average': 'close'}, inplace=True)
+
+# data = bt.feeds.PandasData(dataname=df)
+
 cerebro.adddata(data)
 #cerebro.resampledata(dataMinute, timeframe=bt.TimeFrame.Days, compression=1)
-cerebro.addstrategy(RSI_momentum)
+cerebro.addstrategy(SmaCross)
 cerebro.run()
 cerebro.plot(volume=0)
