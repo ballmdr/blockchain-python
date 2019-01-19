@@ -1,7 +1,7 @@
 from sklearn.linear_model import LinearRegression
 from sklearn.model_selection import train_test_split
 
-class LRM:
+class LinearRegressionModel:
 
     def __init__(self, X, y):
         self.lm = LinearRegression()

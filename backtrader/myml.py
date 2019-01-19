@@ -1,4 +1,4 @@
-from quantnoob.ml.linear_regression import LRM
+from quantnoob.ml.linear_regression import LinearRegressionModel
 from quantnoob.getdata import getPandaCsv
 import matplotlib.pyplot as plt
 import seaborn as sns
@@ -8,7 +8,7 @@ ori_path = '/Users/ballmdr/blockchain-python/backtrader'
 symbol = 'USDJPY'
 
 X, y = getPandaCsv(ori_path=ori_path, symbol=symbol)
-lrm = LRM(X, y)
+lrm = LinearRegressionModel(X, y)
 lrm.train()
 print(lrm.coef)
 lrm.predict()
