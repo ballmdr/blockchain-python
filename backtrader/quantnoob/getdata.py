@@ -29,11 +29,31 @@ def getPandaCsv(ori_path='', symbol='', tf='1440'):
     
     df = pd.read_csv(path, names=['date', 'time', 'open', 'high', 'low', 'close', 'volume'])
     df['date'] = pd.to_datetime(df['date'], format='%Y.%m.%d')
-    df.index = df['date']
-    del df['date']
-
-    X = df[['open', 'high', 'low', 'volume']]
-    y = df['close']
-
-    return X, y
+    #print(df['date'].tail())
     
+    #print(df.loc[mask].tail())
+    #df.index = df['date']
+    #del df['date']
+
+    return df
+    
+def getDateRange(df='', fromdate='', todate=''):
+
+    mask = (df['date'] > fromdate) & (df['date'] <= todate)
+    return df.loc[mask]
+
+def getTrainTest(df='', trainfrom='', trainto='', testfrom='', testto='', X_columns='', y_columns=''):
+
+    df_train = getDateRange(df=df, fromdate=trainfrom, todate=trainto)
+    X_train = df_train[X_columns]
+    y_train = df_train[y_columns].shift(-1)
+    X_train.drop(X_train.tail(1).index,inplace=True)
+    y_train.drop(y_train.tail(1).index,inplace=True)
+
+    df_test = getDateRange(df=df, fromdate=testfrom, todate=testto)
+    X_test = df_test[X_columns]
+    y_test = df_test[y_columns].shift(-1)
+    X_test.drop(X_test.tail(1).index,inplace=True)
+    y_test.drop(y_test.tail(1).index,inplace=True)
+
+    return X_train, y_train, X_test, y_test
