@@ -1,12 +1,19 @@
 import backtrader as bt
 import pandas as pd
 
-def getMt4Csv(ori_path='', symbol='', tf='1440', fromdate='', todate=''):
+def getMt4Csv(
+        ori_path='',
+        filename='', 
+        symbol='', 
+        fromdate='', 
+        todate=''
+    ):
 
-    path = ori_path + '/data/csv/' + symbol + tf + '.csv'
+    path = ori_path + '/' + symbol + filename + '.csv'
     data = bt.feeds.GenericCSVData(
+        headers = False,
         dataname = path,
-        timeframe = bt.TimeFrame.Days,
+        timeframe = bt.TimeFrame.Minutes,
         fromdate = fromdate,
         todate = todate,
         nullvalue = 0.0,
@@ -18,28 +25,33 @@ def getMt4Csv(ori_path='', symbol='', tf='1440', fromdate='', todate=''):
         high = 3,
         low = 4,
         close = 5,
-        volume = -1,
+        volume = 6,
         openinterest = -1
     )
     return data
 
-def getPandaCsv(ori_path='', symbol='', tf='1440'):
+def getPandaCsv(ori_path='', symbol='', filename='', fromdate='', todate=''):
 
-    path = ori_path + '/data/csv/' + symbol + tf + '.csv'
+    path = ori_path + '/' + symbol + filename + '.csv'
     
-    df = pd.read_csv(path, names=['date', 'time', 'open', 'high', 'low', 'close', 'volume'])
-    df['date'] = pd.to_datetime(df['date'], format='%Y.%m.%d')
+    df = pd.read_csv(path, names=['date', 'time', 'Open', 'High', 'Low', 'Close', 'Volume'])
+    df['Datetime'] = pd.to_datetime(df['date'] + ' ' + df['time'])
+
     #print(df['date'].tail())
     
     #print(df.loc[mask].tail())
-    #df.index = df['date']
-    #del df['date']
+
+    df.index = df['Datetime']
+    df.drop(['date', 'time'], axis=1, inplace=True)
+
+    if fromdate != '' and todate != '':
+        df = getDateRange(df=df, fromdate=fromdate, todate=todate)
 
     return df
     
 def getDateRange(df='', fromdate='', todate=''):
 
-    mask = (df['date'] > fromdate) & (df['date'] <= todate)
+    mask = (df['Datetime'] > fromdate) & (df['Datetime'] <= todate)
     return df.loc[mask]
 
 def getTrainTest(df='', trainfrom='', trainto='', testfrom='', testto='', X_columns='', y_columns=''):
