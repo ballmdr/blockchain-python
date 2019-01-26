@@ -1,0 +1,8 @@
+|ERROR|2019-01-26 11:35:26,453|Socket returns an error: ('Connection aborted.', OSError("(54, 'ECONNRESET')")).
+|ERROR|2019-01-26 11:36:39,238|Server reports an error: {'executed': False, 'error': 'Unauthorized'}.
+|ERROR|2019-01-26 11:36:39,238|URL: https://api-demo.fxcm.com:443/trading/get_model?models=Account
+|ERROR|2019-01-26 11:36:39,238|Headers: {'User-Agent': 'request', 'Accept-Encoding': 'gzip, deflate', 'Accept': 'application/json', 'Connection': 'keep-alive', 'Authorization': 'Bearer IF-RpFCtXU_86BdNBI_ld60e1d5a4a324365e4d351e854c45e8b9c5e7145', 'Content-Type': 'application/x-www-form-urlencoded'}
+|ERROR|2019-01-26 11:36:39,238|Params: {'models': ['Account']}
+|ERROR|2019-01-26 11:36:39,238|Bearer token: Bearer IF-RpFCtXU_86BdNBI_ld60e1d5a4a324365e4d351e854c45e8b9c5e7145
+|ERROR|2019-01-26 11:36:39,238|Connection status: unset
+|ERROR|2019-01-26 11:36:39,239|Socket session id: IF-RpFCtXU_86BdNBI_l
