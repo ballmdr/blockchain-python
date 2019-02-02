@@ -25,7 +25,7 @@ if __name__ == "__main__":
     cerebro = bt.Cerebro()
 
     df = quandl.get("PERTH/USD_JPY_D", authtoken="BtTbtBEhiWH3aJTHWhEP", start_date="2017-01-01", end_date="2018-12-31")
-    df.rename(columns={'Ask Average': 'close'}, inplace=True)
+    df.rename(columns={'Ask Average': 'Close'}, inplace=True)
 
     data = bt.feeds.PandasData(dataname=df)
     

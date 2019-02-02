@@ -47,6 +47,11 @@ def getPandaCsv(ori_path='', symbol='', filename='', fromdate='', todate=''):
     if fromdate != '' and todate != '':
         df = getDateRange(df=df, fromdate=fromdate, todate=todate)
 
+    df['Open'] = df['Open'].round(5)
+    df['High'] = df['High'].round(5)
+    df['Low'] = df['Low'].round(5)
+    df['Close'] = df['Close'].round(5)
+
     return df
     
 def getDateRange(df='', fromdate='', todate=''):
