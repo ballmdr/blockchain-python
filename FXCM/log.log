@@ -11,3 +11,5 @@
 |ERROR|2019-02-06 21:02:01,664|Unknown instrument: AUD/NZD
 |ERROR|2019-02-06 21:02:13,862|Unknown instrument: AUD/NZD
 |ERROR|2019-02-06 21:02:29,002|Unknown instrument: AUD/NZD
+|ERROR|2019-02-13 10:25:24,975|Error in get_candles: Illegal param. number: 28800
+|ERROR|2019-02-13 13:33:37,763|Error in get_candles: Illegal period: h1.
