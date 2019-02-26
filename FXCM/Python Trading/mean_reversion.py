@@ -1,6 +1,7 @@
 import pandas as pd
 import numpy as np
 from datetime import datetime
+import time
 
 import fxcmpy
 from apscheduler.schedulers.blocking import BlockingScheduler
@@ -15,7 +16,7 @@ sched = BlockingScheduler()
 lot = 100
 tf = 'm1'
 
-@sched.scheduled_job('interval', seconds=60)
+#@sched.scheduled_job('interval', seconds=60)
 def timed_job():
     print('new time job')
     con = fxcmpy.fxcmpy(config_file = 'fxcm.cfg')
@@ -95,4 +96,6 @@ def hasCurrency(con, symbol):
 #    print('This job is run every weekday at 10am.')
 
 if __name__ == "__main__":  
-    sched.start()
+    while True:
+        timed_job()
+        time.sleep(60)
