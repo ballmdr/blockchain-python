@@ -1,0 +1,9 @@
+|ERROR|2019-02-26 14:42:58,138|Job "timed_job (trigger: interval[0:00:10], next run at: 2019-02-26 14:43:07 +07)" raised an exception
+Traceback (most recent call last):
+  File "/anaconda2/envs/fxcm/lib/python3.7/site-packages/apscheduler/executors/base.py", line 125, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+  File "/Users/ballmdr/blockchain-python/FXCM/Python Trading/Mean Reversion.py", line 21, in timed_job
+    check_position(con)
+  File "/Users/ballmdr/blockchain-python/FXCM/Python Trading/Mean Reversion.py", line 28, in check_position
+    trade_id = con.get_open_trade_ids()[i]
+IndexError: list index out of range
