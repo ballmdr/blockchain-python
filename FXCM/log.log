@@ -13,3 +13,25 @@
 |ERROR|2019-02-06 21:02:29,002|Unknown instrument: AUD/NZD
 |ERROR|2019-02-13 10:25:24,975|Error in get_candles: Illegal param. number: 28800
 |ERROR|2019-02-13 13:33:37,763|Error in get_candles: Illegal period: h1.
+|ERROR|2019-02-25 07:58:56,922|Server reports an error: {'executed': False, 'error': 'Unauthorized'}.
+|ERROR|2019-02-25 07:58:56,925|URL: https://api-demo.fxcm.com:443/trading/subscribe
+|ERROR|2019-02-25 07:58:56,925|Headers: {'User-Agent': 'request', 'Accept-Encoding': 'gzip, deflate', 'Accept': 'application/json', 'Connection': 'keep-alive', 'Authorization': 'Bearer rfI9cclMjfS3igzjAAPSd60e1d5a4a324365e4d351e854c45e8b9c5e7145', 'Content-Type': 'application/x-www-form-urlencoded', 'Content-Length': '21'}
+|ERROR|2019-02-25 07:58:56,925|Params: {'models': 'ClosedPosition'}
+|ERROR|2019-02-25 07:58:56,925|Bearer token: Bearer rfI9cclMjfS3igzjAAPSd60e1d5a4a324365e4d351e854c45e8b9c5e7145
+|ERROR|2019-02-25 07:58:56,925|Connection status: established
+|ERROR|2019-02-25 07:58:56,926|Socket session id: rfI9cclMjfS3igzjAAPS
+|ERROR|2019-02-25 19:27:10,123|Error in get_candles: Illegal period: M15.
+|ERROR|2019-02-26 08:55:54,283|Server reports an error: {'executed': False, 'error': '{"type":4,"sessionId":"U100D2_7F5BECA5E9F47FF0E053E12B3C0A600B_02262019015133839751_7KJ","requestId":"Request-95980","text":" limit price too far from order price: 4061.3 (max:3950) pips.\\n","code":20115,"stack":""}'}.
+|ERROR|2019-02-26 08:55:54,285|URL: https://api-demo.fxcm.com:443/trading/open_trade
+|ERROR|2019-02-26 08:55:54,285|Headers: {'User-Agent': 'request', 'Accept-Encoding': 'gzip, deflate', 'Accept': 'application/json', 'Connection': 'keep-alive', 'Authorization': 'Bearer e-uGA6xyF1tuP-2HAA4Ed60e1d5a4a324365e4d351e854c45e8b9c5e7145', 'Content-Type': 'application/x-www-form-urlencoded', 'Content-Length': '151'}
+|ERROR|2019-02-26 08:55:54,285|Params: {'account_id': 1041561, 'symbol': 'AUD/JPY', 'is_buy': 'true', 'rate': 105.0, 'amount': 1000, 'at_market': 0.0, 'order_type': 'AtMarket', 'time_in_force': 'GTC', 'limit': 120.0, 'is_in_pips': 'false'}
+|ERROR|2019-02-26 08:55:54,285|Bearer token: Bearer e-uGA6xyF1tuP-2HAA4Ed60e1d5a4a324365e4d351e854c45e8b9c5e7145
+|ERROR|2019-02-26 08:55:54,285|Connection status: established
+|ERROR|2019-02-26 08:55:54,286|Socket session id: e-uGA6xyF1tuP-2HAA4E
+|ERROR|2019-02-26 08:56:07,196|Server reports an error: {'executed': False, 'error': '{"type":4,"sessionId":"U100D2_7F5BECA5E9F47FF0E053E12B3C0A600B_02262019015133839751_7KJ","requestId":"Request-95988","text":" insufficient margin on account: 1041561.\\n","code":20113,"stack":""}'}.
+|ERROR|2019-02-26 08:56:07,196|URL: https://api-demo.fxcm.com:443/trading/open_trade
+|ERROR|2019-02-26 08:56:07,196|Headers: {'User-Agent': 'request', 'Accept-Encoding': 'gzip, deflate', 'Accept': 'application/json', 'Connection': 'keep-alive', 'Authorization': 'Bearer e-uGA6xyF1tuP-2HAA4Ed60e1d5a4a324365e4d351e854c45e8b9c5e7145', 'Content-Type': 'application/x-www-form-urlencoded', 'Content-Length': '151'}
+|ERROR|2019-02-26 08:56:07,196|Params: {'account_id': 1041561, 'symbol': 'USD/JPY', 'is_buy': 'true', 'rate': 105.0, 'amount': 1000, 'at_market': 0.0, 'order_type': 'AtMarket', 'time_in_force': 'GTC', 'limit': 120.0, 'is_in_pips': 'false'}
+|ERROR|2019-02-26 08:56:07,197|Bearer token: Bearer e-uGA6xyF1tuP-2HAA4Ed60e1d5a4a324365e4d351e854c45e8b9c5e7145
+|ERROR|2019-02-26 08:56:07,197|Connection status: established
+|ERROR|2019-02-26 08:56:07,197|Socket session id: e-uGA6xyF1tuP-2HAA4E
