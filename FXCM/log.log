@@ -35,3 +35,197 @@
 |ERROR|2019-02-26 08:56:07,197|Bearer token: Bearer e-uGA6xyF1tuP-2HAA4Ed60e1d5a4a324365e4d351e854c45e8b9c5e7145
 |ERROR|2019-02-26 08:56:07,197|Connection status: established
 |ERROR|2019-02-26 08:56:07,197|Socket session id: e-uGA6xyF1tuP-2HAA4E
+|ERROR|2019-02-26 21:02:47,441|Server reports an error: {'executed': False, 'error': 'Unauthorized'}.
+|ERROR|2019-02-26 21:02:47,442|URL: https://api-demo.fxcm.com:443/trading/subscribe
+|ERROR|2019-02-26 21:02:47,443|Headers: {'User-Agent': 'request', 'Accept-Encoding': 'gzip, deflate', 'Accept': 'application/json', 'Connection': 'keep-alive', 'Authorization': 'Bearer 8KRx5ukEFCFLKxF3ABYjd60e1d5a4a324365e4d351e854c45e8b9c5e7145', 'Content-Type': 'application/x-www-form-urlencoded', 'Content-Length': '21'}
+|ERROR|2019-02-26 21:02:47,443|Params: {'models': 'ClosedPosition'}
+|ERROR|2019-02-26 21:02:47,443|Bearer token: Bearer 8KRx5ukEFCFLKxF3ABYjd60e1d5a4a324365e4d351e854c45e8b9c5e7145
+|ERROR|2019-02-26 21:02:47,443|Connection status: established
+|ERROR|2019-02-26 21:02:47,443|Socket session id: 8KRx5ukEFCFLKxF3ABYj
+|ERROR|2019-02-27 17:04:33,072|Server reports an error: {'executed': False, 'error': 'Unauthorized'}.
+|ERROR|2019-02-27 17:04:33,073|URL: https://api-demo.fxcm.com:443/candles/4/H1?num=100
+|ERROR|2019-02-27 17:04:33,073|Headers: {'User-Agent': 'request', 'Accept-Encoding': 'gzip, deflate', 'Accept': 'application/json', 'Connection': 'keep-alive', 'Authorization': 'Bearer 080-k6UCej-tm7XeACPXd60e1d5a4a324365e4d351e854c45e8b9c5e7145', 'Content-Type': 'application/x-www-form-urlencoded'}
+|ERROR|2019-02-27 17:04:33,073|Params: {'num': 100}
+|ERROR|2019-02-27 17:04:33,073|Bearer token: Bearer 080-k6UCej-tm7XeACPXd60e1d5a4a324365e4d351e854c45e8b9c5e7145
+|ERROR|2019-02-27 17:04:33,073|Connection status: established
+|ERROR|2019-02-27 17:04:33,073|Socket session id: 080-k6UCej-tm7XeACPX
+|ERROR|2019-02-27 17:04:33,139|Server reports an error: {'executed': False, 'error': 'Unauthorized'}.
+|ERROR|2019-02-27 17:04:33,141|URL: https://api-demo.fxcm.com:443/candles/17/H1?num=100
+|ERROR|2019-02-27 17:04:33,141|Headers: {'User-Agent': 'request', 'Accept-Encoding': 'gzip, deflate', 'Accept': 'application/json', 'Connection': 'keep-alive', 'Authorization': 'Bearer CcvFW6ke3epWQ7WJACPQd60e1d5a4a324365e4d351e854c45e8b9c5e7145', 'Content-Type': 'application/x-www-form-urlencoded'}
+|ERROR|2019-02-27 17:04:33,141|Params: {'num': 100}
+|ERROR|2019-02-27 17:04:33,141|Bearer token: Bearer CcvFW6ke3epWQ7WJACPQd60e1d5a4a324365e4d351e854c45e8b9c5e7145
+|ERROR|2019-02-27 17:04:33,141|Connection status: established
+|ERROR|2019-02-27 17:04:33,141|Socket session id: CcvFW6ke3epWQ7WJACPQ
+|ERROR|2019-02-27 17:04:42,504|Server reports an error: {'executed': False, 'error': 'Unauthorized'}.
+|ERROR|2019-02-27 17:04:42,504|URL: https://api-demo.fxcm.com:443/candles/1/H1?num=100
+|ERROR|2019-02-27 17:04:42,504|Headers: {'User-Agent': 'request', 'Accept-Encoding': 'gzip, deflate', 'Accept': 'application/json', 'Connection': 'keep-alive', 'Authorization': 'Bearer 080-k6UCej-tm7XeACPXd60e1d5a4a324365e4d351e854c45e8b9c5e7145', 'Content-Type': 'application/x-www-form-urlencoded'}
+|ERROR|2019-02-27 17:04:42,504|Params: {'num': 100}
+|ERROR|2019-02-27 17:04:42,504|Bearer token: Bearer 080-k6UCej-tm7XeACPXd60e1d5a4a324365e4d351e854c45e8b9c5e7145
+|ERROR|2019-02-27 17:04:42,504|Connection status: established
+|ERROR|2019-02-27 17:04:42,504|Socket session id: 080-k6UCej-tm7XeACPX
+|ERROR|2019-02-27 20:45:38,431|Server reports an error: {'executed': False, 'error': 'Unauthorized'}.
+|ERROR|2019-02-27 20:45:38,433|URL: https://api-demo.fxcm.com:443/candles/39/H1?num=100
+|ERROR|2019-02-27 20:45:38,433|Headers: {'User-Agent': 'request', 'Accept-Encoding': 'gzip, deflate', 'Accept': 'application/json', 'Connection': 'keep-alive', 'Authorization': 'Bearer LVTx5nIkwQZTgGZ_AA-Ud60e1d5a4a324365e4d351e854c45e8b9c5e7145', 'Content-Type': 'application/x-www-form-urlencoded'}
+|ERROR|2019-02-27 20:45:38,434|Params: {'num': 100}
+|ERROR|2019-02-27 20:45:38,434|Bearer token: Bearer LVTx5nIkwQZTgGZ_AA-Ud60e1d5a4a324365e4d351e854c45e8b9c5e7145
+|ERROR|2019-02-27 20:45:38,434|Connection status: established
+|ERROR|2019-02-27 20:45:38,434|Socket session id: LVTx5nIkwQZTgGZ_AA-U
+|ERROR|2019-02-27 20:45:38,443|Server reports an error: {'executed': False, 'error': 'Unauthorized'}.
+|ERROR|2019-02-27 20:45:38,444|URL: https://api-demo.fxcm.com:443/candles/13/H1?num=100
+|ERROR|2019-02-27 20:45:38,444|Headers: {'User-Agent': 'request', 'Accept-Encoding': 'gzip, deflate', 'Accept': 'application/json', 'Connection': 'keep-alive', 'Authorization': 'Bearer lWQjVSTeGGP9E962AA-Vd60e1d5a4a324365e4d351e854c45e8b9c5e7145', 'Content-Type': 'application/x-www-form-urlencoded'}
+|ERROR|2019-02-27 20:45:38,444|Params: {'num': 100}
+|ERROR|2019-02-27 20:45:38,444|Bearer token: Bearer lWQjVSTeGGP9E962AA-Vd60e1d5a4a324365e4d351e854c45e8b9c5e7145
+|ERROR|2019-02-27 20:45:38,444|Connection status: established
+|ERROR|2019-02-27 20:45:38,444|Socket session id: lWQjVSTeGGP9E962AA-V
+|ERROR|2019-02-27 20:56:22,440|Server reports an error: {'executed': False, 'error': 'Unauthorized'}.
+|ERROR|2019-02-27 20:56:22,441|URL: https://api-demo.fxcm.com:443/candles/1/H1?num=100
+|ERROR|2019-02-27 20:56:22,442|Headers: {'User-Agent': 'request', 'Accept-Encoding': 'gzip, deflate', 'Accept': 'application/json', 'Connection': 'keep-alive', 'Authorization': 'Bearer LVTx5nIkwQZTgGZ_AA-Ud60e1d5a4a324365e4d351e854c45e8b9c5e7145', 'Content-Type': 'application/x-www-form-urlencoded'}
+|ERROR|2019-02-27 20:56:22,442|Params: {'num': 100}
+|ERROR|2019-02-27 20:56:22,442|Bearer token: Bearer LVTx5nIkwQZTgGZ_AA-Ud60e1d5a4a324365e4d351e854c45e8b9c5e7145
+|ERROR|2019-02-27 20:56:22,442|Connection status: established
+|ERROR|2019-02-27 20:56:22,442|Socket session id: LVTx5nIkwQZTgGZ_AA-U
+|ERROR|2019-02-27 22:31:11,251|Error: Not authorized
+|ERROR|2019-02-27 22:40:08,121|Error: Not authorized
+|ERROR|2019-02-27 22:40:18,627|Error: Not authorized
+|ERROR|2019-02-27 22:40:36,092|Error: Not authorized
+|ERROR|2019-02-27 22:40:46,082|Error: Not authorized
+|ERROR|2019-02-27 22:41:40,441|Error: Not authorized
+|ERROR|2019-02-27 22:42:23,925|Error: Not authorized
+|ERROR|2019-02-27 22:43:09,957|Error: Not authorized
+|ERROR|2019-02-27 22:45:14,296|Error: Not authorized
+|ERROR|2019-02-27 22:46:06,231|Error: Not authorized
+|ERROR|2019-02-27 22:46:16,297|Error: Not authorized
+|ERROR|2019-02-27 22:46:26,331|Error: Not authorized
+|ERROR|2019-02-27 22:46:36,231|Error: Not authorized
+|ERROR|2019-02-27 22:46:46,191|Error: Not authorized
+|ERROR|2019-02-27 22:46:59,001|Error: Not authorized
+|ERROR|2019-02-27 22:47:09,984|Error: Not authorized
+|ERROR|2019-02-27 22:47:18,018|Error: Not authorized
+|ERROR|2019-02-27 22:47:34,198|Error: Not authorized
+|ERROR|2019-02-27 22:47:42,377|Error: Not authorized
+|ERROR|2019-02-27 22:47:52,297|Error: Not authorized
+|ERROR|2019-02-27 22:48:02,501|Error: Not authorized
+|ERROR|2019-02-27 22:48:12,374|Error: Not authorized
+|ERROR|2019-02-27 22:48:22,277|Error: Not authorized
+|ERROR|2019-02-27 22:48:32,614|Error: Not authorized
+|ERROR|2019-02-27 22:48:42,404|Error: Not authorized
+|ERROR|2019-02-27 22:48:52,261|Error: Not authorized
+|ERROR|2019-02-27 22:49:02,399|Error: Not authorized
+|ERROR|2019-02-27 22:49:15,121|Error: Not authorized
+|ERROR|2019-02-27 22:49:26,432|Error: Not authorized
+|ERROR|2019-02-27 22:49:34,843|Error: Not authorized
+|ERROR|2019-02-27 22:49:45,083|Error: Not authorized
+|ERROR|2019-02-27 22:49:57,833|Error: Not authorized
+|ERROR|2019-02-27 22:50:06,181|Error: Not authorized
+|ERROR|2019-02-27 22:50:15,958|Error: Not authorized
+|ERROR|2019-02-27 22:50:26,049|Error: Not authorized
+|ERROR|2019-02-27 22:50:39,190|Error: Not authorized
+|ERROR|2019-02-27 22:50:50,132|Error: Not authorized
+|ERROR|2019-02-27 22:50:58,258|Error: Not authorized
+|ERROR|2019-02-27 22:51:11,546|Error: Not authorized
+|ERROR|2019-02-27 22:51:19,870|Error: Not authorized
+|ERROR|2019-02-27 22:51:29,791|Error: Not authorized
+|ERROR|2019-02-27 22:51:45,316|Error: Not authorized
+|ERROR|2019-02-27 22:51:53,427|Error: Not authorized
+|ERROR|2019-02-27 22:52:06,282|Error: Not authorized
+|ERROR|2019-02-27 22:52:14,491|Error: Not authorized
+|ERROR|2019-02-27 22:52:24,503|Error: Not authorized
+|ERROR|2019-02-27 22:52:34,593|Error: Not authorized
+|ERROR|2019-02-27 22:52:47,447|Error: Not authorized
+|ERROR|2019-02-27 22:52:58,534|Error: Not authorized
+|ERROR|2019-02-27 22:53:09,576|Error: Not authorized
+|ERROR|2019-02-27 22:53:20,540|Error: Not authorized
+|ERROR|2019-02-27 22:53:28,973|Error: Not authorized
+|ERROR|2019-02-27 22:53:38,871|Error: Not authorized
+|ERROR|2019-02-27 22:53:48,713|Error: Not authorized
+|ERROR|2019-02-27 22:54:00,126|Error: Not authorized
+|ERROR|2019-02-27 22:54:08,582|Error: Not authorized
+|ERROR|2019-02-27 22:54:18,606|Error: Not authorized
+|ERROR|2019-02-27 22:54:31,488|Error: Not authorized
+|ERROR|2019-02-27 22:54:39,911|Error: Not authorized
+|ERROR|2019-02-27 22:54:49,352|Error: Not authorized
+|ERROR|2019-02-27 22:55:02,130|Error: Not authorized
+|ERROR|2019-02-27 22:55:10,144|Error: Not authorized
+|ERROR|2019-02-27 22:55:22,942|Error: Not authorized
+|ERROR|2019-02-27 22:55:30,957|Error: Not authorized
+|ERROR|2019-02-27 22:55:41,105|Error: Not authorized
+|ERROR|2019-02-27 22:55:53,744|Error: Not authorized
+|ERROR|2019-02-27 22:56:01,931|Error: Not authorized
+|ERROR|2019-02-27 22:56:11,756|Error: Not authorized
+|ERROR|2019-02-27 22:56:21,870|Error: Not authorized
+|ERROR|2019-02-27 22:56:34,623|Error: Not authorized
+|ERROR|2019-02-27 22:56:42,866|Error: Not authorized
+|ERROR|2019-02-27 22:56:52,688|Error: Not authorized
+|ERROR|2019-02-27 22:57:02,778|Error: Not authorized
+|ERROR|2019-02-27 22:57:12,734|Error: Not authorized
+|ERROR|2019-02-27 22:57:22,457|Error: Not authorized
+|ERROR|2019-02-27 22:57:32,732|Error: Not authorized
+|ERROR|2019-02-27 22:57:42,912|Error: Not authorized
+|ERROR|2019-02-27 22:57:52,725|Error: Not authorized
+|ERROR|2019-02-27 22:58:02,871|Error: Not authorized
+|ERROR|2019-02-27 22:58:13,006|Error: Not authorized
+|ERROR|2019-02-27 22:58:25,701|Error: Not authorized
+|ERROR|2019-02-27 22:58:30,514|Error: Not authorized
+|ERROR|2019-02-27 22:59:22,650|Error: Not authorized
+|ERROR|2019-02-27 22:59:32,736|Error: Not authorized
+|ERROR|2019-02-27 22:59:43,170|Error: Not authorized
+|ERROR|2019-02-27 22:59:52,860|Error: Not authorized
+|ERROR|2019-02-27 23:00:02,716|Error: Not authorized
+|ERROR|2019-02-27 23:00:12,707|Error: Not authorized
+|ERROR|2019-02-27 23:00:22,695|Error: Not authorized
+|ERROR|2019-02-27 23:00:35,451|Error: Not authorized
+|ERROR|2019-02-27 23:00:44,076|Error: Not authorized
+|ERROR|2019-02-27 23:00:56,480|Error: Not authorized
+|ERROR|2019-02-27 23:01:04,600|Error: Not authorized
+|ERROR|2019-02-27 23:01:14,556|Error: Not authorized
+|ERROR|2019-02-27 23:01:24,540|Error: Not authorized
+|ERROR|2019-02-27 23:01:34,476|Error: Not authorized
+|ERROR|2019-02-27 23:01:45,081|Error: Not authorized
+|ERROR|2019-02-27 23:01:54,521|Error: Not authorized
+|ERROR|2019-02-27 23:02:07,471|Error: Not authorized
+|ERROR|2019-02-27 23:02:15,615|Error: Not authorized
+|ERROR|2019-02-27 23:02:25,528|Error: Not authorized
+|ERROR|2019-02-27 23:02:35,530|Error: Not authorized
+|ERROR|2019-02-27 23:02:46,084|Error: Not authorized
+|ERROR|2019-02-27 23:02:55,549|Error: Not authorized
+|ERROR|2019-02-27 23:03:05,718|Error: Not authorized
+|ERROR|2019-02-27 23:03:15,905|Error: Not authorized
+|ERROR|2019-02-27 23:03:25,559|Error: Not authorized
+|ERROR|2019-02-27 23:03:35,496|Error: Not authorized
+|ERROR|2019-02-27 23:03:48,548|Error: Not authorized
+|ERROR|2019-02-27 23:03:56,671|Error: Not authorized
+|ERROR|2019-02-27 23:04:06,586|Error: Not authorized
+|ERROR|2019-02-27 23:04:16,570|Error: Not authorized
+|ERROR|2019-02-27 23:04:29,489|Error: Not authorized
+|ERROR|2019-02-27 23:04:40,377|Error: Not authorized
+|ERROR|2019-02-27 23:04:48,936|Error: Not authorized
+|ERROR|2019-02-27 23:04:58,457|Error: Not authorized
+|ERROR|2019-02-27 23:05:08,314|Error: Not authorized
+|ERROR|2019-02-27 23:05:18,446|Error: Not authorized
+|ERROR|2019-02-27 23:05:28,539|Error: Not authorized
+|ERROR|2019-02-27 23:05:38,480|Error: Not authorized
+|ERROR|2019-02-27 23:05:48,777|Error: Not authorized
+|ERROR|2019-02-27 23:05:58,467|Error: Not authorized
+|ERROR|2019-02-27 23:06:11,312|Error: Not authorized
+|ERROR|2019-02-27 23:06:19,230|Error: Not authorized
+|ERROR|2019-02-27 23:06:29,397|Error: Not authorized
+|ERROR|2019-02-27 23:06:39,333|Error: Not authorized
+|ERROR|2019-02-27 23:06:49,819|Error: Not authorized
+|ERROR|2019-02-27 23:06:59,477|Error: Not authorized
+|ERROR|2019-02-27 23:07:09,404|Error: Not authorized
+|ERROR|2019-02-27 23:07:19,381|Error: Not authorized
+|ERROR|2019-02-27 23:07:29,430|Error: Not authorized
+|ERROR|2019-02-27 23:07:39,536|Error: Not authorized
+|ERROR|2019-02-27 23:07:52,611|Error: Not authorized
+|ERROR|2019-02-27 23:08:00,830|Error: Not authorized
+|ERROR|2019-02-27 23:08:13,589|Error: Not authorized
+|ERROR|2019-02-27 23:08:21,643|Error: Not authorized
+|ERROR|2019-02-27 23:08:33,847|Error: Not authorized
+|ERROR|2019-02-27 23:08:34,929|Server reports an error: {'executed': False, 'error': 'Unauthorized'}.
+|ERROR|2019-02-27 23:08:34,929|URL: https://api-demo.fxcm.com:443/trading/subscribe
+|ERROR|2019-02-27 23:08:34,929|Headers: {'User-Agent': 'request', 'Accept-Encoding': 'gzip, deflate', 'Accept': 'application/json', 'Connection': 'keep-alive', 'Authorization': 'Bearer ZMH7Tdg1ApRx1EsZACqid60e1d5a4a324365e4d351e854c45e8b9c5e7145', 'Content-Type': 'application/x-www-form-urlencoded', 'Content-Length': '12'}
+|ERROR|2019-02-27 23:08:34,929|Params: {'models': 'Order'}
+|ERROR|2019-02-27 23:08:34,929|Bearer token: Bearer ZMH7Tdg1ApRx1EsZACqid60e1d5a4a324365e4d351e854c45e8b9c5e7145
+|ERROR|2019-02-27 23:08:34,929|Connection status: pending
+|ERROR|2019-02-27 23:08:34,930|Socket session id: ZMH7Tdg1ApRx1EsZACqi
+|ERROR|2019-02-28 09:19:40,493|Error: Not authorized

@@ -186,3 +186,1553 @@ Traceback (most recent call last):
   File "<ipython-input-30-3130ce3c8265>", line 30, in check_position
     trade_id = con.get_open_trade_ids()[i]
 IndexError: list index out of range
+|ERROR|2019-02-27 10:47:16,428|Job "timed_job (trigger: interval[0:01:00], next run at: 2019-02-27 10:47:46 +07)" raised an exception
+Traceback (most recent call last):
+  File "/anaconda2/envs/fxcm/lib/python3.7/site-packages/apscheduler/executors/base.py", line 125, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+  File "<ipython-input-1-3130ce3c8265>", line 23, in timed_job
+    check_position(con)
+  File "<ipython-input-1-3130ce3c8265>", line 30, in check_position
+    trade_id = con.get_open_trade_ids()[i]
+IndexError: list index out of range
+|ERROR|2019-02-27 10:48:09,288|Job "timed_job (trigger: interval[0:01:00], next run at: 2019-02-27 10:48:46 +07)" raised an exception
+Traceback (most recent call last):
+  File "/anaconda2/envs/fxcm/lib/python3.7/site-packages/apscheduler/executors/base.py", line 125, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+  File "<ipython-input-1-3130ce3c8265>", line 23, in timed_job
+    check_position(con)
+  File "<ipython-input-1-3130ce3c8265>", line 30, in check_position
+    trade_id = con.get_open_trade_ids()[i]
+IndexError: list index out of range
+|ERROR|2019-02-27 10:53:17,008|Job "timed_job (trigger: interval[0:01:00], next run at: 2019-02-27 10:53:46 +07)" raised an exception
+Traceback (most recent call last):
+  File "/anaconda2/envs/fxcm/lib/python3.7/site-packages/apscheduler/executors/base.py", line 125, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+  File "<ipython-input-1-3130ce3c8265>", line 23, in timed_job
+    check_position(con)
+  File "<ipython-input-1-3130ce3c8265>", line 30, in check_position
+    trade_id = con.get_open_trade_ids()[i]
+IndexError: list index out of range
+|ERROR|2019-02-27 10:56:15,359|Job "timed_job (trigger: interval[0:01:00], next run at: 2019-02-27 10:56:46 +07)" raised an exception
+Traceback (most recent call last):
+  File "/anaconda2/envs/fxcm/lib/python3.7/site-packages/apscheduler/executors/base.py", line 125, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+  File "<ipython-input-1-3130ce3c8265>", line 23, in timed_job
+    check_position(con)
+  File "<ipython-input-1-3130ce3c8265>", line 30, in check_position
+    trade_id = con.get_open_trade_ids()[i]
+IndexError: list index out of range
+|ERROR|2019-02-27 11:01:14,946|Job "timed_job (trigger: interval[0:01:00], next run at: 2019-02-27 11:01:46 +07)" raised an exception
+Traceback (most recent call last):
+  File "/anaconda2/envs/fxcm/lib/python3.7/site-packages/apscheduler/executors/base.py", line 125, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+  File "<ipython-input-1-3130ce3c8265>", line 23, in timed_job
+    check_position(con)
+  File "<ipython-input-1-3130ce3c8265>", line 30, in check_position
+    trade_id = con.get_open_trade_ids()[i]
+IndexError: list index out of range
+|ERROR|2019-02-27 11:02:19,863|Job "timed_job (trigger: interval[0:01:00], next run at: 2019-02-27 11:02:46 +07)" raised an exception
+Traceback (most recent call last):
+  File "/anaconda2/envs/fxcm/lib/python3.7/site-packages/apscheduler/executors/base.py", line 125, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+  File "<ipython-input-1-3130ce3c8265>", line 23, in timed_job
+    check_position(con)
+  File "<ipython-input-1-3130ce3c8265>", line 30, in check_position
+    trade_id = con.get_open_trade_ids()[i]
+IndexError: list index out of range
+|ERROR|2019-02-27 11:08:16,836|Job "timed_job (trigger: interval[0:01:00], next run at: 2019-02-27 11:08:46 +07)" raised an exception
+Traceback (most recent call last):
+  File "/anaconda2/envs/fxcm/lib/python3.7/site-packages/apscheduler/executors/base.py", line 125, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+  File "<ipython-input-1-3130ce3c8265>", line 23, in timed_job
+    check_position(con)
+  File "<ipython-input-1-3130ce3c8265>", line 30, in check_position
+    trade_id = con.get_open_trade_ids()[i]
+IndexError: list index out of range
+|ERROR|2019-02-27 11:19:14,004|Job "timed_job (trigger: interval[0:01:00], next run at: 2019-02-27 11:19:46 +07)" raised an exception
+Traceback (most recent call last):
+  File "/anaconda2/envs/fxcm/lib/python3.7/site-packages/apscheduler/executors/base.py", line 125, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+  File "<ipython-input-1-3130ce3c8265>", line 23, in timed_job
+    check_position(con)
+  File "<ipython-input-1-3130ce3c8265>", line 30, in check_position
+    trade_id = con.get_open_trade_ids()[i]
+IndexError: list index out of range
+|ERROR|2019-02-27 11:20:10,529|Job "timed_job (trigger: interval[0:01:00], next run at: 2019-02-27 11:20:46 +07)" raised an exception
+Traceback (most recent call last):
+  File "/anaconda2/envs/fxcm/lib/python3.7/site-packages/apscheduler/executors/base.py", line 125, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+  File "<ipython-input-1-3130ce3c8265>", line 23, in timed_job
+    check_position(con)
+  File "<ipython-input-1-3130ce3c8265>", line 30, in check_position
+    trade_id = con.get_open_trade_ids()[i]
+IndexError: list index out of range
+|ERROR|2019-02-27 11:33:27,349|Job "timed_job (trigger: interval[0:01:00], next run at: 2019-02-27 11:33:46 +07)" raised an exception
+Traceback (most recent call last):
+  File "/anaconda2/envs/fxcm/lib/python3.7/site-packages/apscheduler/executors/base.py", line 125, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+  File "<ipython-input-1-3130ce3c8265>", line 23, in timed_job
+    check_position(con)
+  File "<ipython-input-1-3130ce3c8265>", line 30, in check_position
+    trade_id = con.get_open_trade_ids()[i]
+IndexError: list index out of range
+|ERROR|2019-02-27 12:36:15,779|Job "timed_job (trigger: interval[0:01:00], next run at: 2019-02-27 12:36:46 +07)" raised an exception
+Traceback (most recent call last):
+  File "/anaconda2/envs/fxcm/lib/python3.7/site-packages/apscheduler/executors/base.py", line 125, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+  File "<ipython-input-1-3130ce3c8265>", line 23, in timed_job
+    check_position(con)
+  File "<ipython-input-1-3130ce3c8265>", line 30, in check_position
+    trade_id = con.get_open_trade_ids()[i]
+IndexError: list index out of range
+|ERROR|2019-02-27 12:37:51,771|Server reports an error: {'executed': False, 'error': '{"type":4,"sessionId":"U100D2_7F5BECDB122D7FEAE053E12B3C0AFEB9_02272019053647932549_O2G","requestId":"Request-191508","text":" insufficient margin on account: 1041561.\\n","code":20113,"stack":""}'}.
+|ERROR|2019-02-27 12:37:51,772|URL: https://api-demo.fxcm.com:443/trading/open_trade
+|ERROR|2019-02-27 12:37:51,772|Headers: {'User-Agent': 'request', 'Accept-Encoding': 'gzip, deflate', 'Accept': 'application/json', 'Connection': 'keep-alive', 'Authorization': 'Bearer 1TR9CHTZ5MB1G8lbAAw1d60e1d5a4a324365e4d351e854c45e8b9c5e7145', 'Content-Type': 'application/x-www-form-urlencoded', 'Content-Length': '142'}
+|ERROR|2019-02-27 12:37:51,772|Params: {'account_id': 1041561, 'symbol': 'AUD/CHF', 'is_buy': 'false', 'rate': 1041561.0, 'amount': 100, 'at_market': 0.0, 'order_type': 'AtMarket', 'time_in_force': 'FOK', 'limit': None, 'is_in_pips': 'true'}
+|ERROR|2019-02-27 12:37:51,772|Bearer token: Bearer 1TR9CHTZ5MB1G8lbAAw1d60e1d5a4a324365e4d351e854c45e8b9c5e7145
+|ERROR|2019-02-27 12:37:51,772|Connection status: established
+|ERROR|2019-02-27 12:37:51,773|Socket session id: 1TR9CHTZ5MB1G8lbAAw1
+|ERROR|2019-02-27 12:37:51,774|Job "timed_job (trigger: interval[0:01:00], next run at: 2019-02-27 12:38:46 +07)" raised an exception
+Traceback (most recent call last):
+  File "/anaconda2/envs/fxcm/lib/python3.7/site-packages/apscheduler/executors/base.py", line 125, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+  File "<ipython-input-1-3130ce3c8265>", line 24, in timed_job
+    trading(con)
+  File "<ipython-input-1-3130ce3c8265>", line 74, in trading
+    order = con.create_market_sell_order(symbol, lot)
+  File "/anaconda2/envs/fxcm/lib/python3.7/site-packages/fxcmpy/fxcmpy.py", line 1451, in create_market_sell_order
+    account_id)
+  File "/anaconda2/envs/fxcm/lib/python3.7/site-packages/fxcmpy/fxcmpy.py", line 1118, in open_trade
+    params=params, protocol='post')
+  File "/anaconda2/envs/fxcm/lib/python3.7/site-packages/fxcmpy/fxcmpy.py", line 2514, in __handle_request__
+    % data['response']['error'])
+fxcmpy.fxcmpy.ServerError: FXCM Server reports an error: {"type":4,"sessionId":"U100D2_7F5BECDB122D7FEAE053E12B3C0AFEB9_02272019053647932549_O2G","requestId":"Request-191508","text":" insufficient margin on account: 1041561.\n","code":20113,"stack":""}.
+|ERROR|2019-02-27 12:39:53,945|Server reports an error: {'executed': False, 'error': '{"type":4,"sessionId":"U100D2_7F5BEDC377AD7FE2E053E12B3C0AF9DA_02272019053848087183_QIH","requestId":"Request-191683","text":" insufficient margin on account: 1041561.\\n","code":20113,"stack":""}'}.
+|ERROR|2019-02-27 12:39:53,946|URL: https://api-demo.fxcm.com:443/trading/open_trade
+|ERROR|2019-02-27 12:39:53,946|Headers: {'User-Agent': 'request', 'Accept-Encoding': 'gzip, deflate', 'Accept': 'application/json', 'Connection': 'keep-alive', 'Authorization': 'Bearer XbMI-7TV3oV-9bMyAAw2d60e1d5a4a324365e4d351e854c45e8b9c5e7145', 'Content-Type': 'application/x-www-form-urlencoded', 'Content-Length': '142'}
+|ERROR|2019-02-27 12:39:53,946|Params: {'account_id': 1041561, 'symbol': 'CAD/CHF', 'is_buy': 'false', 'rate': 1041561.0, 'amount': 100, 'at_market': 0.0, 'order_type': 'AtMarket', 'time_in_force': 'FOK', 'limit': None, 'is_in_pips': 'true'}
+|ERROR|2019-02-27 12:39:53,946|Bearer token: Bearer XbMI-7TV3oV-9bMyAAw2d60e1d5a4a324365e4d351e854c45e8b9c5e7145
+|ERROR|2019-02-27 12:39:53,946|Connection status: established
+|ERROR|2019-02-27 12:39:53,946|Socket session id: XbMI-7TV3oV-9bMyAAw2
+|ERROR|2019-02-27 12:39:53,946|Job "timed_job (trigger: interval[0:01:00], next run at: 2019-02-27 12:40:46 +07)" raised an exception
+Traceback (most recent call last):
+  File "/anaconda2/envs/fxcm/lib/python3.7/site-packages/apscheduler/executors/base.py", line 125, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+  File "<ipython-input-1-3130ce3c8265>", line 24, in timed_job
+    trading(con)
+  File "<ipython-input-1-3130ce3c8265>", line 74, in trading
+    order = con.create_market_sell_order(symbol, lot)
+  File "/anaconda2/envs/fxcm/lib/python3.7/site-packages/fxcmpy/fxcmpy.py", line 1451, in create_market_sell_order
+    account_id)
+  File "/anaconda2/envs/fxcm/lib/python3.7/site-packages/fxcmpy/fxcmpy.py", line 1118, in open_trade
+    params=params, protocol='post')
+  File "/anaconda2/envs/fxcm/lib/python3.7/site-packages/fxcmpy/fxcmpy.py", line 2514, in __handle_request__
+    % data['response']['error'])
+fxcmpy.fxcmpy.ServerError: FXCM Server reports an error: {"type":4,"sessionId":"U100D2_7F5BEDC377AD7FE2E053E12B3C0AF9DA_02272019053848087183_QIH","requestId":"Request-191683","text":" insufficient margin on account: 1041561.\n","code":20113,"stack":""}.
+|ERROR|2019-02-27 12:41:19,771|Job "timed_job (trigger: interval[0:01:00], next run at: 2019-02-27 12:41:46 +07)" raised an exception
+Traceback (most recent call last):
+  File "/anaconda2/envs/fxcm/lib/python3.7/site-packages/apscheduler/executors/base.py", line 125, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+  File "<ipython-input-1-3130ce3c8265>", line 23, in timed_job
+    check_position(con)
+  File "<ipython-input-1-3130ce3c8265>", line 30, in check_position
+    trade_id = con.get_open_trade_ids()[i]
+IndexError: list index out of range
+|ERROR|2019-02-27 12:42:51,983|Server reports an error: {'executed': False, 'error': '{"type":4,"sessionId":"U100D2_7F5BECDB12BA7FEAE053E12B3C0AFEB9_02272019054148323622_OX4","requestId":"Request-191962","text":" insufficient margin on account: 1041561.\\n","code":20113,"stack":""}'}.
+|ERROR|2019-02-27 12:42:51,984|URL: https://api-demo.fxcm.com:443/trading/open_trade
+|ERROR|2019-02-27 12:42:51,984|Headers: {'User-Agent': 'request', 'Accept-Encoding': 'gzip, deflate', 'Accept': 'application/json', 'Connection': 'keep-alive', 'Authorization': 'Bearer O1kpWf2SFEvcx0-OAAw5d60e1d5a4a324365e4d351e854c45e8b9c5e7145', 'Content-Type': 'application/x-www-form-urlencoded', 'Content-Length': '142'}
+|ERROR|2019-02-27 12:42:51,984|Params: {'account_id': 1041561, 'symbol': 'CAD/CHF', 'is_buy': 'false', 'rate': 1041561.0, 'amount': 100, 'at_market': 0.0, 'order_type': 'AtMarket', 'time_in_force': 'FOK', 'limit': None, 'is_in_pips': 'true'}
+|ERROR|2019-02-27 12:42:51,985|Bearer token: Bearer O1kpWf2SFEvcx0-OAAw5d60e1d5a4a324365e4d351e854c45e8b9c5e7145
+|ERROR|2019-02-27 12:42:51,985|Connection status: established
+|ERROR|2019-02-27 12:42:51,985|Socket session id: O1kpWf2SFEvcx0-OAAw5
+|ERROR|2019-02-27 12:42:51,986|Job "timed_job (trigger: interval[0:01:00], next run at: 2019-02-27 12:43:46 +07)" raised an exception
+Traceback (most recent call last):
+  File "/anaconda2/envs/fxcm/lib/python3.7/site-packages/apscheduler/executors/base.py", line 125, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+  File "<ipython-input-1-3130ce3c8265>", line 24, in timed_job
+    trading(con)
+  File "<ipython-input-1-3130ce3c8265>", line 74, in trading
+    order = con.create_market_sell_order(symbol, lot)
+  File "/anaconda2/envs/fxcm/lib/python3.7/site-packages/fxcmpy/fxcmpy.py", line 1451, in create_market_sell_order
+    account_id)
+  File "/anaconda2/envs/fxcm/lib/python3.7/site-packages/fxcmpy/fxcmpy.py", line 1118, in open_trade
+    params=params, protocol='post')
+  File "/anaconda2/envs/fxcm/lib/python3.7/site-packages/fxcmpy/fxcmpy.py", line 2514, in __handle_request__
+    % data['response']['error'])
+fxcmpy.fxcmpy.ServerError: FXCM Server reports an error: {"type":4,"sessionId":"U100D2_7F5BECDB12BA7FEAE053E12B3C0AFEB9_02272019054148323622_OX4","requestId":"Request-191962","text":" insufficient margin on account: 1041561.\n","code":20113,"stack":""}.
+|ERROR|2019-02-27 12:44:55,499|Server reports an error: {'executed': False, 'error': '{"type":4,"sessionId":"U100D2_7F5BEC9EB3887FF4E053E12B3C0A613C_02272019054348163031_I2X","requestId":"Request-192184","text":" insufficient margin on account: 1041561.\\n","code":20113,"stack":""}'}.
+|ERROR|2019-02-27 12:44:55,501|URL: https://api-demo.fxcm.com:443/trading/open_trade
+|ERROR|2019-02-27 12:44:55,501|Headers: {'User-Agent': 'request', 'Accept-Encoding': 'gzip, deflate', 'Accept': 'application/json', 'Connection': 'keep-alive', 'Authorization': 'Bearer 3ye7QBdQnbCPrftkAAxAd60e1d5a4a324365e4d351e854c45e8b9c5e7145', 'Content-Type': 'application/x-www-form-urlencoded', 'Content-Length': '142'}
+|ERROR|2019-02-27 12:44:55,501|Params: {'account_id': 1041561, 'symbol': 'CAD/CHF', 'is_buy': 'false', 'rate': 1041561.0, 'amount': 100, 'at_market': 0.0, 'order_type': 'AtMarket', 'time_in_force': 'FOK', 'limit': None, 'is_in_pips': 'true'}
+|ERROR|2019-02-27 12:44:55,501|Bearer token: Bearer 3ye7QBdQnbCPrftkAAxAd60e1d5a4a324365e4d351e854c45e8b9c5e7145
+|ERROR|2019-02-27 12:44:55,501|Connection status: established
+|ERROR|2019-02-27 12:44:55,502|Socket session id: 3ye7QBdQnbCPrftkAAxA
+|ERROR|2019-02-27 12:44:55,502|Job "timed_job (trigger: interval[0:01:00], next run at: 2019-02-27 12:45:46 +07)" raised an exception
+Traceback (most recent call last):
+  File "/anaconda2/envs/fxcm/lib/python3.7/site-packages/apscheduler/executors/base.py", line 125, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+  File "<ipython-input-1-3130ce3c8265>", line 24, in timed_job
+    trading(con)
+  File "<ipython-input-1-3130ce3c8265>", line 74, in trading
+    order = con.create_market_sell_order(symbol, lot)
+  File "/anaconda2/envs/fxcm/lib/python3.7/site-packages/fxcmpy/fxcmpy.py", line 1451, in create_market_sell_order
+    account_id)
+  File "/anaconda2/envs/fxcm/lib/python3.7/site-packages/fxcmpy/fxcmpy.py", line 1118, in open_trade
+    params=params, protocol='post')
+  File "/anaconda2/envs/fxcm/lib/python3.7/site-packages/fxcmpy/fxcmpy.py", line 2514, in __handle_request__
+    % data['response']['error'])
+fxcmpy.fxcmpy.ServerError: FXCM Server reports an error: {"type":4,"sessionId":"U100D2_7F5BEC9EB3887FF4E053E12B3C0A613C_02272019054348163031_I2X","requestId":"Request-192184","text":" insufficient margin on account: 1041561.\n","code":20113,"stack":""}.
+|ERROR|2019-02-27 12:46:17,012|Job "timed_job (trigger: interval[0:01:00], next run at: 2019-02-27 12:46:46 +07)" raised an exception
+Traceback (most recent call last):
+  File "/anaconda2/envs/fxcm/lib/python3.7/site-packages/apscheduler/executors/base.py", line 125, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+  File "<ipython-input-1-3130ce3c8265>", line 23, in timed_job
+    check_position(con)
+  File "<ipython-input-1-3130ce3c8265>", line 30, in check_position
+    trade_id = con.get_open_trade_ids()[i]
+IndexError: list index out of range
+|ERROR|2019-02-27 12:48:09,516|Server reports an error: {'executed': False, 'error': '{"type":4,"sessionId":"U100D2_7F5BECDB147B7FE8E053E12B3C0ADC3D_02272019054647986176_CM7","requestId":"Request-192519","text":" insufficient margin on account: 1041561.\\n","code":20113,"stack":""}'}.
+|ERROR|2019-02-27 12:48:09,516|URL: https://api-demo.fxcm.com:443/trading/open_trade
+|ERROR|2019-02-27 12:48:09,516|Headers: {'User-Agent': 'request', 'Accept-Encoding': 'gzip, deflate', 'Accept': 'application/json', 'Connection': 'keep-alive', 'Authorization': 'Bearer Kc86643K9jGpW5AyAAxFd60e1d5a4a324365e4d351e854c45e8b9c5e7145', 'Content-Type': 'application/x-www-form-urlencoded', 'Content-Length': '141'}
+|ERROR|2019-02-27 12:48:09,516|Params: {'account_id': 1041561, 'symbol': 'CHF/JPY', 'is_buy': 'true', 'rate': 1041561.0, 'amount': 100, 'at_market': 0.0, 'order_type': 'AtMarket', 'time_in_force': 'FOK', 'limit': None, 'is_in_pips': 'true'}
+|ERROR|2019-02-27 12:48:09,517|Bearer token: Bearer Kc86643K9jGpW5AyAAxFd60e1d5a4a324365e4d351e854c45e8b9c5e7145
+|ERROR|2019-02-27 12:48:09,517|Connection status: established
+|ERROR|2019-02-27 12:48:09,517|Socket session id: Kc86643K9jGpW5AyAAxF
+|ERROR|2019-02-27 12:48:09,518|Job "timed_job (trigger: interval[0:01:00], next run at: 2019-02-27 12:48:46 +07)" raised an exception
+Traceback (most recent call last):
+  File "/anaconda2/envs/fxcm/lib/python3.7/site-packages/apscheduler/executors/base.py", line 125, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+  File "<ipython-input-1-3130ce3c8265>", line 24, in timed_job
+    trading(con)
+  File "<ipython-input-1-3130ce3c8265>", line 66, in trading
+    order = con.create_market_buy_order(symbol, lot)
+  File "/anaconda2/envs/fxcm/lib/python3.7/site-packages/fxcmpy/fxcmpy.py", line 1411, in create_market_buy_order
+    account_id)
+  File "/anaconda2/envs/fxcm/lib/python3.7/site-packages/fxcmpy/fxcmpy.py", line 1118, in open_trade
+    params=params, protocol='post')
+  File "/anaconda2/envs/fxcm/lib/python3.7/site-packages/fxcmpy/fxcmpy.py", line 2514, in __handle_request__
+    % data['response']['error'])
+fxcmpy.fxcmpy.ServerError: FXCM Server reports an error: {"type":4,"sessionId":"U100D2_7F5BECDB147B7FE8E053E12B3C0ADC3D_02272019054647986176_CM7","requestId":"Request-192519","text":" insufficient margin on account: 1041561.\n","code":20113,"stack":""}.
+|ERROR|2019-02-27 12:49:25,319|Job "timed_job (trigger: interval[0:01:00], next run at: 2019-02-27 12:49:46 +07)" raised an exception
+Traceback (most recent call last):
+  File "/anaconda2/envs/fxcm/lib/python3.7/site-packages/apscheduler/executors/base.py", line 125, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+  File "<ipython-input-1-3130ce3c8265>", line 23, in timed_job
+    check_position(con)
+  File "<ipython-input-1-3130ce3c8265>", line 30, in check_position
+    trade_id = con.get_open_trade_ids()[i]
+IndexError: list index out of range
+|ERROR|2019-02-27 12:50:17,657|Job "timed_job (trigger: interval[0:01:00], next run at: 2019-02-27 12:50:46 +07)" raised an exception
+Traceback (most recent call last):
+  File "/anaconda2/envs/fxcm/lib/python3.7/site-packages/apscheduler/executors/base.py", line 125, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+  File "<ipython-input-1-3130ce3c8265>", line 23, in timed_job
+    check_position(con)
+  File "<ipython-input-1-3130ce3c8265>", line 30, in check_position
+    trade_id = con.get_open_trade_ids()[i]
+IndexError: list index out of range
+|ERROR|2019-02-27 12:57:10,955|Job "timed_job (trigger: interval[0:01:00], next run at: 2019-02-27 12:57:46 +07)" raised an exception
+Traceback (most recent call last):
+  File "/anaconda2/envs/fxcm/lib/python3.7/site-packages/apscheduler/executors/base.py", line 125, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+  File "<ipython-input-1-3130ce3c8265>", line 23, in timed_job
+    check_position(con)
+  File "<ipython-input-1-3130ce3c8265>", line 30, in check_position
+    trade_id = con.get_open_trade_ids()[i]
+IndexError: list index out of range
+|ERROR|2019-02-27 13:02:14,854|Job "timed_job (trigger: interval[0:01:00], next run at: 2019-02-27 13:02:46 +07)" raised an exception
+Traceback (most recent call last):
+  File "/anaconda2/envs/fxcm/lib/python3.7/site-packages/apscheduler/executors/base.py", line 125, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+  File "<ipython-input-1-3130ce3c8265>", line 23, in timed_job
+    check_position(con)
+  File "<ipython-input-1-3130ce3c8265>", line 30, in check_position
+    trade_id = con.get_open_trade_ids()[i]
+IndexError: list index out of range
+|ERROR|2019-02-27 14:45:29,386|Server reports an error: {'executed': False, 'error': 'Unauthorized'}.
+|ERROR|2019-02-27 14:45:29,387|URL: https://api-demo.fxcm.com:443/trading/get_model?models=Account
+|ERROR|2019-02-27 14:45:29,387|Headers: {'User-Agent': 'request', 'Accept-Encoding': 'gzip, deflate', 'Accept': 'application/json', 'Connection': 'keep-alive', 'Authorization': 'Bearer YOuUaP1RWZk4OdDZACFNd60e1d5a4a324365e4d351e854c45e8b9c5e7145', 'Content-Type': 'application/x-www-form-urlencoded'}
+|ERROR|2019-02-27 14:45:29,387|Params: {'models': ['Account']}
+|ERROR|2019-02-27 14:45:29,387|Bearer token: Bearer YOuUaP1RWZk4OdDZACFNd60e1d5a4a324365e4d351e854c45e8b9c5e7145
+|ERROR|2019-02-27 14:45:29,387|Connection status: established
+|ERROR|2019-02-27 14:45:29,387|Socket session id: YOuUaP1RWZk4OdDZACFN
+|ERROR|2019-02-27 14:45:29,388|Job "timed_job (trigger: interval[0:01:00], next run at: 2019-02-27 14:11:46 +07)" raised an exception
+Traceback (most recent call last):
+  File "/anaconda2/envs/fxcm/lib/python3.7/site-packages/apscheduler/executors/base.py", line 125, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+  File "<ipython-input-1-3130ce3c8265>", line 21, in timed_job
+    con = fxcmpy.fxcmpy(config_file = 'fxcm.cfg')
+  File "/anaconda2/envs/fxcm/lib/python3.7/site-packages/fxcmpy/fxcmpy.py", line 218, in __init__
+    self.__collect_account_ids__()
+  File "/anaconda2/envs/fxcm/lib/python3.7/site-packages/fxcmpy/fxcmpy.py", line 2218, in __collect_account_ids__
+    data = self.get_accounts('list')
+  File "/anaconda2/envs/fxcm/lib/python3.7/site-packages/fxcmpy/fxcmpy.py", line 508, in get_accounts
+    data = self.get_model(('Account',))
+  File "/anaconda2/envs/fxcm/lib/python3.7/site-packages/fxcmpy/fxcmpy.py", line 341, in get_model
+    params={'models': list(models)})
+  File "/anaconda2/envs/fxcm/lib/python3.7/site-packages/fxcmpy/fxcmpy.py", line 2514, in __handle_request__
+    % data['response']['error'])
+fxcmpy.fxcmpy.ServerError: FXCM Server reports an error: Unauthorized.
+|ERROR|2019-02-27 16:58:13,036|Job "timed_job (trigger: interval[0:01:00], next run at: 2019-02-27 16:58:46 +07)" raised an exception
+Traceback (most recent call last):
+  File "/anaconda2/envs/fxcm/lib/python3.7/site-packages/apscheduler/executors/base.py", line 125, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+  File "<ipython-input-1-3130ce3c8265>", line 23, in timed_job
+    check_position(con)
+  File "<ipython-input-1-3130ce3c8265>", line 30, in check_position
+    trade_id = con.get_open_trade_ids()[i]
+IndexError: list index out of range
+|ERROR|2019-02-27 17:01:52,348|Server reports an error: {'executed': False, 'error': '{"type":4,"sessionId":"U100D2_7F5BEDC39C5F7FE2E053E12B3C0AF9DA_02272019100047977334_34J","requestId":"Request-212855","text":" insufficient margin on account: 1041561.\\n","code":20113,"stack":""}'}.
+|ERROR|2019-02-27 17:01:52,349|URL: https://api-demo.fxcm.com:443/trading/open_trade
+|ERROR|2019-02-27 17:01:52,350|Headers: {'User-Agent': 'request', 'Accept-Encoding': 'gzip, deflate', 'Accept': 'application/json', 'Connection': 'keep-alive', 'Authorization': 'Bearer x8Zr3DaUXS3tkIZkACPAd60e1d5a4a324365e4d351e854c45e8b9c5e7145', 'Content-Type': 'application/x-www-form-urlencoded', 'Content-Length': '141'}
+|ERROR|2019-02-27 17:01:52,350|Params: {'account_id': 1041561, 'symbol': 'AUD/CHF', 'is_buy': 'true', 'rate': 1041561.0, 'amount': 100, 'at_market': 0.0, 'order_type': 'AtMarket', 'time_in_force': 'FOK', 'limit': None, 'is_in_pips': 'true'}
+|ERROR|2019-02-27 17:01:52,350|Bearer token: Bearer x8Zr3DaUXS3tkIZkACPAd60e1d5a4a324365e4d351e854c45e8b9c5e7145
+|ERROR|2019-02-27 17:01:52,350|Connection status: established
+|ERROR|2019-02-27 17:01:52,350|Socket session id: x8Zr3DaUXS3tkIZkACPA
+|ERROR|2019-02-27 17:01:52,351|Job "timed_job (trigger: interval[0:01:00], next run at: 2019-02-27 17:02:46 +07)" raised an exception
+Traceback (most recent call last):
+  File "/anaconda2/envs/fxcm/lib/python3.7/site-packages/apscheduler/executors/base.py", line 125, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+  File "<ipython-input-1-3130ce3c8265>", line 24, in timed_job
+    trading(con)
+  File "<ipython-input-1-3130ce3c8265>", line 66, in trading
+    order = con.create_market_buy_order(symbol, lot)
+  File "/anaconda2/envs/fxcm/lib/python3.7/site-packages/fxcmpy/fxcmpy.py", line 1411, in create_market_buy_order
+    account_id)
+  File "/anaconda2/envs/fxcm/lib/python3.7/site-packages/fxcmpy/fxcmpy.py", line 1118, in open_trade
+    params=params, protocol='post')
+  File "/anaconda2/envs/fxcm/lib/python3.7/site-packages/fxcmpy/fxcmpy.py", line 2514, in __handle_request__
+    % data['response']['error'])
+fxcmpy.fxcmpy.ServerError: FXCM Server reports an error: {"type":4,"sessionId":"U100D2_7F5BEDC39C5F7FE2E053E12B3C0AF9DA_02272019100047977334_34J","requestId":"Request-212855","text":" insufficient margin on account: 1041561.\n","code":20113,"stack":""}.
+|ERROR|2019-02-27 17:04:33,034|Server reports an error: {'executed': False, 'error': 'Unauthorized'}.
+|ERROR|2019-02-27 17:04:33,034|URL: https://api-demo.fxcm.com:443/candles/4/m1?num=100
+|ERROR|2019-02-27 17:04:33,035|Headers: {'User-Agent': 'request', 'Accept-Encoding': 'gzip, deflate', 'Accept': 'application/json', 'Connection': 'keep-alive', 'Authorization': 'Bearer TEcXAu63MV5ThWfwACPWd60e1d5a4a324365e4d351e854c45e8b9c5e7145', 'Content-Type': 'application/x-www-form-urlencoded'}
+|ERROR|2019-02-27 17:04:33,035|Params: {'num': 100}
+|ERROR|2019-02-27 17:04:33,035|Bearer token: Bearer TEcXAu63MV5ThWfwACPWd60e1d5a4a324365e4d351e854c45e8b9c5e7145
+|ERROR|2019-02-27 17:04:33,035|Connection status: established
+|ERROR|2019-02-27 17:04:33,035|Socket session id: TEcXAu63MV5ThWfwACPW
+|ERROR|2019-02-27 17:04:33,036|Job "timed_job (trigger: interval[0:01:00], next run at: 2019-02-27 17:04:46 +07)" raised an exception
+Traceback (most recent call last):
+  File "/anaconda2/envs/fxcm/lib/python3.7/site-packages/apscheduler/executors/base.py", line 125, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+  File "<ipython-input-1-3130ce3c8265>", line 24, in timed_job
+    trading(con)
+  File "<ipython-input-1-3130ce3c8265>", line 60, in trading
+    df[symbol] = con.get_candles(symbol, period=tf, number=100)
+  File "/anaconda2/envs/fxcm/lib/python3.7/site-packages/fxcmpy/fxcmpy.py", line 2176, in get_candles
+    % (offer_id, period), params=params)
+  File "/anaconda2/envs/fxcm/lib/python3.7/site-packages/fxcmpy/fxcmpy.py", line 2514, in __handle_request__
+    % data['response']['error'])
+fxcmpy.fxcmpy.ServerError: FXCM Server reports an error: Unauthorized.
+|ERROR|2019-02-27 20:45:08,071|Job "timed_job (trigger: interval[0:01:00], next run at: 2019-02-27 20:45:17 +07)" raised an exception
+Traceback (most recent call last):
+  File "/anaconda2/envs/fxcm/lib/python3.7/site-packages/apscheduler/executors/base.py", line 125, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+  File "<ipython-input-3-3130ce3c8265>", line 21, in timed_job
+    con = fxcmpy.fxcmpy(config_file = 'fxcm.cfg')
+  File "/anaconda2/envs/fxcm/lib/python3.7/site-packages/fxcmpy/fxcmpy.py", line 214, in __init__
+    raise ServerError('Can not find FXCM Server.')
+fxcmpy.fxcmpy.ServerError: Can not find FXCM Server.
+|ERROR|2019-02-27 20:45:42,231|Server reports an error: {'executed': False, 'error': 'Unauthorized'}.
+|ERROR|2019-02-27 20:45:42,232|URL: https://api-demo.fxcm.com:443/trading/get_model?models=Account
+|ERROR|2019-02-27 20:45:42,232|Headers: {'User-Agent': 'request', 'Accept-Encoding': 'gzip, deflate', 'Accept': 'application/json', 'Connection': 'keep-alive', 'Authorization': 'Bearer kCG5G4mQDZCGzNgDAA-gd60e1d5a4a324365e4d351e854c45e8b9c5e7145', 'Content-Type': 'application/x-www-form-urlencoded'}
+|ERROR|2019-02-27 20:45:42,232|Params: {'models': ['Account']}
+|ERROR|2019-02-27 20:45:42,232|Bearer token: Bearer kCG5G4mQDZCGzNgDAA-gd60e1d5a4a324365e4d351e854c45e8b9c5e7145
+|ERROR|2019-02-27 20:45:42,232|Connection status: established
+|ERROR|2019-02-27 20:45:42,232|Socket session id: kCG5G4mQDZCGzNgDAA-g
+|ERROR|2019-02-27 20:45:42,232|Job "timed_job (trigger: interval[0:01:00], next run at: 2019-02-27 20:46:17 +07)" raised an exception
+Traceback (most recent call last):
+  File "/anaconda2/envs/fxcm/lib/python3.7/site-packages/apscheduler/executors/base.py", line 125, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+  File "<ipython-input-3-3130ce3c8265>", line 21, in timed_job
+    con = fxcmpy.fxcmpy(config_file = 'fxcm.cfg')
+  File "/anaconda2/envs/fxcm/lib/python3.7/site-packages/fxcmpy/fxcmpy.py", line 218, in __init__
+    self.__collect_account_ids__()
+  File "/anaconda2/envs/fxcm/lib/python3.7/site-packages/fxcmpy/fxcmpy.py", line 2218, in __collect_account_ids__
+    data = self.get_accounts('list')
+  File "/anaconda2/envs/fxcm/lib/python3.7/site-packages/fxcmpy/fxcmpy.py", line 508, in get_accounts
+    data = self.get_model(('Account',))
+  File "/anaconda2/envs/fxcm/lib/python3.7/site-packages/fxcmpy/fxcmpy.py", line 341, in get_model
+    params={'models': list(models)})
+  File "/anaconda2/envs/fxcm/lib/python3.7/site-packages/fxcmpy/fxcmpy.py", line 2514, in __handle_request__
+    % data['response']['error'])
+fxcmpy.fxcmpy.ServerError: FXCM Server reports an error: Unauthorized.
+|ERROR|2019-02-27 20:46:47,956|Job "timed_job (trigger: interval[0:01:00], next run at: 2019-02-27 20:47:17 +07)" raised an exception
+Traceback (most recent call last):
+  File "/anaconda2/envs/fxcm/lib/python3.7/site-packages/apscheduler/executors/base.py", line 125, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+  File "<ipython-input-3-3130ce3c8265>", line 23, in timed_job
+    check_position(con)
+  File "<ipython-input-3-3130ce3c8265>", line 30, in check_position
+    trade_id = con.get_open_trade_ids()[i]
+IndexError: list index out of range
+|ERROR|2019-02-27 20:49:54,355|Server reports an error: {'executed': False, 'error': '{"type":4,"sessionId":"U100D2_7F5BEDD8823C7FE4E053E12B3C0A94B0_02272019134918972881_DDS","requestId":"Request-235109","text":" insufficient margin on account: 1041561.\\n","code":20113,"stack":""}'}.
+|ERROR|2019-02-27 20:49:54,356|URL: https://api-demo.fxcm.com:443/trading/open_trade
+|ERROR|2019-02-27 20:49:54,356|Headers: {'User-Agent': 'request', 'Accept-Encoding': 'gzip, deflate', 'Accept': 'application/json', 'Connection': 'keep-alive', 'Authorization': 'Bearer _Gv_KvMrEeifHQMgACZzd60e1d5a4a324365e4d351e854c45e8b9c5e7145', 'Content-Type': 'application/x-www-form-urlencoded', 'Content-Length': '142'}
+|ERROR|2019-02-27 20:49:54,356|Params: {'account_id': 1041561, 'symbol': 'USD/JPY', 'is_buy': 'false', 'rate': 1041561.0, 'amount': 100, 'at_market': 0.0, 'order_type': 'AtMarket', 'time_in_force': 'FOK', 'limit': None, 'is_in_pips': 'true'}
+|ERROR|2019-02-27 20:49:54,356|Bearer token: Bearer _Gv_KvMrEeifHQMgACZzd60e1d5a4a324365e4d351e854c45e8b9c5e7145
+|ERROR|2019-02-27 20:49:54,356|Connection status: established
+|ERROR|2019-02-27 20:49:54,356|Socket session id: _Gv_KvMrEeifHQMgACZz
+|ERROR|2019-02-27 20:49:54,357|Job "timed_job (trigger: interval[0:01:00], next run at: 2019-02-27 20:50:17 +07)" raised an exception
+Traceback (most recent call last):
+  File "/anaconda2/envs/fxcm/lib/python3.7/site-packages/apscheduler/executors/base.py", line 125, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+  File "<ipython-input-3-3130ce3c8265>", line 24, in timed_job
+    trading(con)
+  File "<ipython-input-3-3130ce3c8265>", line 74, in trading
+    order = con.create_market_sell_order(symbol, lot)
+  File "/anaconda2/envs/fxcm/lib/python3.7/site-packages/fxcmpy/fxcmpy.py", line 1451, in create_market_sell_order
+    account_id)
+  File "/anaconda2/envs/fxcm/lib/python3.7/site-packages/fxcmpy/fxcmpy.py", line 1118, in open_trade
+    params=params, protocol='post')
+  File "/anaconda2/envs/fxcm/lib/python3.7/site-packages/fxcmpy/fxcmpy.py", line 2514, in __handle_request__
+    % data['response']['error'])
+fxcmpy.fxcmpy.ServerError: FXCM Server reports an error: {"type":4,"sessionId":"U100D2_7F5BEDD8823C7FE4E053E12B3C0A94B0_02272019134918972881_DDS","requestId":"Request-235109","text":" insufficient margin on account: 1041561.\n","code":20113,"stack":""}.
+|ERROR|2019-02-27 20:50:58,522|Server reports an error: {'executed': False, 'error': '{"type":4,"sessionId":"U100D2_7F5BEDD8825C7FE4E053E12B3C0A94B0_02272019135019162707_Z7T","requestId":"Request-235280","text":" insufficient margin on account: 1041561.\\n","code":20113,"stack":""}'}.
+|ERROR|2019-02-27 20:50:58,522|URL: https://api-demo.fxcm.com:443/trading/open_trade
+|ERROR|2019-02-27 20:50:58,522|Headers: {'User-Agent': 'request', 'Accept-Encoding': 'gzip, deflate', 'Accept': 'application/json', 'Connection': 'keep-alive', 'Authorization': 'Bearer J364vbOrBQm46ohwACZ3d60e1d5a4a324365e4d351e854c45e8b9c5e7145', 'Content-Type': 'application/x-www-form-urlencoded', 'Content-Length': '142'}
+|ERROR|2019-02-27 20:50:58,522|Params: {'account_id': 1041561, 'symbol': 'USD/JPY', 'is_buy': 'false', 'rate': 1041561.0, 'amount': 100, 'at_market': 0.0, 'order_type': 'AtMarket', 'time_in_force': 'FOK', 'limit': None, 'is_in_pips': 'true'}
+|ERROR|2019-02-27 20:50:58,523|Bearer token: Bearer J364vbOrBQm46ohwACZ3d60e1d5a4a324365e4d351e854c45e8b9c5e7145
+|ERROR|2019-02-27 20:50:58,523|Connection status: established
+|ERROR|2019-02-27 20:50:58,523|Socket session id: J364vbOrBQm46ohwACZ3
+|ERROR|2019-02-27 20:50:58,523|Job "timed_job (trigger: interval[0:01:00], next run at: 2019-02-27 20:51:17 +07)" raised an exception
+Traceback (most recent call last):
+  File "/anaconda2/envs/fxcm/lib/python3.7/site-packages/apscheduler/executors/base.py", line 125, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+  File "<ipython-input-3-3130ce3c8265>", line 24, in timed_job
+    trading(con)
+  File "<ipython-input-3-3130ce3c8265>", line 74, in trading
+    order = con.create_market_sell_order(symbol, lot)
+  File "/anaconda2/envs/fxcm/lib/python3.7/site-packages/fxcmpy/fxcmpy.py", line 1451, in create_market_sell_order
+    account_id)
+  File "/anaconda2/envs/fxcm/lib/python3.7/site-packages/fxcmpy/fxcmpy.py", line 1118, in open_trade
+    params=params, protocol='post')
+  File "/anaconda2/envs/fxcm/lib/python3.7/site-packages/fxcmpy/fxcmpy.py", line 2514, in __handle_request__
+    % data['response']['error'])
+fxcmpy.fxcmpy.ServerError: FXCM Server reports an error: {"type":4,"sessionId":"U100D2_7F5BEDD8825C7FE4E053E12B3C0A94B0_02272019135019162707_Z7T","requestId":"Request-235280","text":" insufficient margin on account: 1041561.\n","code":20113,"stack":""}.
+|ERROR|2019-02-27 20:51:59,177|Server reports an error: {'executed': False, 'error': '{"type":4,"sessionId":"U100D2_7F5BEDC3BAF37FE2E053E12B3C0AF9DA_02272019135118977141_MXF","requestId":"Request-235371","text":" insufficient margin on account: 1041561.\\n","code":20113,"stack":""}'}.
+|ERROR|2019-02-27 20:51:59,177|URL: https://api-demo.fxcm.com:443/trading/open_trade
+|ERROR|2019-02-27 20:51:59,177|Headers: {'User-Agent': 'request', 'Accept-Encoding': 'gzip, deflate', 'Accept': 'application/json', 'Connection': 'keep-alive', 'Authorization': 'Bearer x3I2ykQCbO6qdZnTACZ-d60e1d5a4a324365e4d351e854c45e8b9c5e7145', 'Content-Type': 'application/x-www-form-urlencoded', 'Content-Length': '142'}
+|ERROR|2019-02-27 20:51:59,177|Params: {'account_id': 1041561, 'symbol': 'USD/JPY', 'is_buy': 'false', 'rate': 1041561.0, 'amount': 100, 'at_market': 0.0, 'order_type': 'AtMarket', 'time_in_force': 'FOK', 'limit': None, 'is_in_pips': 'true'}
+|ERROR|2019-02-27 20:51:59,177|Bearer token: Bearer x3I2ykQCbO6qdZnTACZ-d60e1d5a4a324365e4d351e854c45e8b9c5e7145
+|ERROR|2019-02-27 20:51:59,177|Connection status: established
+|ERROR|2019-02-27 20:51:59,177|Socket session id: x3I2ykQCbO6qdZnTACZ-
+|ERROR|2019-02-27 20:51:59,177|Job "timed_job (trigger: interval[0:01:00], next run at: 2019-02-27 20:52:17 +07)" raised an exception
+Traceback (most recent call last):
+  File "/anaconda2/envs/fxcm/lib/python3.7/site-packages/apscheduler/executors/base.py", line 125, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+  File "<ipython-input-3-3130ce3c8265>", line 24, in timed_job
+    trading(con)
+  File "<ipython-input-3-3130ce3c8265>", line 74, in trading
+    order = con.create_market_sell_order(symbol, lot)
+  File "/anaconda2/envs/fxcm/lib/python3.7/site-packages/fxcmpy/fxcmpy.py", line 1451, in create_market_sell_order
+    account_id)
+  File "/anaconda2/envs/fxcm/lib/python3.7/site-packages/fxcmpy/fxcmpy.py", line 1118, in open_trade
+    params=params, protocol='post')
+  File "/anaconda2/envs/fxcm/lib/python3.7/site-packages/fxcmpy/fxcmpy.py", line 2514, in __handle_request__
+    % data['response']['error'])
+fxcmpy.fxcmpy.ServerError: FXCM Server reports an error: {"type":4,"sessionId":"U100D2_7F5BEDC3BAF37FE2E053E12B3C0AF9DA_02272019135118977141_MXF","requestId":"Request-235371","text":" insufficient margin on account: 1041561.\n","code":20113,"stack":""}.
+|ERROR|2019-02-27 20:53:10,704|Server reports an error: {'executed': False, 'error': '{"type":4,"sessionId":"U100D2_7F5BECDB4C197FEAE053E12B3C0AFEB9_02272019135218971611_KWE","requestId":"Request-235520","text":" insufficient margin on account: 1041561.\\n","code":20113,"stack":""}'}.
+|ERROR|2019-02-27 20:53:10,704|URL: https://api-demo.fxcm.com:443/trading/open_trade
+|ERROR|2019-02-27 20:53:10,704|Headers: {'User-Agent': 'request', 'Accept-Encoding': 'gzip, deflate', 'Accept': 'application/json', 'Connection': 'keep-alive', 'Authorization': 'Bearer bPAqQxUVEgx4ZL6FACaFd60e1d5a4a324365e4d351e854c45e8b9c5e7145', 'Content-Type': 'application/x-www-form-urlencoded', 'Content-Length': '142'}
+|ERROR|2019-02-27 20:53:10,704|Params: {'account_id': 1041561, 'symbol': 'EUR/NZD', 'is_buy': 'false', 'rate': 1041561.0, 'amount': 100, 'at_market': 0.0, 'order_type': 'AtMarket', 'time_in_force': 'FOK', 'limit': None, 'is_in_pips': 'true'}
+|ERROR|2019-02-27 20:53:10,704|Bearer token: Bearer bPAqQxUVEgx4ZL6FACaFd60e1d5a4a324365e4d351e854c45e8b9c5e7145
+|ERROR|2019-02-27 20:53:10,704|Connection status: established
+|ERROR|2019-02-27 20:53:10,704|Socket session id: bPAqQxUVEgx4ZL6FACaF
+|ERROR|2019-02-27 20:53:10,704|Job "timed_job (trigger: interval[0:01:00], next run at: 2019-02-27 20:53:17 +07)" raised an exception
+Traceback (most recent call last):
+  File "/anaconda2/envs/fxcm/lib/python3.7/site-packages/apscheduler/executors/base.py", line 125, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+  File "<ipython-input-3-3130ce3c8265>", line 24, in timed_job
+    trading(con)
+  File "<ipython-input-3-3130ce3c8265>", line 74, in trading
+    order = con.create_market_sell_order(symbol, lot)
+  File "/anaconda2/envs/fxcm/lib/python3.7/site-packages/fxcmpy/fxcmpy.py", line 1451, in create_market_sell_order
+    account_id)
+  File "/anaconda2/envs/fxcm/lib/python3.7/site-packages/fxcmpy/fxcmpy.py", line 1118, in open_trade
+    params=params, protocol='post')
+  File "/anaconda2/envs/fxcm/lib/python3.7/site-packages/fxcmpy/fxcmpy.py", line 2514, in __handle_request__
+    % data['response']['error'])
+fxcmpy.fxcmpy.ServerError: FXCM Server reports an error: {"type":4,"sessionId":"U100D2_7F5BECDB4C197FEAE053E12B3C0AFEB9_02272019135218971611_KWE","requestId":"Request-235520","text":" insufficient margin on account: 1041561.\n","code":20113,"stack":""}.
+|ERROR|2019-02-27 20:53:58,558|Server reports an error: {'executed': False, 'error': '{"type":4,"sessionId":"U100D2_7F5BEDC3BB5E7FE2E053E12B3C0AF9DA_02272019135319279048_2NC","requestId":"Request-235630","text":" insufficient margin on account: 1041561.\\n","code":20113,"stack":""}'}.
+|ERROR|2019-02-27 20:53:58,559|URL: https://api-demo.fxcm.com:443/trading/open_trade
+|ERROR|2019-02-27 20:53:58,559|Headers: {'User-Agent': 'request', 'Accept-Encoding': 'gzip, deflate', 'Accept': 'application/json', 'Connection': 'keep-alive', 'Authorization': 'Bearer rw3qd7VLUINYjZkFACaKd60e1d5a4a324365e4d351e854c45e8b9c5e7145', 'Content-Type': 'application/x-www-form-urlencoded', 'Content-Length': '142'}
+|ERROR|2019-02-27 20:53:58,559|Params: {'account_id': 1041561, 'symbol': 'EUR/USD', 'is_buy': 'false', 'rate': 1041561.0, 'amount': 100, 'at_market': 0.0, 'order_type': 'AtMarket', 'time_in_force': 'FOK', 'limit': None, 'is_in_pips': 'true'}
+|ERROR|2019-02-27 20:53:58,559|Bearer token: Bearer rw3qd7VLUINYjZkFACaKd60e1d5a4a324365e4d351e854c45e8b9c5e7145
+|ERROR|2019-02-27 20:53:58,559|Connection status: established
+|ERROR|2019-02-27 20:53:58,559|Socket session id: rw3qd7VLUINYjZkFACaK
+|ERROR|2019-02-27 20:53:58,559|Job "timed_job (trigger: interval[0:01:00], next run at: 2019-02-27 20:54:17 +07)" raised an exception
+Traceback (most recent call last):
+  File "/anaconda2/envs/fxcm/lib/python3.7/site-packages/apscheduler/executors/base.py", line 125, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+  File "<ipython-input-3-3130ce3c8265>", line 24, in timed_job
+    trading(con)
+  File "<ipython-input-3-3130ce3c8265>", line 74, in trading
+    order = con.create_market_sell_order(symbol, lot)
+  File "/anaconda2/envs/fxcm/lib/python3.7/site-packages/fxcmpy/fxcmpy.py", line 1451, in create_market_sell_order
+    account_id)
+  File "/anaconda2/envs/fxcm/lib/python3.7/site-packages/fxcmpy/fxcmpy.py", line 1118, in open_trade
+    params=params, protocol='post')
+  File "/anaconda2/envs/fxcm/lib/python3.7/site-packages/fxcmpy/fxcmpy.py", line 2514, in __handle_request__
+    % data['response']['error'])
+fxcmpy.fxcmpy.ServerError: FXCM Server reports an error: {"type":4,"sessionId":"U100D2_7F5BEDC3BB5E7FE2E053E12B3C0AF9DA_02272019135319279048_2NC","requestId":"Request-235630","text":" insufficient margin on account: 1041561.\n","code":20113,"stack":""}.
+|ERROR|2019-02-27 20:54:57,403|Server reports an error: {'executed': False, 'error': '{"type":4,"sessionId":"U100D2_7F5BECDB51DA7FE8E053E12B3C0ADC3D_02272019135422131746_QE6","requestId":"Request-235726","text":" insufficient margin on account: 1041561.\\n","code":20113,"stack":""}'}.
+|ERROR|2019-02-27 20:54:57,403|URL: https://api-demo.fxcm.com:443/trading/open_trade
+|ERROR|2019-02-27 20:54:57,404|Headers: {'User-Agent': 'request', 'Accept-Encoding': 'gzip, deflate', 'Accept': 'application/json', 'Connection': 'keep-alive', 'Authorization': 'Bearer Alspkc9rL_XQxZ7GACaUd60e1d5a4a324365e4d351e854c45e8b9c5e7145', 'Content-Type': 'application/x-www-form-urlencoded', 'Content-Length': '142'}
+|ERROR|2019-02-27 20:54:57,404|Params: {'account_id': 1041561, 'symbol': 'EUR/USD', 'is_buy': 'false', 'rate': 1041561.0, 'amount': 100, 'at_market': 0.0, 'order_type': 'AtMarket', 'time_in_force': 'FOK', 'limit': None, 'is_in_pips': 'true'}
+|ERROR|2019-02-27 20:54:57,404|Bearer token: Bearer Alspkc9rL_XQxZ7GACaUd60e1d5a4a324365e4d351e854c45e8b9c5e7145
+|ERROR|2019-02-27 20:54:57,404|Connection status: established
+|ERROR|2019-02-27 20:54:57,404|Socket session id: Alspkc9rL_XQxZ7GACaU
+|ERROR|2019-02-27 20:54:57,404|Job "timed_job (trigger: interval[0:01:00], next run at: 2019-02-27 20:55:17 +07)" raised an exception
+Traceback (most recent call last):
+  File "/anaconda2/envs/fxcm/lib/python3.7/site-packages/apscheduler/executors/base.py", line 125, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+  File "<ipython-input-3-3130ce3c8265>", line 24, in timed_job
+    trading(con)
+  File "<ipython-input-3-3130ce3c8265>", line 74, in trading
+    order = con.create_market_sell_order(symbol, lot)
+  File "/anaconda2/envs/fxcm/lib/python3.7/site-packages/fxcmpy/fxcmpy.py", line 1451, in create_market_sell_order
+    account_id)
+  File "/anaconda2/envs/fxcm/lib/python3.7/site-packages/fxcmpy/fxcmpy.py", line 1118, in open_trade
+    params=params, protocol='post')
+  File "/anaconda2/envs/fxcm/lib/python3.7/site-packages/fxcmpy/fxcmpy.py", line 2514, in __handle_request__
+    % data['response']['error'])
+fxcmpy.fxcmpy.ServerError: FXCM Server reports an error: {"type":4,"sessionId":"U100D2_7F5BECDB51DA7FE8E053E12B3C0ADC3D_02272019135422131746_QE6","requestId":"Request-235726","text":" insufficient margin on account: 1041561.\n","code":20113,"stack":""}.
+|ERROR|2019-02-27 20:56:01,232|Server reports an error: {'executed': False, 'error': '{"type":4,"sessionId":"U100D2_7F5BECDE928A7FE0E053E12B3C0AFB0A_02272019135518975510_7FY","requestId":"Request-235824","text":" insufficient margin on account: 1041561.\\n","code":20113,"stack":""}'}.
+|ERROR|2019-02-27 20:56:01,232|URL: https://api-demo.fxcm.com:443/trading/open_trade
+|ERROR|2019-02-27 20:56:01,232|Headers: {'User-Agent': 'request', 'Accept-Encoding': 'gzip, deflate', 'Accept': 'application/json', 'Connection': 'keep-alive', 'Authorization': 'Bearer pWHdoxaMiSAdEeVQACabd60e1d5a4a324365e4d351e854c45e8b9c5e7145', 'Content-Type': 'application/x-www-form-urlencoded', 'Content-Length': '142'}
+|ERROR|2019-02-27 20:56:01,232|Params: {'account_id': 1041561, 'symbol': 'EUR/USD', 'is_buy': 'false', 'rate': 1041561.0, 'amount': 100, 'at_market': 0.0, 'order_type': 'AtMarket', 'time_in_force': 'FOK', 'limit': None, 'is_in_pips': 'true'}
+|ERROR|2019-02-27 20:56:01,232|Bearer token: Bearer pWHdoxaMiSAdEeVQACabd60e1d5a4a324365e4d351e854c45e8b9c5e7145
+|ERROR|2019-02-27 20:56:01,232|Connection status: established
+|ERROR|2019-02-27 20:56:01,233|Socket session id: pWHdoxaMiSAdEeVQACab
+|ERROR|2019-02-27 20:56:01,235|Job "timed_job (trigger: interval[0:01:00], next run at: 2019-02-27 20:56:17 +07)" raised an exception
+Traceback (most recent call last):
+  File "/anaconda2/envs/fxcm/lib/python3.7/site-packages/apscheduler/executors/base.py", line 125, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+  File "<ipython-input-3-3130ce3c8265>", line 24, in timed_job
+    trading(con)
+  File "<ipython-input-3-3130ce3c8265>", line 74, in trading
+    order = con.create_market_sell_order(symbol, lot)
+  File "/anaconda2/envs/fxcm/lib/python3.7/site-packages/fxcmpy/fxcmpy.py", line 1451, in create_market_sell_order
+    account_id)
+  File "/anaconda2/envs/fxcm/lib/python3.7/site-packages/fxcmpy/fxcmpy.py", line 1118, in open_trade
+    params=params, protocol='post')
+  File "/anaconda2/envs/fxcm/lib/python3.7/site-packages/fxcmpy/fxcmpy.py", line 2514, in __handle_request__
+    % data['response']['error'])
+fxcmpy.fxcmpy.ServerError: FXCM Server reports an error: {"type":4,"sessionId":"U100D2_7F5BECDE928A7FE0E053E12B3C0AFB0A_02272019135518975510_7FY","requestId":"Request-235824","text":" insufficient margin on account: 1041561.\n","code":20113,"stack":""}.
+|ERROR|2019-02-27 20:58:28,541|Server reports an error: {'executed': False, 'error': 'Unauthorized'}.
+|ERROR|2019-02-27 20:58:28,543|URL: https://api-demo.fxcm.com:443/candles/16/m1?num=100
+|ERROR|2019-02-27 20:58:28,543|Headers: {'User-Agent': 'request', 'Accept-Encoding': 'gzip, deflate', 'Accept': 'application/json', 'Connection': 'keep-alive', 'Authorization': 'Bearer 4HBW3XWfbyD3u9XxACahd60e1d5a4a324365e4d351e854c45e8b9c5e7145', 'Content-Type': 'application/x-www-form-urlencoded'}
+|ERROR|2019-02-27 20:58:28,543|Params: {'num': 100}
+|ERROR|2019-02-27 20:58:28,543|Bearer token: Bearer 4HBW3XWfbyD3u9XxACahd60e1d5a4a324365e4d351e854c45e8b9c5e7145
+|ERROR|2019-02-27 20:58:28,543|Connection status: established
+|ERROR|2019-02-27 20:58:28,543|Socket session id: 4HBW3XWfbyD3u9XxACah
+|ERROR|2019-02-27 20:58:28,544|Job "timed_job (trigger: interval[0:01:00], next run at: 2019-02-27 20:59:17 +07)" raised an exception
+Traceback (most recent call last):
+  File "/anaconda2/envs/fxcm/lib/python3.7/site-packages/apscheduler/executors/base.py", line 125, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+  File "<ipython-input-3-3130ce3c8265>", line 24, in timed_job
+    trading(con)
+  File "<ipython-input-3-3130ce3c8265>", line 60, in trading
+    df[symbol] = con.get_candles(symbol, period=tf, number=100)
+  File "/anaconda2/envs/fxcm/lib/python3.7/site-packages/fxcmpy/fxcmpy.py", line 2176, in get_candles
+    % (offer_id, period), params=params)
+  File "/anaconda2/envs/fxcm/lib/python3.7/site-packages/fxcmpy/fxcmpy.py", line 2514, in __handle_request__
+    % data['response']['error'])
+fxcmpy.fxcmpy.ServerError: FXCM Server reports an error: Unauthorized.
+|ERROR|2019-02-27 20:59:54,441|Job "timed_job (trigger: interval[0:01:00], next run at: 2019-02-27 21:00:17 +07)" raised an exception
+Traceback (most recent call last):
+  File "/anaconda2/envs/fxcm/lib/python3.7/site-packages/apscheduler/executors/base.py", line 125, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+  File "<ipython-input-3-3130ce3c8265>", line 23, in timed_job
+    check_position(con)
+  File "<ipython-input-3-3130ce3c8265>", line 30, in check_position
+    trade_id = con.get_open_trade_ids()[i]
+IndexError: list index out of range
+|ERROR|2019-02-27 21:08:52,899|Job "timed_job (trigger: interval[0:01:00], next run at: 2019-02-27 21:09:17 +07)" raised an exception
+Traceback (most recent call last):
+  File "/anaconda2/envs/fxcm/lib/python3.7/site-packages/apscheduler/executors/base.py", line 125, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+  File "<ipython-input-3-3130ce3c8265>", line 23, in timed_job
+    check_position(con)
+  File "<ipython-input-3-3130ce3c8265>", line 30, in check_position
+    trade_id = con.get_open_trade_ids()[i]
+IndexError: list index out of range
+|ERROR|2019-02-27 21:11:53,979|Job "timed_job (trigger: interval[0:01:00], next run at: 2019-02-27 21:12:17 +07)" raised an exception
+Traceback (most recent call last):
+  File "/anaconda2/envs/fxcm/lib/python3.7/site-packages/apscheduler/executors/base.py", line 125, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+  File "<ipython-input-3-3130ce3c8265>", line 23, in timed_job
+    check_position(con)
+  File "<ipython-input-3-3130ce3c8265>", line 30, in check_position
+    trade_id = con.get_open_trade_ids()[i]
+IndexError: list index out of range
+|ERROR|2019-02-27 21:22:50,506|Job "timed_job (trigger: interval[0:01:00], next run at: 2019-02-27 21:23:17 +07)" raised an exception
+Traceback (most recent call last):
+  File "/anaconda2/envs/fxcm/lib/python3.7/site-packages/apscheduler/executors/base.py", line 125, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+  File "<ipython-input-3-3130ce3c8265>", line 23, in timed_job
+    check_position(con)
+  File "<ipython-input-3-3130ce3c8265>", line 30, in check_position
+    trade_id = con.get_open_trade_ids()[i]
+IndexError: list index out of range
+|ERROR|2019-02-27 21:23:47,068|Job "timed_job (trigger: interval[0:01:00], next run at: 2019-02-27 21:24:17 +07)" raised an exception
+Traceback (most recent call last):
+  File "/anaconda2/envs/fxcm/lib/python3.7/site-packages/apscheduler/executors/base.py", line 125, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+  File "<ipython-input-3-3130ce3c8265>", line 23, in timed_job
+    check_position(con)
+  File "<ipython-input-3-3130ce3c8265>", line 30, in check_position
+    trade_id = con.get_open_trade_ids()[i]
+IndexError: list index out of range
+|ERROR|2019-02-27 21:25:19,733|Server reports an error: {'executed': False, 'error': '{"type":4,"sessionId":"U100D2_7F5BECDE97827FE0E053E12B3C0AFB0A_02272019142419381197_6XY","requestId":"Request-239926","text":" insufficient margin on account: 1041561.\\n","code":20113,"stack":""}'}.
+|ERROR|2019-02-27 21:25:19,733|URL: https://api-demo.fxcm.com:443/trading/open_trade
+|ERROR|2019-02-27 21:25:19,733|Headers: {'User-Agent': 'request', 'Accept-Encoding': 'gzip, deflate', 'Accept': 'application/json', 'Connection': 'keep-alive', 'Authorization': 'Bearer b4Xl7DMT33DhYmd_ACI3d60e1d5a4a324365e4d351e854c45e8b9c5e7145', 'Content-Type': 'application/x-www-form-urlencoded', 'Content-Length': '142'}
+|ERROR|2019-02-27 21:25:19,733|Params: {'account_id': 1041561, 'symbol': 'GBP/JPY', 'is_buy': 'false', 'rate': 1041561.0, 'amount': 100, 'at_market': 0.0, 'order_type': 'AtMarket', 'time_in_force': 'FOK', 'limit': None, 'is_in_pips': 'true'}
+|ERROR|2019-02-27 21:25:19,733|Bearer token: Bearer b4Xl7DMT33DhYmd_ACI3d60e1d5a4a324365e4d351e854c45e8b9c5e7145
+|ERROR|2019-02-27 21:25:19,733|Connection status: established
+|ERROR|2019-02-27 21:25:19,733|Socket session id: b4Xl7DMT33DhYmd_ACI3
+|ERROR|2019-02-27 21:25:19,733|Job "timed_job (trigger: interval[0:01:00], next run at: 2019-02-27 21:26:17 +07)" raised an exception
+Traceback (most recent call last):
+  File "/anaconda2/envs/fxcm/lib/python3.7/site-packages/apscheduler/executors/base.py", line 125, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+  File "<ipython-input-3-3130ce3c8265>", line 24, in timed_job
+    trading(con)
+  File "<ipython-input-3-3130ce3c8265>", line 74, in trading
+    order = con.create_market_sell_order(symbol, lot)
+  File "/anaconda2/envs/fxcm/lib/python3.7/site-packages/fxcmpy/fxcmpy.py", line 1451, in create_market_sell_order
+    account_id)
+  File "/anaconda2/envs/fxcm/lib/python3.7/site-packages/fxcmpy/fxcmpy.py", line 1118, in open_trade
+    params=params, protocol='post')
+  File "/anaconda2/envs/fxcm/lib/python3.7/site-packages/fxcmpy/fxcmpy.py", line 2514, in __handle_request__
+    % data['response']['error'])
+fxcmpy.fxcmpy.ServerError: FXCM Server reports an error: {"type":4,"sessionId":"U100D2_7F5BECDE97827FE0E053E12B3C0AFB0A_02272019142419381197_6XY","requestId":"Request-239926","text":" insufficient margin on account: 1041561.\n","code":20113,"stack":""}.
+|ERROR|2019-02-27 21:27:17,519|Server reports an error: {'executed': False, 'error': '{"type":4,"sessionId":"U100D2_7F5BEDC3C09B7FE2E053E12B3C0AF9DA_02272019142619035802_971","requestId":"Request-240155","text":" insufficient margin on account: 1041561.\\n","code":20113,"stack":""}'}.
+|ERROR|2019-02-27 21:27:17,519|URL: https://api-demo.fxcm.com:443/trading/open_trade
+|ERROR|2019-02-27 21:27:17,519|Headers: {'User-Agent': 'request', 'Accept-Encoding': 'gzip, deflate', 'Accept': 'application/json', 'Connection': 'keep-alive', 'Authorization': 'Bearer cFiCWMrg2LvY9MuBACJCd60e1d5a4a324365e4d351e854c45e8b9c5e7145', 'Content-Type': 'application/x-www-form-urlencoded', 'Content-Length': '141'}
+|ERROR|2019-02-27 21:27:17,519|Params: {'account_id': 1041561, 'symbol': 'NZD/CHF', 'is_buy': 'true', 'rate': 1041561.0, 'amount': 100, 'at_market': 0.0, 'order_type': 'AtMarket', 'time_in_force': 'FOK', 'limit': None, 'is_in_pips': 'true'}
+|ERROR|2019-02-27 21:27:17,520|Bearer token: Bearer cFiCWMrg2LvY9MuBACJCd60e1d5a4a324365e4d351e854c45e8b9c5e7145
+|ERROR|2019-02-27 21:27:17,520|Connection status: established
+|ERROR|2019-02-27 21:27:17,520|Socket session id: cFiCWMrg2LvY9MuBACJC
+|ERROR|2019-02-27 21:27:17,520|Job "timed_job (trigger: interval[0:01:00], next run at: 2019-02-27 21:27:17 +07)" raised an exception
+Traceback (most recent call last):
+  File "/anaconda2/envs/fxcm/lib/python3.7/site-packages/apscheduler/executors/base.py", line 125, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+  File "<ipython-input-3-3130ce3c8265>", line 24, in timed_job
+    trading(con)
+  File "<ipython-input-3-3130ce3c8265>", line 66, in trading
+    order = con.create_market_buy_order(symbol, lot)
+  File "/anaconda2/envs/fxcm/lib/python3.7/site-packages/fxcmpy/fxcmpy.py", line 1411, in create_market_buy_order
+    account_id)
+  File "/anaconda2/envs/fxcm/lib/python3.7/site-packages/fxcmpy/fxcmpy.py", line 1118, in open_trade
+    params=params, protocol='post')
+  File "/anaconda2/envs/fxcm/lib/python3.7/site-packages/fxcmpy/fxcmpy.py", line 2514, in __handle_request__
+    % data['response']['error'])
+fxcmpy.fxcmpy.ServerError: FXCM Server reports an error: {"type":4,"sessionId":"U100D2_7F5BEDC3C09B7FE2E053E12B3C0AF9DA_02272019142619035802_971","requestId":"Request-240155","text":" insufficient margin on account: 1041561.\n","code":20113,"stack":""}.
+|ERROR|2019-02-27 21:28:05,023|Job "timed_job (trigger: interval[0:01:00], next run at: 2019-02-27 21:28:17 +07)" raised an exception
+Traceback (most recent call last):
+  File "/anaconda2/envs/fxcm/lib/python3.7/site-packages/apscheduler/executors/base.py", line 125, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+  File "<ipython-input-3-3130ce3c8265>", line 23, in timed_job
+    check_position(con)
+  File "<ipython-input-3-3130ce3c8265>", line 30, in check_position
+    trade_id = con.get_open_trade_ids()[i]
+IndexError: list index out of range
+|ERROR|2019-02-27 21:34:55,183|Job "timed_job (trigger: interval[0:01:00], next run at: 2019-02-27 21:35:17 +07)" raised an exception
+Traceback (most recent call last):
+  File "/anaconda2/envs/fxcm/lib/python3.7/site-packages/apscheduler/executors/base.py", line 125, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+  File "<ipython-input-3-3130ce3c8265>", line 23, in timed_job
+    check_position(con)
+  File "<ipython-input-3-3130ce3c8265>", line 30, in check_position
+    trade_id = con.get_open_trade_ids()[i]
+IndexError: list index out of range
+|ERROR|2019-02-27 21:38:31,605|Server reports an error: {'executed': False, 'error': '{"type":4,"sessionId":"U100D2_7F5BEDD889457FE4E053E12B3C0A94B0_02272019143719261225_NME","requestId":"Request-241544","text":" insufficient margin on account: 1041561.\\n","code":20113,"stack":""}'}.
+|ERROR|2019-02-27 21:38:31,606|URL: https://api-demo.fxcm.com:443/trading/open_trade
+|ERROR|2019-02-27 21:38:31,606|Headers: {'User-Agent': 'request', 'Accept-Encoding': 'gzip, deflate', 'Accept': 'application/json', 'Connection': 'keep-alive', 'Authorization': 'Bearer _k9keyJP-6UnlrCGACKFd60e1d5a4a324365e4d351e854c45e8b9c5e7145', 'Content-Type': 'application/x-www-form-urlencoded', 'Content-Length': '142'}
+|ERROR|2019-02-27 21:38:31,606|Params: {'account_id': 1041561, 'symbol': 'AUD/NZD', 'is_buy': 'false', 'rate': 1041561.0, 'amount': 100, 'at_market': 0.0, 'order_type': 'AtMarket', 'time_in_force': 'FOK', 'limit': None, 'is_in_pips': 'true'}
+|ERROR|2019-02-27 21:38:31,606|Bearer token: Bearer _k9keyJP-6UnlrCGACKFd60e1d5a4a324365e4d351e854c45e8b9c5e7145
+|ERROR|2019-02-27 21:38:31,606|Connection status: established
+|ERROR|2019-02-27 21:38:31,606|Socket session id: _k9keyJP-6UnlrCGACKF
+|ERROR|2019-02-27 21:38:31,606|Job "timed_job (trigger: interval[0:01:00], next run at: 2019-02-27 21:39:17 +07)" raised an exception
+Traceback (most recent call last):
+  File "/anaconda2/envs/fxcm/lib/python3.7/site-packages/apscheduler/executors/base.py", line 125, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+  File "<ipython-input-3-3130ce3c8265>", line 24, in timed_job
+    trading(con)
+  File "<ipython-input-3-3130ce3c8265>", line 74, in trading
+    order = con.create_market_sell_order(symbol, lot)
+  File "/anaconda2/envs/fxcm/lib/python3.7/site-packages/fxcmpy/fxcmpy.py", line 1451, in create_market_sell_order
+    account_id)
+  File "/anaconda2/envs/fxcm/lib/python3.7/site-packages/fxcmpy/fxcmpy.py", line 1118, in open_trade
+    params=params, protocol='post')
+  File "/anaconda2/envs/fxcm/lib/python3.7/site-packages/fxcmpy/fxcmpy.py", line 2514, in __handle_request__
+    % data['response']['error'])
+fxcmpy.fxcmpy.ServerError: FXCM Server reports an error: {"type":4,"sessionId":"U100D2_7F5BEDD889457FE4E053E12B3C0A94B0_02272019143719261225_NME","requestId":"Request-241544","text":" insufficient margin on account: 1041561.\n","code":20113,"stack":""}.
+|ERROR|2019-02-27 21:44:37,171|Server reports an error: {'executed': False, 'error': '{"type":4,"sessionId":"U100D2_7F5BEDC3C29E7FE2E053E12B3C0AF9DA_02272019144322221479_8Z6","requestId":"Request-242265","text":" account 1041561 is at margin call, no such orders are allowed.\\n","code":20132,"stack":""}'}.
+|ERROR|2019-02-27 21:44:37,172|URL: https://api-demo.fxcm.com:443/trading/open_trade
+|ERROR|2019-02-27 21:44:37,172|Headers: {'User-Agent': 'request', 'Accept-Encoding': 'gzip, deflate', 'Accept': 'application/json', 'Connection': 'keep-alive', 'Authorization': 'Bearer ax7H_tRVGa9de8hGACKmd60e1d5a4a324365e4d351e854c45e8b9c5e7145', 'Content-Type': 'application/x-www-form-urlencoded', 'Content-Length': '142'}
+|ERROR|2019-02-27 21:44:37,172|Params: {'account_id': 1041561, 'symbol': 'GBP/CHF', 'is_buy': 'false', 'rate': 1041561.0, 'amount': 100, 'at_market': 0.0, 'order_type': 'AtMarket', 'time_in_force': 'FOK', 'limit': None, 'is_in_pips': 'true'}
+|ERROR|2019-02-27 21:44:37,172|Bearer token: Bearer ax7H_tRVGa9de8hGACKmd60e1d5a4a324365e4d351e854c45e8b9c5e7145
+|ERROR|2019-02-27 21:44:37,172|Connection status: established
+|ERROR|2019-02-27 21:44:37,172|Socket session id: ax7H_tRVGa9de8hGACKm
+|ERROR|2019-02-27 21:44:37,172|Job "timed_job (trigger: interval[0:01:00], next run at: 2019-02-27 21:45:17 +07)" raised an exception
+Traceback (most recent call last):
+  File "/anaconda2/envs/fxcm/lib/python3.7/site-packages/apscheduler/executors/base.py", line 125, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+  File "<ipython-input-3-3130ce3c8265>", line 24, in timed_job
+    trading(con)
+  File "<ipython-input-3-3130ce3c8265>", line 74, in trading
+    order = con.create_market_sell_order(symbol, lot)
+  File "/anaconda2/envs/fxcm/lib/python3.7/site-packages/fxcmpy/fxcmpy.py", line 1451, in create_market_sell_order
+    account_id)
+  File "/anaconda2/envs/fxcm/lib/python3.7/site-packages/fxcmpy/fxcmpy.py", line 1118, in open_trade
+    params=params, protocol='post')
+  File "/anaconda2/envs/fxcm/lib/python3.7/site-packages/fxcmpy/fxcmpy.py", line 2514, in __handle_request__
+    % data['response']['error'])
+fxcmpy.fxcmpy.ServerError: FXCM Server reports an error: {"type":4,"sessionId":"U100D2_7F5BEDC3C29E7FE2E053E12B3C0AF9DA_02272019144322221479_8Z6","requestId":"Request-242265","text":" account 1041561 is at margin call, no such orders are allowed.\n","code":20132,"stack":""}.
+|ERROR|2019-02-27 21:46:40,142|Server reports an error: {'executed': False, 'error': '{"type":4,"sessionId":"U100D2_7F5BECA687797FF0E053E12B3C0A600B_02272019144523381848_IL7","requestId":"Request-242531","text":" account 1041561 is at margin call, no such orders are allowed.\\n","code":20132,"stack":""}'}.
+|ERROR|2019-02-27 21:46:40,142|URL: https://api-demo.fxcm.com:443/trading/open_trade
+|ERROR|2019-02-27 21:46:40,143|Headers: {'User-Agent': 'request', 'Accept-Encoding': 'gzip, deflate', 'Accept': 'application/json', 'Connection': 'keep-alive', 'Authorization': 'Bearer LLDiXFVDq5fNMS5MACKyd60e1d5a4a324365e4d351e854c45e8b9c5e7145', 'Content-Type': 'application/x-www-form-urlencoded', 'Content-Length': '141'}
+|ERROR|2019-02-27 21:46:40,143|Params: {'account_id': 1041561, 'symbol': 'NZD/CHF', 'is_buy': 'true', 'rate': 1041561.0, 'amount': 100, 'at_market': 0.0, 'order_type': 'AtMarket', 'time_in_force': 'FOK', 'limit': None, 'is_in_pips': 'true'}
+|ERROR|2019-02-27 21:46:40,143|Bearer token: Bearer LLDiXFVDq5fNMS5MACKyd60e1d5a4a324365e4d351e854c45e8b9c5e7145
+|ERROR|2019-02-27 21:46:40,143|Connection status: established
+|ERROR|2019-02-27 21:46:40,143|Socket session id: LLDiXFVDq5fNMS5MACKy
+|ERROR|2019-02-27 21:46:40,143|Job "timed_job (trigger: interval[0:01:00], next run at: 2019-02-27 21:47:17 +07)" raised an exception
+Traceback (most recent call last):
+  File "/anaconda2/envs/fxcm/lib/python3.7/site-packages/apscheduler/executors/base.py", line 125, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+  File "<ipython-input-3-3130ce3c8265>", line 24, in timed_job
+    trading(con)
+  File "<ipython-input-3-3130ce3c8265>", line 66, in trading
+    order = con.create_market_buy_order(symbol, lot)
+  File "/anaconda2/envs/fxcm/lib/python3.7/site-packages/fxcmpy/fxcmpy.py", line 1411, in create_market_buy_order
+    account_id)
+  File "/anaconda2/envs/fxcm/lib/python3.7/site-packages/fxcmpy/fxcmpy.py", line 1118, in open_trade
+    params=params, protocol='post')
+  File "/anaconda2/envs/fxcm/lib/python3.7/site-packages/fxcmpy/fxcmpy.py", line 2514, in __handle_request__
+    % data['response']['error'])
+fxcmpy.fxcmpy.ServerError: FXCM Server reports an error: {"type":4,"sessionId":"U100D2_7F5BECA687797FF0E053E12B3C0A600B_02272019144523381848_IL7","requestId":"Request-242531","text":" account 1041561 is at margin call, no such orders are allowed.\n","code":20132,"stack":""}.
+|ERROR|2019-02-27 21:48:03,858|Server reports an error: {'executed': False, 'error': '{"type":4,"sessionId":"U100D2_7F5BECDBD4E87FE6E053E12B3C0A17EF_02272019144721763125_EUI","requestId":"Request-242736","text":" account 1041561 is at margin call, no such orders are allowed.\\n","code":20132,"stack":""}'}.
+|ERROR|2019-02-27 21:48:03,858|URL: https://api-demo.fxcm.com:443/trading/open_trade
+|ERROR|2019-02-27 21:48:03,858|Headers: {'User-Agent': 'request', 'Accept-Encoding': 'gzip, deflate', 'Accept': 'application/json', 'Connection': 'keep-alive', 'Authorization': 'Bearer F78dsGlgD74ElD1mACK7d60e1d5a4a324365e4d351e854c45e8b9c5e7145', 'Content-Type': 'application/x-www-form-urlencoded', 'Content-Length': '142'}
+|ERROR|2019-02-27 21:48:03,858|Params: {'account_id': 1041561, 'symbol': 'GBP/USD', 'is_buy': 'false', 'rate': 1041561.0, 'amount': 100, 'at_market': 0.0, 'order_type': 'AtMarket', 'time_in_force': 'FOK', 'limit': None, 'is_in_pips': 'true'}
+|ERROR|2019-02-27 21:48:03,859|Bearer token: Bearer F78dsGlgD74ElD1mACK7d60e1d5a4a324365e4d351e854c45e8b9c5e7145
+|ERROR|2019-02-27 21:48:03,859|Connection status: established
+|ERROR|2019-02-27 21:48:03,859|Socket session id: F78dsGlgD74ElD1mACK7
+|ERROR|2019-02-27 21:48:03,859|Job "timed_job (trigger: interval[0:01:00], next run at: 2019-02-27 21:48:17 +07)" raised an exception
+Traceback (most recent call last):
+  File "/anaconda2/envs/fxcm/lib/python3.7/site-packages/apscheduler/executors/base.py", line 125, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+  File "<ipython-input-3-3130ce3c8265>", line 24, in timed_job
+    trading(con)
+  File "<ipython-input-3-3130ce3c8265>", line 74, in trading
+    order = con.create_market_sell_order(symbol, lot)
+  File "/anaconda2/envs/fxcm/lib/python3.7/site-packages/fxcmpy/fxcmpy.py", line 1451, in create_market_sell_order
+    account_id)
+  File "/anaconda2/envs/fxcm/lib/python3.7/site-packages/fxcmpy/fxcmpy.py", line 1118, in open_trade
+    params=params, protocol='post')
+  File "/anaconda2/envs/fxcm/lib/python3.7/site-packages/fxcmpy/fxcmpy.py", line 2514, in __handle_request__
+    % data['response']['error'])
+fxcmpy.fxcmpy.ServerError: FXCM Server reports an error: {"type":4,"sessionId":"U100D2_7F5BECDBD4E87FE6E053E12B3C0A17EF_02272019144721763125_EUI","requestId":"Request-242736","text":" account 1041561 is at margin call, no such orders are allowed.\n","code":20132,"stack":""}.
+|ERROR|2019-02-27 21:50:06,186|Server reports an error: {'executed': False, 'error': '{"type":4,"sessionId":"U100D2_7F5BEC96D9967FFCE053E12B3C0A608D_02272019144826920330_749","requestId":"Request-242976","text":" account 1041561 is at margin call, no such orders are allowed.\\n","code":20132,"stack":""}'}.
+|ERROR|2019-02-27 21:50:06,187|URL: https://api-demo.fxcm.com:443/trading/open_trade
+|ERROR|2019-02-27 21:50:06,187|Headers: {'User-Agent': 'request', 'Accept-Encoding': 'gzip, deflate', 'Accept': 'application/json', 'Connection': 'keep-alive', 'Authorization': 'Bearer KPDno9qohtDBJNfGACLAd60e1d5a4a324365e4d351e854c45e8b9c5e7145', 'Content-Type': 'application/x-www-form-urlencoded', 'Content-Length': '141'}
+|ERROR|2019-02-27 21:50:06,187|Params: {'account_id': 1041561, 'symbol': 'EUR/GBP', 'is_buy': 'true', 'rate': 1041561.0, 'amount': 100, 'at_market': 0.0, 'order_type': 'AtMarket', 'time_in_force': 'FOK', 'limit': None, 'is_in_pips': 'true'}
+|ERROR|2019-02-27 21:50:06,187|Bearer token: Bearer KPDno9qohtDBJNfGACLAd60e1d5a4a324365e4d351e854c45e8b9c5e7145
+|ERROR|2019-02-27 21:50:06,187|Connection status: established
+|ERROR|2019-02-27 21:50:06,187|Socket session id: KPDno9qohtDBJNfGACLA
+|ERROR|2019-02-27 21:50:06,188|Job "timed_job (trigger: interval[0:01:00], next run at: 2019-02-27 21:49:17 +07)" raised an exception
+Traceback (most recent call last):
+  File "/anaconda2/envs/fxcm/lib/python3.7/site-packages/apscheduler/executors/base.py", line 125, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+  File "<ipython-input-3-3130ce3c8265>", line 24, in timed_job
+    trading(con)
+  File "<ipython-input-5-3130ce3c8265>", line 66, in trading
+    order = con.create_market_buy_order(symbol, lot)
+  File "/anaconda2/envs/fxcm/lib/python3.7/site-packages/fxcmpy/fxcmpy.py", line 1411, in create_market_buy_order
+    account_id)
+  File "/anaconda2/envs/fxcm/lib/python3.7/site-packages/fxcmpy/fxcmpy.py", line 1118, in open_trade
+    params=params, protocol='post')
+  File "/anaconda2/envs/fxcm/lib/python3.7/site-packages/fxcmpy/fxcmpy.py", line 2514, in __handle_request__
+    % data['response']['error'])
+fxcmpy.fxcmpy.ServerError: FXCM Server reports an error: {"type":4,"sessionId":"U100D2_7F5BEC96D9967FFCE053E12B3C0A608D_02272019144826920330_749","requestId":"Request-242976","text":" account 1041561 is at margin call, no such orders are allowed.\n","code":20132,"stack":""}.
+|ERROR|2019-02-27 21:51:48,157|Server reports an error: {'executed': False, 'error': '{"type":4,"sessionId":"U100D2_7F5BEDC3C3A97FE2E053E12B3C0AF9DA_02272019145027905835_HCP","requestId":"Request-243204","text":" account 1041561 is at margin call, no such orders are allowed.\\n","code":20132,"stack":""}'}.
+|ERROR|2019-02-27 21:51:48,157|URL: https://api-demo.fxcm.com:443/trading/open_trade
+|ERROR|2019-02-27 21:51:48,158|Headers: {'User-Agent': 'request', 'Accept-Encoding': 'gzip, deflate', 'Accept': 'application/json', 'Connection': 'keep-alive', 'Authorization': 'Bearer K6r7n6KYrGOQKLFhACLId60e1d5a4a324365e4d351e854c45e8b9c5e7145', 'Content-Type': 'application/x-www-form-urlencoded', 'Content-Length': '141'}
+|ERROR|2019-02-27 21:51:48,158|Params: {'account_id': 1041561, 'symbol': 'EUR/GBP', 'is_buy': 'true', 'rate': 1041561.0, 'amount': 100, 'at_market': 0.0, 'order_type': 'AtMarket', 'time_in_force': 'FOK', 'limit': None, 'is_in_pips': 'true'}
+|ERROR|2019-02-27 21:51:48,158|Bearer token: Bearer K6r7n6KYrGOQKLFhACLId60e1d5a4a324365e4d351e854c45e8b9c5e7145
+|ERROR|2019-02-27 21:51:48,158|Connection status: established
+|ERROR|2019-02-27 21:51:48,158|Socket session id: K6r7n6KYrGOQKLFhACLI
+|ERROR|2019-02-27 21:51:48,158|Job "timed_job (trigger: interval[0:01:00], next run at: 2019-02-27 21:52:16 +07)" raised an exception
+Traceback (most recent call last):
+  File "/anaconda2/envs/fxcm/lib/python3.7/site-packages/apscheduler/executors/base.py", line 125, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+  File "<ipython-input-5-3130ce3c8265>", line 24, in timed_job
+    trading(con)
+  File "<ipython-input-5-3130ce3c8265>", line 66, in trading
+    order = con.create_market_buy_order(symbol, lot)
+  File "/anaconda2/envs/fxcm/lib/python3.7/site-packages/fxcmpy/fxcmpy.py", line 1411, in create_market_buy_order
+    account_id)
+  File "/anaconda2/envs/fxcm/lib/python3.7/site-packages/fxcmpy/fxcmpy.py", line 1118, in open_trade
+    params=params, protocol='post')
+  File "/anaconda2/envs/fxcm/lib/python3.7/site-packages/fxcmpy/fxcmpy.py", line 2514, in __handle_request__
+    % data['response']['error'])
+fxcmpy.fxcmpy.ServerError: FXCM Server reports an error: {"type":4,"sessionId":"U100D2_7F5BEDC3C3A97FE2E053E12B3C0AF9DA_02272019145027905835_HCP","requestId":"Request-243204","text":" account 1041561 is at margin call, no such orders are allowed.\n","code":20132,"stack":""}.
+|ERROR|2019-02-27 21:53:25,775|Server reports an error: {'executed': False, 'error': '{"type":4,"sessionId":"U100D2_7F5BECDB53C57FEAE053E12B3C0AFEB9_02272019145217297087_EM7","requestId":"Request-243411","text":" account 1041561 is at margin call, no such orders are allowed.\\n","code":20132,"stack":""}'}.
+|ERROR|2019-02-27 21:53:25,775|URL: https://api-demo.fxcm.com:443/trading/open_trade
+|ERROR|2019-02-27 21:53:25,775|Headers: {'User-Agent': 'request', 'Accept-Encoding': 'gzip, deflate', 'Accept': 'application/json', 'Connection': 'keep-alive', 'Authorization': 'Bearer 2uvbfIoLNGkBMdBMACLTd60e1d5a4a324365e4d351e854c45e8b9c5e7145', 'Content-Type': 'application/x-www-form-urlencoded', 'Content-Length': '141'}
+|ERROR|2019-02-27 21:53:25,775|Params: {'account_id': 1041561, 'symbol': 'EUR/GBP', 'is_buy': 'true', 'rate': 1041561.0, 'amount': 100, 'at_market': 0.0, 'order_type': 'AtMarket', 'time_in_force': 'FOK', 'limit': None, 'is_in_pips': 'true'}
+|ERROR|2019-02-27 21:53:25,775|Bearer token: Bearer 2uvbfIoLNGkBMdBMACLTd60e1d5a4a324365e4d351e854c45e8b9c5e7145
+|ERROR|2019-02-27 21:53:25,775|Connection status: established
+|ERROR|2019-02-27 21:53:25,775|Socket session id: 2uvbfIoLNGkBMdBMACLT
+|ERROR|2019-02-27 21:53:25,775|Job "timed_job (trigger: interval[0:01:00], next run at: 2019-02-27 21:54:16 +07)" raised an exception
+Traceback (most recent call last):
+  File "/anaconda2/envs/fxcm/lib/python3.7/site-packages/apscheduler/executors/base.py", line 125, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+  File "<ipython-input-5-3130ce3c8265>", line 24, in timed_job
+    trading(con)
+  File "<ipython-input-5-3130ce3c8265>", line 66, in trading
+    order = con.create_market_buy_order(symbol, lot)
+  File "/anaconda2/envs/fxcm/lib/python3.7/site-packages/fxcmpy/fxcmpy.py", line 1411, in create_market_buy_order
+    account_id)
+  File "/anaconda2/envs/fxcm/lib/python3.7/site-packages/fxcmpy/fxcmpy.py", line 1118, in open_trade
+    params=params, protocol='post')
+  File "/anaconda2/envs/fxcm/lib/python3.7/site-packages/fxcmpy/fxcmpy.py", line 2514, in __handle_request__
+    % data['response']['error'])
+fxcmpy.fxcmpy.ServerError: FXCM Server reports an error: {"type":4,"sessionId":"U100D2_7F5BECDB53C57FEAE053E12B3C0AFEB9_02272019145217297087_EM7","requestId":"Request-243411","text":" account 1041561 is at margin call, no such orders are allowed.\n","code":20132,"stack":""}.
+|ERROR|2019-02-27 21:55:46,004|Server reports an error: {'executed': False, 'error': '{"type":4,"sessionId":"U100D2_7F5BECDE9D077FE0E053E12B3C0AFB0A_02272019145423471538_QJQ","requestId":"Request-243705","text":" account 1041561 is at margin call, no such orders are allowed.\\n","code":20132,"stack":""}'}.
+|ERROR|2019-02-27 21:55:46,004|URL: https://api-demo.fxcm.com:443/trading/open_trade
+|ERROR|2019-02-27 21:55:46,004|Headers: {'User-Agent': 'request', 'Accept-Encoding': 'gzip, deflate', 'Accept': 'application/json', 'Connection': 'keep-alive', 'Authorization': 'Bearer eWwIEuatlCS3BF9yACLfd60e1d5a4a324365e4d351e854c45e8b9c5e7145', 'Content-Type': 'application/x-www-form-urlencoded', 'Content-Length': '141'}
+|ERROR|2019-02-27 21:55:46,005|Params: {'account_id': 1041561, 'symbol': 'EUR/GBP', 'is_buy': 'true', 'rate': 1041561.0, 'amount': 100, 'at_market': 0.0, 'order_type': 'AtMarket', 'time_in_force': 'FOK', 'limit': None, 'is_in_pips': 'true'}
+|ERROR|2019-02-27 21:55:46,005|Bearer token: Bearer eWwIEuatlCS3BF9yACLfd60e1d5a4a324365e4d351e854c45e8b9c5e7145
+|ERROR|2019-02-27 21:55:46,005|Connection status: established
+|ERROR|2019-02-27 21:55:46,005|Socket session id: eWwIEuatlCS3BF9yACLf
+|ERROR|2019-02-27 21:55:46,005|Job "timed_job (trigger: interval[0:01:00], next run at: 2019-02-27 21:56:16 +07)" raised an exception
+Traceback (most recent call last):
+  File "/anaconda2/envs/fxcm/lib/python3.7/site-packages/apscheduler/executors/base.py", line 125, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+  File "<ipython-input-5-3130ce3c8265>", line 24, in timed_job
+    trading(con)
+  File "<ipython-input-5-3130ce3c8265>", line 66, in trading
+    order = con.create_market_buy_order(symbol, lot)
+  File "/anaconda2/envs/fxcm/lib/python3.7/site-packages/fxcmpy/fxcmpy.py", line 1411, in create_market_buy_order
+    account_id)
+  File "/anaconda2/envs/fxcm/lib/python3.7/site-packages/fxcmpy/fxcmpy.py", line 1118, in open_trade
+    params=params, protocol='post')
+  File "/anaconda2/envs/fxcm/lib/python3.7/site-packages/fxcmpy/fxcmpy.py", line 2514, in __handle_request__
+    % data['response']['error'])
+fxcmpy.fxcmpy.ServerError: FXCM Server reports an error: {"type":4,"sessionId":"U100D2_7F5BECDE9D077FE0E053E12B3C0AFB0A_02272019145423471538_QJQ","requestId":"Request-243705","text":" account 1041561 is at margin call, no such orders are allowed.\n","code":20132,"stack":""}.
+|ERROR|2019-02-27 21:57:10,619|Server reports an error: {'executed': False, 'error': '{"type":4,"sessionId":"U100D2_7F5BEC9C2C077FF6E053E12B3C0A6081_02272019145627439577_ENV","requestId":"Request-243904","text":" account 1041561 is at margin call, no such orders are allowed.\\n","code":20132,"stack":""}'}.
+|ERROR|2019-02-27 21:57:10,620|URL: https://api-demo.fxcm.com:443/trading/open_trade
+|ERROR|2019-02-27 21:57:10,620|Headers: {'User-Agent': 'request', 'Accept-Encoding': 'gzip, deflate', 'Accept': 'application/json', 'Connection': 'keep-alive', 'Authorization': 'Bearer 9nZtv5KngZatAIEdACLnd60e1d5a4a324365e4d351e854c45e8b9c5e7145', 'Content-Type': 'application/x-www-form-urlencoded', 'Content-Length': '141'}
+|ERROR|2019-02-27 21:57:10,620|Params: {'account_id': 1041561, 'symbol': 'EUR/USD', 'is_buy': 'true', 'rate': 1041561.0, 'amount': 100, 'at_market': 0.0, 'order_type': 'AtMarket', 'time_in_force': 'FOK', 'limit': None, 'is_in_pips': 'true'}
+|ERROR|2019-02-27 21:57:10,620|Bearer token: Bearer 9nZtv5KngZatAIEdACLnd60e1d5a4a324365e4d351e854c45e8b9c5e7145
+|ERROR|2019-02-27 21:57:10,620|Connection status: established
+|ERROR|2019-02-27 21:57:10,620|Socket session id: 9nZtv5KngZatAIEdACLn
+|ERROR|2019-02-27 21:57:10,620|Job "timed_job (trigger: interval[0:01:00], next run at: 2019-02-27 21:57:16 +07)" raised an exception
+Traceback (most recent call last):
+  File "/anaconda2/envs/fxcm/lib/python3.7/site-packages/apscheduler/executors/base.py", line 125, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+  File "<ipython-input-5-3130ce3c8265>", line 24, in timed_job
+    trading(con)
+  File "<ipython-input-5-3130ce3c8265>", line 66, in trading
+    order = con.create_market_buy_order(symbol, lot)
+  File "/anaconda2/envs/fxcm/lib/python3.7/site-packages/fxcmpy/fxcmpy.py", line 1411, in create_market_buy_order
+    account_id)
+  File "/anaconda2/envs/fxcm/lib/python3.7/site-packages/fxcmpy/fxcmpy.py", line 1118, in open_trade
+    params=params, protocol='post')
+  File "/anaconda2/envs/fxcm/lib/python3.7/site-packages/fxcmpy/fxcmpy.py", line 2514, in __handle_request__
+    % data['response']['error'])
+fxcmpy.fxcmpy.ServerError: FXCM Server reports an error: {"type":4,"sessionId":"U100D2_7F5BEC9C2C077FF6E053E12B3C0A6081_02272019145627439577_ENV","requestId":"Request-243904","text":" account 1041561 is at margin call, no such orders are allowed.\n","code":20132,"stack":""}.
+|ERROR|2019-02-27 21:58:38,202|Server reports an error: {'executed': False, 'error': '{"type":4,"sessionId":"U100D2_7F5BECDBD65B7FE6E053E12B3C0A17EF_02272019145718934637_RUW","requestId":"Request-244072","text":" account 1041561 is at margin call, no such orders are allowed.\\n","code":20132,"stack":""}'}.
+|ERROR|2019-02-27 21:58:38,205|URL: https://api-demo.fxcm.com:443/trading/open_trade
+|ERROR|2019-02-27 21:58:38,207|Headers: {'User-Agent': 'request', 'Accept-Encoding': 'gzip, deflate', 'Accept': 'application/json', 'Connection': 'keep-alive', 'Authorization': 'Bearer mXK9lFTthvy6PEySACLxd60e1d5a4a324365e4d351e854c45e8b9c5e7145', 'Content-Type': 'application/x-www-form-urlencoded', 'Content-Length': '142'}
+|ERROR|2019-02-27 21:58:38,214|Params: {'account_id': 1041561, 'symbol': 'GBP/CHF', 'is_buy': 'false', 'rate': 1041561.0, 'amount': 100, 'at_market': 0.0, 'order_type': 'AtMarket', 'time_in_force': 'FOK', 'limit': None, 'is_in_pips': 'true'}
+|ERROR|2019-02-27 21:58:38,214|Bearer token: Bearer mXK9lFTthvy6PEySACLxd60e1d5a4a324365e4d351e854c45e8b9c5e7145
+|ERROR|2019-02-27 21:58:38,217|Connection status: established
+|ERROR|2019-02-27 21:58:38,218|Socket session id: mXK9lFTthvy6PEySACLx
+|ERROR|2019-02-27 21:58:38,220|Job "timed_job (trigger: interval[0:01:00], next run at: 2019-02-27 21:59:16 +07)" raised an exception
+Traceback (most recent call last):
+  File "/anaconda2/envs/fxcm/lib/python3.7/site-packages/apscheduler/executors/base.py", line 125, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+  File "<ipython-input-5-3130ce3c8265>", line 24, in timed_job
+    trading(con)
+  File "<ipython-input-5-3130ce3c8265>", line 74, in trading
+    order = con.create_market_sell_order(symbol, lot)
+  File "/anaconda2/envs/fxcm/lib/python3.7/site-packages/fxcmpy/fxcmpy.py", line 1451, in create_market_sell_order
+    account_id)
+  File "/anaconda2/envs/fxcm/lib/python3.7/site-packages/fxcmpy/fxcmpy.py", line 1118, in open_trade
+    params=params, protocol='post')
+  File "/anaconda2/envs/fxcm/lib/python3.7/site-packages/fxcmpy/fxcmpy.py", line 2514, in __handle_request__
+    % data['response']['error'])
+fxcmpy.fxcmpy.ServerError: FXCM Server reports an error: {"type":4,"sessionId":"U100D2_7F5BECDBD65B7FE6E053E12B3C0A17EF_02272019145718934637_RUW","requestId":"Request-244072","text":" account 1041561 is at margin call, no such orders are allowed.\n","code":20132,"stack":""}.
+|ERROR|2019-02-27 22:00:52,116|Server reports an error: {'executed': False, 'error': 'Unauthorized'}.
+|ERROR|2019-02-27 22:00:52,117|URL: https://api-demo.fxcm.com:443/candles/22/m1?num=100
+|ERROR|2019-02-27 22:00:52,117|Headers: {'User-Agent': 'request', 'Accept-Encoding': 'gzip, deflate', 'Accept': 'application/json', 'Connection': 'keep-alive', 'Authorization': 'Bearer aaZ-XVtxnfoE94HaACL6d60e1d5a4a324365e4d351e854c45e8b9c5e7145', 'Content-Type': 'application/x-www-form-urlencoded'}
+|ERROR|2019-02-27 22:00:52,118|Params: {'num': 100}
+|ERROR|2019-02-27 22:00:52,118|Bearer token: Bearer aaZ-XVtxnfoE94HaACL6d60e1d5a4a324365e4d351e854c45e8b9c5e7145
+|ERROR|2019-02-27 22:00:52,118|Connection status: established
+|ERROR|2019-02-27 22:00:52,118|Socket session id: aaZ-XVtxnfoE94HaACL6
+|ERROR|2019-02-27 22:00:52,120|Job "timed_job (trigger: interval[0:01:00], next run at: 2019-02-27 22:01:16 +07)" raised an exception
+Traceback (most recent call last):
+  File "/anaconda2/envs/fxcm/lib/python3.7/site-packages/apscheduler/executors/base.py", line 125, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+  File "<ipython-input-5-3130ce3c8265>", line 23, in timed_job
+    check_position(con)
+  File "<ipython-input-5-3130ce3c8265>", line 34, in check_position
+    data = con.get_candles(symbol, period=tf, number=100)
+  File "/anaconda2/envs/fxcm/lib/python3.7/site-packages/fxcmpy/fxcmpy.py", line 2176, in get_candles
+    % (offer_id, period), params=params)
+  File "/anaconda2/envs/fxcm/lib/python3.7/site-packages/fxcmpy/fxcmpy.py", line 2514, in __handle_request__
+    % data['response']['error'])
+fxcmpy.fxcmpy.ServerError: FXCM Server reports an error: Unauthorized.
+|ERROR|2019-02-27 22:01:22,028|Error: Not authorized
+|ERROR|2019-02-27 22:02:06,905|Job "timed_job (trigger: interval[0:01:00], next run at: 2019-02-27 22:02:16 +07)" raised an exception
+Traceback (most recent call last):
+  File "/anaconda2/envs/fxcm/lib/python3.7/site-packages/apscheduler/executors/base.py", line 125, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+  File "<ipython-input-5-3130ce3c8265>", line 21, in timed_job
+    con = fxcmpy.fxcmpy(config_file = 'fxcm.cfg')
+  File "/anaconda2/envs/fxcm/lib/python3.7/site-packages/fxcmpy/fxcmpy.py", line 214, in __init__
+    raise ServerError('Can not find FXCM Server.')
+fxcmpy.fxcmpy.ServerError: Can not find FXCM Server.
+|ERROR|2019-02-27 22:02:19,639|Error: Not authorized
+|ERROR|2019-02-27 22:03:06,498|Job "timed_job (trigger: interval[0:01:00], next run at: 2019-02-27 22:03:16 +07)" raised an exception
+Traceback (most recent call last):
+  File "/anaconda2/envs/fxcm/lib/python3.7/site-packages/apscheduler/executors/base.py", line 125, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+  File "<ipython-input-5-3130ce3c8265>", line 21, in timed_job
+    con = fxcmpy.fxcmpy(config_file = 'fxcm.cfg')
+  File "/anaconda2/envs/fxcm/lib/python3.7/site-packages/fxcmpy/fxcmpy.py", line 214, in __init__
+    raise ServerError('Can not find FXCM Server.')
+fxcmpy.fxcmpy.ServerError: Can not find FXCM Server.
+|ERROR|2019-02-27 22:03:24,940|Error: Not authorized
+|ERROR|2019-02-27 22:04:06,633|Job "timed_job (trigger: interval[0:01:00], next run at: 2019-02-27 22:04:16 +07)" raised an exception
+Traceback (most recent call last):
+  File "/anaconda2/envs/fxcm/lib/python3.7/site-packages/apscheduler/executors/base.py", line 125, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+  File "<ipython-input-5-3130ce3c8265>", line 21, in timed_job
+    con = fxcmpy.fxcmpy(config_file = 'fxcm.cfg')
+  File "/anaconda2/envs/fxcm/lib/python3.7/site-packages/fxcmpy/fxcmpy.py", line 214, in __init__
+    raise ServerError('Can not find FXCM Server.')
+fxcmpy.fxcmpy.ServerError: Can not find FXCM Server.
+|ERROR|2019-02-27 22:04:19,753|Error: Not authorized
+|ERROR|2019-02-27 22:05:06,525|Job "timed_job (trigger: interval[0:01:00], next run at: 2019-02-27 22:05:16 +07)" raised an exception
+Traceback (most recent call last):
+  File "/anaconda2/envs/fxcm/lib/python3.7/site-packages/apscheduler/executors/base.py", line 125, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+  File "<ipython-input-5-3130ce3c8265>", line 21, in timed_job
+    con = fxcmpy.fxcmpy(config_file = 'fxcm.cfg')
+  File "/anaconda2/envs/fxcm/lib/python3.7/site-packages/fxcmpy/fxcmpy.py", line 214, in __init__
+    raise ServerError('Can not find FXCM Server.')
+fxcmpy.fxcmpy.ServerError: Can not find FXCM Server.
+|ERROR|2019-02-27 22:05:23,194|Error: Not authorized
+|ERROR|2019-02-27 22:06:07,878|Job "timed_job (trigger: interval[0:01:00], next run at: 2019-02-27 22:06:16 +07)" raised an exception
+Traceback (most recent call last):
+  File "/anaconda2/envs/fxcm/lib/python3.7/site-packages/apscheduler/executors/base.py", line 125, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+  File "<ipython-input-5-3130ce3c8265>", line 21, in timed_job
+    con = fxcmpy.fxcmpy(config_file = 'fxcm.cfg')
+  File "/anaconda2/envs/fxcm/lib/python3.7/site-packages/fxcmpy/fxcmpy.py", line 214, in __init__
+    raise ServerError('Can not find FXCM Server.')
+fxcmpy.fxcmpy.ServerError: Can not find FXCM Server.
+|ERROR|2019-02-27 22:06:20,364|Error: Not authorized
+|ERROR|2019-02-27 22:07:06,615|Job "timed_job (trigger: interval[0:01:00], next run at: 2019-02-27 22:07:16 +07)" raised an exception
+Traceback (most recent call last):
+  File "/anaconda2/envs/fxcm/lib/python3.7/site-packages/apscheduler/executors/base.py", line 125, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+  File "<ipython-input-5-3130ce3c8265>", line 21, in timed_job
+    con = fxcmpy.fxcmpy(config_file = 'fxcm.cfg')
+  File "/anaconda2/envs/fxcm/lib/python3.7/site-packages/fxcmpy/fxcmpy.py", line 214, in __init__
+    raise ServerError('Can not find FXCM Server.')
+fxcmpy.fxcmpy.ServerError: Can not find FXCM Server.
+|ERROR|2019-02-27 22:07:19,566|Error: Not authorized
+|ERROR|2019-02-27 22:08:06,542|Job "timed_job (trigger: interval[0:01:00], next run at: 2019-02-27 22:08:16 +07)" raised an exception
+Traceback (most recent call last):
+  File "/anaconda2/envs/fxcm/lib/python3.7/site-packages/apscheduler/executors/base.py", line 125, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+  File "<ipython-input-5-3130ce3c8265>", line 21, in timed_job
+    con = fxcmpy.fxcmpy(config_file = 'fxcm.cfg')
+  File "/anaconda2/envs/fxcm/lib/python3.7/site-packages/fxcmpy/fxcmpy.py", line 214, in __init__
+    raise ServerError('Can not find FXCM Server.')
+fxcmpy.fxcmpy.ServerError: Can not find FXCM Server.
+|ERROR|2019-02-27 22:08:20,571|Error: Not authorized
+|ERROR|2019-02-27 22:09:06,619|Job "timed_job (trigger: interval[0:01:00], next run at: 2019-02-27 22:09:16 +07)" raised an exception
+Traceback (most recent call last):
+  File "/anaconda2/envs/fxcm/lib/python3.7/site-packages/apscheduler/executors/base.py", line 125, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+  File "<ipython-input-5-3130ce3c8265>", line 21, in timed_job
+    con = fxcmpy.fxcmpy(config_file = 'fxcm.cfg')
+  File "/anaconda2/envs/fxcm/lib/python3.7/site-packages/fxcmpy/fxcmpy.py", line 214, in __init__
+    raise ServerError('Can not find FXCM Server.')
+fxcmpy.fxcmpy.ServerError: Can not find FXCM Server.
+|ERROR|2019-02-27 22:09:20,068|Error: Not authorized
+|ERROR|2019-02-27 22:10:06,381|Job "timed_job (trigger: interval[0:01:00], next run at: 2019-02-27 22:10:16 +07)" raised an exception
+Traceback (most recent call last):
+  File "/anaconda2/envs/fxcm/lib/python3.7/site-packages/apscheduler/executors/base.py", line 125, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+  File "<ipython-input-5-3130ce3c8265>", line 21, in timed_job
+    con = fxcmpy.fxcmpy(config_file = 'fxcm.cfg')
+  File "/anaconda2/envs/fxcm/lib/python3.7/site-packages/fxcmpy/fxcmpy.py", line 214, in __init__
+    raise ServerError('Can not find FXCM Server.')
+fxcmpy.fxcmpy.ServerError: Can not find FXCM Server.
+|ERROR|2019-02-27 22:10:19,815|Error: Not authorized
+|ERROR|2019-02-27 22:11:06,686|Job "timed_job (trigger: interval[0:01:00], next run at: 2019-02-27 22:11:16 +07)" raised an exception
+Traceback (most recent call last):
+  File "/anaconda2/envs/fxcm/lib/python3.7/site-packages/apscheduler/executors/base.py", line 125, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+  File "<ipython-input-5-3130ce3c8265>", line 21, in timed_job
+    con = fxcmpy.fxcmpy(config_file = 'fxcm.cfg')
+  File "/anaconda2/envs/fxcm/lib/python3.7/site-packages/fxcmpy/fxcmpy.py", line 214, in __init__
+    raise ServerError('Can not find FXCM Server.')
+fxcmpy.fxcmpy.ServerError: Can not find FXCM Server.
+|ERROR|2019-02-27 22:11:21,692|Error: Not authorized
+|ERROR|2019-02-27 22:12:06,313|Job "timed_job (trigger: interval[0:01:00], next run at: 2019-02-27 22:12:16 +07)" raised an exception
+Traceback (most recent call last):
+  File "/anaconda2/envs/fxcm/lib/python3.7/site-packages/apscheduler/executors/base.py", line 125, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+  File "<ipython-input-5-3130ce3c8265>", line 21, in timed_job
+    con = fxcmpy.fxcmpy(config_file = 'fxcm.cfg')
+  File "/anaconda2/envs/fxcm/lib/python3.7/site-packages/fxcmpy/fxcmpy.py", line 214, in __init__
+    raise ServerError('Can not find FXCM Server.')
+fxcmpy.fxcmpy.ServerError: Can not find FXCM Server.
+|ERROR|2019-02-27 22:12:20,710|Error: Not authorized
+|ERROR|2019-02-27 22:12:39,626|Error: Not authorized
+|ERROR|2019-02-27 22:13:06,767|Job "timed_job (trigger: interval[0:01:00], next run at: 2019-02-27 22:13:16 +07)" raised an exception
+Traceback (most recent call last):
+  File "/anaconda2/envs/fxcm/lib/python3.7/site-packages/apscheduler/executors/base.py", line 125, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+  File "<ipython-input-5-3130ce3c8265>", line 21, in timed_job
+    con = fxcmpy.fxcmpy(config_file = 'fxcm.cfg')
+  File "/anaconda2/envs/fxcm/lib/python3.7/site-packages/fxcmpy/fxcmpy.py", line 214, in __init__
+    raise ServerError('Can not find FXCM Server.')
+fxcmpy.fxcmpy.ServerError: Can not find FXCM Server.
+|ERROR|2019-02-27 22:13:20,100|Error: Not authorized
+|ERROR|2019-02-27 22:14:06,312|Job "timed_job (trigger: interval[0:01:00], next run at: 2019-02-27 22:14:16 +07)" raised an exception
+Traceback (most recent call last):
+  File "/anaconda2/envs/fxcm/lib/python3.7/site-packages/apscheduler/executors/base.py", line 125, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+  File "<ipython-input-5-3130ce3c8265>", line 21, in timed_job
+    con = fxcmpy.fxcmpy(config_file = 'fxcm.cfg')
+  File "/anaconda2/envs/fxcm/lib/python3.7/site-packages/fxcmpy/fxcmpy.py", line 214, in __init__
+    raise ServerError('Can not find FXCM Server.')
+fxcmpy.fxcmpy.ServerError: Can not find FXCM Server.
+|ERROR|2019-02-27 22:14:23,612|Error: Not authorized
+|ERROR|2019-02-27 22:15:16,570|Job "timed_job (trigger: interval[0:01:00], next run at: 2019-02-27 22:16:16 +07)" raised an exception
+Traceback (most recent call last):
+  File "/anaconda2/envs/fxcm/lib/python3.7/site-packages/apscheduler/executors/base.py", line 125, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+  File "<ipython-input-5-3130ce3c8265>", line 21, in timed_job
+    con = fxcmpy.fxcmpy(config_file = 'fxcm.cfg')
+  File "/anaconda2/envs/fxcm/lib/python3.7/site-packages/fxcmpy/fxcmpy.py", line 218, in __init__
+    self.__collect_account_ids__()
+  File "/anaconda2/envs/fxcm/lib/python3.7/site-packages/fxcmpy/fxcmpy.py", line 2218, in __collect_account_ids__
+    data = self.get_accounts('list')
+  File "/anaconda2/envs/fxcm/lib/python3.7/site-packages/fxcmpy/fxcmpy.py", line 508, in get_accounts
+    data = self.get_model(('Account',))
+  File "/anaconda2/envs/fxcm/lib/python3.7/site-packages/fxcmpy/fxcmpy.py", line 341, in get_model
+    params={'models': list(models)})
+  File "/anaconda2/envs/fxcm/lib/python3.7/site-packages/fxcmpy/fxcmpy.py", line 2423, in __handle_request__
+    self.__reconnect__(count)
+  File "/anaconda2/envs/fxcm/lib/python3.7/site-packages/fxcmpy/fxcmpy.py", line 2391, in __reconnect__
+    self.subscribe_data_model('Order')
+  File "/anaconda2/envs/fxcm/lib/python3.7/site-packages/fxcmpy/fxcmpy.py", line 794, in subscribe_data_model
+    params=params, protocol='post')
+  File "/anaconda2/envs/fxcm/lib/python3.7/site-packages/fxcmpy/fxcmpy.py", line 2415, in __handle_request__
+    self.logger.info('Socket state: %s' % self.socket.connected)
+AttributeError: 'NoneType' object has no attribute 'connected'
+|ERROR|2019-02-27 22:15:18,272|Error: Not authorized
+|ERROR|2019-02-27 22:16:20,721|Error: Not authorized
+|ERROR|2019-02-27 22:17:06,366|Job "timed_job (trigger: interval[0:01:00], next run at: 2019-02-27 22:17:16 +07)" raised an exception
+Traceback (most recent call last):
+  File "/anaconda2/envs/fxcm/lib/python3.7/site-packages/apscheduler/executors/base.py", line 125, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+  File "<ipython-input-5-3130ce3c8265>", line 21, in timed_job
+    con = fxcmpy.fxcmpy(config_file = 'fxcm.cfg')
+  File "/anaconda2/envs/fxcm/lib/python3.7/site-packages/fxcmpy/fxcmpy.py", line 214, in __init__
+    raise ServerError('Can not find FXCM Server.')
+fxcmpy.fxcmpy.ServerError: Can not find FXCM Server.
+|ERROR|2019-02-27 22:17:19,867|Error: Not authorized
+|ERROR|2019-02-27 22:18:06,294|Job "timed_job (trigger: interval[0:01:00], next run at: 2019-02-27 22:18:16 +07)" raised an exception
+Traceback (most recent call last):
+  File "/anaconda2/envs/fxcm/lib/python3.7/site-packages/apscheduler/executors/base.py", line 125, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+  File "<ipython-input-5-3130ce3c8265>", line 21, in timed_job
+    con = fxcmpy.fxcmpy(config_file = 'fxcm.cfg')
+  File "/anaconda2/envs/fxcm/lib/python3.7/site-packages/fxcmpy/fxcmpy.py", line 214, in __init__
+    raise ServerError('Can not find FXCM Server.')
+fxcmpy.fxcmpy.ServerError: Can not find FXCM Server.
+|ERROR|2019-02-27 22:18:26,376|Error: Not authorized
+|ERROR|2019-02-27 22:19:19,587|Error: Not authorized
+|ERROR|2019-02-27 22:19:31,858|Error: Not authorized
+|ERROR|2019-02-27 22:19:40,480|Error: Not authorized
+|ERROR|2019-02-27 22:19:50,492|Error: Not authorized
+|ERROR|2019-02-27 22:20:01,228|Error: Not authorized
+|ERROR|2019-02-27 22:20:10,595|Error: Not authorized
+|ERROR|2019-02-27 22:20:21,028|Error: Not authorized
+|ERROR|2019-02-27 22:20:30,442|Error: Not authorized
+|ERROR|2019-02-27 22:20:44,111|Error: Not authorized
+|ERROR|2019-02-27 22:20:52,638|Error: Not authorized
+|ERROR|2019-02-27 22:21:06,115|Error: Not authorized
+|ERROR|2019-02-27 22:21:15,098|Error: Not authorized
+|ERROR|2019-02-27 22:21:28,593|Error: Not authorized
+|ERROR|2019-02-27 22:21:41,074|Error: Not authorized
+|ERROR|2019-02-27 22:21:53,097|Error: Not authorized
+|ERROR|2019-02-27 22:22:02,181|Error: Not authorized
+|ERROR|2019-02-27 22:22:12,033|Error: Not authorized
+|ERROR|2019-02-27 22:22:21,550|Error: Not authorized
+|ERROR|2019-02-27 22:22:31,999|Error: Not authorized
+|ERROR|2019-02-27 22:22:41,984|Error: Not authorized
+|ERROR|2019-02-27 22:22:51,990|Error: Not authorized
+|ERROR|2019-02-27 22:23:02,198|Error: Not authorized
+|ERROR|2019-02-27 22:23:12,357|Error: Not authorized
+|ERROR|2019-02-27 22:23:21,403|Error: Not authorized
+|ERROR|2019-02-27 22:23:31,905|Error: Not authorized
+|ERROR|2019-02-27 22:23:42,536|Error: Not authorized
+|ERROR|2019-02-27 22:23:51,528|Error: Not authorized
+|ERROR|2019-02-27 22:24:01,807|Error: Not authorized
+|ERROR|2019-02-27 22:24:16,592|Error: Not authorized
+|ERROR|2019-02-27 22:24:25,978|Error: Not authorized
+|ERROR|2019-02-27 22:24:35,434|Error: Not authorized
+|ERROR|2019-02-27 22:24:48,866|Error: Not authorized
+|ERROR|2019-02-27 22:24:57,068|Error: Not authorized
+|ERROR|2019-02-27 22:25:07,630|Error: Not authorized
+|ERROR|2019-02-27 22:25:17,927|Error: Not authorized
+|ERROR|2019-02-27 22:25:27,552|Error: Not authorized
+|ERROR|2019-02-27 22:25:38,132|Error: Not authorized
+|ERROR|2019-02-27 22:25:47,485|Error: Not authorized
+|ERROR|2019-02-27 22:26:01,963|Error: Not authorized
+|ERROR|2019-02-27 22:26:11,144|Error: Not authorized
+|ERROR|2019-02-27 22:26:20,358|Error: Not authorized
+|ERROR|2019-02-27 22:26:30,640|Error: Not authorized
+|ERROR|2019-02-27 22:26:41,914|Error: Not authorized
+|ERROR|2019-02-27 22:26:51,065|Error: Not authorized
+|ERROR|2019-02-27 22:27:00,979|Error: Not authorized
+|ERROR|2019-02-27 22:27:21,782|Error: Not authorized
+|ERROR|2019-02-27 22:27:30,923|Error: Not authorized
+|ERROR|2019-02-27 22:27:41,957|Error: Not authorized
+|ERROR|2019-02-27 22:27:43,073|Server reports an error: {'executed': False, 'error': 'Unauthorized'}.
+|ERROR|2019-02-27 22:27:43,074|URL: https://api-demo.fxcm.com:443/trading/subscribe
+|ERROR|2019-02-27 22:27:43,074|Headers: {'User-Agent': 'request', 'Accept-Encoding': 'gzip, deflate', 'Accept': 'application/json', 'Connection': 'keep-alive', 'Authorization': 'Bearer nl4rwVm-CDBECLu4ACkMd60e1d5a4a324365e4d351e854c45e8b9c5e7145', 'Content-Type': 'application/x-www-form-urlencoded', 'Content-Length': '12'}
+|ERROR|2019-02-27 22:27:43,074|Params: {'models': 'Order'}
+|ERROR|2019-02-27 22:27:43,075|Bearer token: Bearer nl4rwVm-CDBECLu4ACkMd60e1d5a4a324365e4d351e854c45e8b9c5e7145
+|ERROR|2019-02-27 22:27:43,075|Connection status: pending
+|ERROR|2019-02-27 22:27:43,075|Socket session id: nl4rwVm-CDBECLu4ACkM
+|ERROR|2019-02-27 22:27:43,079|Job "timed_job (trigger: interval[0:01:00], next run at: 2019-02-27 22:28:16 +07)" raised an exception
+Traceback (most recent call last):
+  File "/anaconda2/envs/fxcm/lib/python3.7/site-packages/apscheduler/executors/base.py", line 125, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+  File "<ipython-input-5-3130ce3c8265>", line 21, in timed_job
+    con = fxcmpy.fxcmpy(config_file = 'fxcm.cfg')
+  File "/anaconda2/envs/fxcm/lib/python3.7/site-packages/fxcmpy/fxcmpy.py", line 218, in __init__
+    self.__collect_account_ids__()
+  File "/anaconda2/envs/fxcm/lib/python3.7/site-packages/fxcmpy/fxcmpy.py", line 2218, in __collect_account_ids__
+    data = self.get_accounts('list')
+  File "/anaconda2/envs/fxcm/lib/python3.7/site-packages/fxcmpy/fxcmpy.py", line 508, in get_accounts
+    data = self.get_model(('Account',))
+  File "/anaconda2/envs/fxcm/lib/python3.7/site-packages/fxcmpy/fxcmpy.py", line 341, in get_model
+    params={'models': list(models)})
+  File "/anaconda2/envs/fxcm/lib/python3.7/site-packages/fxcmpy/fxcmpy.py", line 2423, in __handle_request__
+    self.__reconnect__(count)
+  File "/anaconda2/envs/fxcm/lib/python3.7/site-packages/fxcmpy/fxcmpy.py", line 2391, in __reconnect__
+    self.subscribe_data_model('Order')
+  File "/anaconda2/envs/fxcm/lib/python3.7/site-packages/fxcmpy/fxcmpy.py", line 794, in subscribe_data_model
+    params=params, protocol='post')
+  File "/anaconda2/envs/fxcm/lib/python3.7/site-packages/fxcmpy/fxcmpy.py", line 2423, in __handle_request__
+    self.__reconnect__(count)
+  File "/anaconda2/envs/fxcm/lib/python3.7/site-packages/fxcmpy/fxcmpy.py", line 2391, in __reconnect__
+    self.subscribe_data_model('Order')
+  File "/anaconda2/envs/fxcm/lib/python3.7/site-packages/fxcmpy/fxcmpy.py", line 794, in subscribe_data_model
+    params=params, protocol='post')
+  File "/anaconda2/envs/fxcm/lib/python3.7/site-packages/fxcmpy/fxcmpy.py", line 2423, in __handle_request__
+    self.__reconnect__(count)
+  File "/anaconda2/envs/fxcm/lib/python3.7/site-packages/fxcmpy/fxcmpy.py", line 2391, in __reconnect__
+    self.subscribe_data_model('Order')
+  File "/anaconda2/envs/fxcm/lib/python3.7/site-packages/fxcmpy/fxcmpy.py", line 794, in subscribe_data_model
+    params=params, protocol='post')
+  File "/anaconda2/envs/fxcm/lib/python3.7/site-packages/fxcmpy/fxcmpy.py", line 2423, in __handle_request__
+    self.__reconnect__(count)
+  File "/anaconda2/envs/fxcm/lib/python3.7/site-packages/fxcmpy/fxcmpy.py", line 2391, in __reconnect__
+    self.subscribe_data_model('Order')
+  File "/anaconda2/envs/fxcm/lib/python3.7/site-packages/fxcmpy/fxcmpy.py", line 794, in subscribe_data_model
+    params=params, protocol='post')
+  File "/anaconda2/envs/fxcm/lib/python3.7/site-packages/fxcmpy/fxcmpy.py", line 2423, in __handle_request__
+    self.__reconnect__(count)
+  File "/anaconda2/envs/fxcm/lib/python3.7/site-packages/fxcmpy/fxcmpy.py", line 2391, in __reconnect__
+    self.subscribe_data_model('Order')
+  File "/anaconda2/envs/fxcm/lib/python3.7/site-packages/fxcmpy/fxcmpy.py", line 794, in subscribe_data_model
+    params=params, protocol='post')
+  File "/anaconda2/envs/fxcm/lib/python3.7/site-packages/fxcmpy/fxcmpy.py", line 2423, in __handle_request__
+    self.__reconnect__(count)
+  File "/anaconda2/envs/fxcm/lib/python3.7/site-packages/fxcmpy/fxcmpy.py", line 2391, in __reconnect__
+    self.subscribe_data_model('Order')
+  File "/anaconda2/envs/fxcm/lib/python3.7/site-packages/fxcmpy/fxcmpy.py", line 794, in subscribe_data_model
+    params=params, protocol='post')
+  File "/anaconda2/envs/fxcm/lib/python3.7/site-packages/fxcmpy/fxcmpy.py", line 2423, in __handle_request__
+    self.__reconnect__(count)
+  File "/anaconda2/envs/fxcm/lib/python3.7/site-packages/fxcmpy/fxcmpy.py", line 2391, in __reconnect__
+    self.subscribe_data_model('Order')
+  File "/anaconda2/envs/fxcm/lib/python3.7/site-packages/fxcmpy/fxcmpy.py", line 794, in subscribe_data_model
+    params=params, protocol='post')
+  File "/anaconda2/envs/fxcm/lib/python3.7/site-packages/fxcmpy/fxcmpy.py", line 2423, in __handle_request__
+    self.__reconnect__(count)
+  File "/anaconda2/envs/fxcm/lib/python3.7/site-packages/fxcmpy/fxcmpy.py", line 2391, in __reconnect__
+    self.subscribe_data_model('Order')
+  File "/anaconda2/envs/fxcm/lib/python3.7/site-packages/fxcmpy/fxcmpy.py", line 794, in subscribe_data_model
+    params=params, protocol='post')
+  File "/anaconda2/envs/fxcm/lib/python3.7/site-packages/fxcmpy/fxcmpy.py", line 2423, in __handle_request__
+    self.__reconnect__(count)
+  File "/anaconda2/envs/fxcm/lib/python3.7/site-packages/fxcmpy/fxcmpy.py", line 2391, in __reconnect__
+    self.subscribe_data_model('Order')
+  File "/anaconda2/envs/fxcm/lib/python3.7/site-packages/fxcmpy/fxcmpy.py", line 794, in subscribe_data_model
+    params=params, protocol='post')
+  File "/anaconda2/envs/fxcm/lib/python3.7/site-packages/fxcmpy/fxcmpy.py", line 2423, in __handle_request__
+    self.__reconnect__(count)
+  File "/anaconda2/envs/fxcm/lib/python3.7/site-packages/fxcmpy/fxcmpy.py", line 2391, in __reconnect__
+    self.subscribe_data_model('Order')
+  File "/anaconda2/envs/fxcm/lib/python3.7/site-packages/fxcmpy/fxcmpy.py", line 794, in subscribe_data_model
+    params=params, protocol='post')
+  File "/anaconda2/envs/fxcm/lib/python3.7/site-packages/fxcmpy/fxcmpy.py", line 2423, in __handle_request__
+    self.__reconnect__(count)
+  File "/anaconda2/envs/fxcm/lib/python3.7/site-packages/fxcmpy/fxcmpy.py", line 2391, in __reconnect__
+    self.subscribe_data_model('Order')
+  File "/anaconda2/envs/fxcm/lib/python3.7/site-packages/fxcmpy/fxcmpy.py", line 794, in subscribe_data_model
+    params=params, protocol='post')
+  File "/anaconda2/envs/fxcm/lib/python3.7/site-packages/fxcmpy/fxcmpy.py", line 2423, in __handle_request__
+    self.__reconnect__(count)
+  File "/anaconda2/envs/fxcm/lib/python3.7/site-packages/fxcmpy/fxcmpy.py", line 2391, in __reconnect__
+    self.subscribe_data_model('Order')
+  File "/anaconda2/envs/fxcm/lib/python3.7/site-packages/fxcmpy/fxcmpy.py", line 794, in subscribe_data_model
+    params=params, protocol='post')
+  File "/anaconda2/envs/fxcm/lib/python3.7/site-packages/fxcmpy/fxcmpy.py", line 2423, in __handle_request__
+    self.__reconnect__(count)
+  File "/anaconda2/envs/fxcm/lib/python3.7/site-packages/fxcmpy/fxcmpy.py", line 2391, in __reconnect__
+    self.subscribe_data_model('Order')
+  File "/anaconda2/envs/fxcm/lib/python3.7/site-packages/fxcmpy/fxcmpy.py", line 794, in subscribe_data_model
+    params=params, protocol='post')
+  File "/anaconda2/envs/fxcm/lib/python3.7/site-packages/fxcmpy/fxcmpy.py", line 2423, in __handle_request__
+    self.__reconnect__(count)
+  File "/anaconda2/envs/fxcm/lib/python3.7/site-packages/fxcmpy/fxcmpy.py", line 2391, in __reconnect__
+    self.subscribe_data_model('Order')
+  File "/anaconda2/envs/fxcm/lib/python3.7/site-packages/fxcmpy/fxcmpy.py", line 794, in subscribe_data_model
+    params=params, protocol='post')
+  File "/anaconda2/envs/fxcm/lib/python3.7/site-packages/fxcmpy/fxcmpy.py", line 2423, in __handle_request__
+    self.__reconnect__(count)
+  File "/anaconda2/envs/fxcm/lib/python3.7/site-packages/fxcmpy/fxcmpy.py", line 2391, in __reconnect__
+    self.subscribe_data_model('Order')
+  File "/anaconda2/envs/fxcm/lib/python3.7/site-packages/fxcmpy/fxcmpy.py", line 794, in subscribe_data_model
+    params=params, protocol='post')
+  File "/anaconda2/envs/fxcm/lib/python3.7/site-packages/fxcmpy/fxcmpy.py", line 2423, in __handle_request__
+    self.__reconnect__(count)
+  File "/anaconda2/envs/fxcm/lib/python3.7/site-packages/fxcmpy/fxcmpy.py", line 2391, in __reconnect__
+    self.subscribe_data_model('Order')
+  File "/anaconda2/envs/fxcm/lib/python3.7/site-packages/fxcmpy/fxcmpy.py", line 794, in subscribe_data_model
+    params=params, protocol='post')
+  File "/anaconda2/envs/fxcm/lib/python3.7/site-packages/fxcmpy/fxcmpy.py", line 2423, in __handle_request__
+    self.__reconnect__(count)
+  File "/anaconda2/envs/fxcm/lib/python3.7/site-packages/fxcmpy/fxcmpy.py", line 2391, in __reconnect__
+    self.subscribe_data_model('Order')
+  File "/anaconda2/envs/fxcm/lib/python3.7/site-packages/fxcmpy/fxcmpy.py", line 794, in subscribe_data_model
+    params=params, protocol='post')
+  File "/anaconda2/envs/fxcm/lib/python3.7/site-packages/fxcmpy/fxcmpy.py", line 2423, in __handle_request__
+    self.__reconnect__(count)
+  File "/anaconda2/envs/fxcm/lib/python3.7/site-packages/fxcmpy/fxcmpy.py", line 2391, in __reconnect__
+    self.subscribe_data_model('Order')
+  File "/anaconda2/envs/fxcm/lib/python3.7/site-packages/fxcmpy/fxcmpy.py", line 794, in subscribe_data_model
+    params=params, protocol='post')
+  File "/anaconda2/envs/fxcm/lib/python3.7/site-packages/fxcmpy/fxcmpy.py", line 2423, in __handle_request__
+    self.__reconnect__(count)
+  File "/anaconda2/envs/fxcm/lib/python3.7/site-packages/fxcmpy/fxcmpy.py", line 2391, in __reconnect__
+    self.subscribe_data_model('Order')
+  File "/anaconda2/envs/fxcm/lib/python3.7/site-packages/fxcmpy/fxcmpy.py", line 794, in subscribe_data_model
+    params=params, protocol='post')
+  File "/anaconda2/envs/fxcm/lib/python3.7/site-packages/fxcmpy/fxcmpy.py", line 2423, in __handle_request__
+    self.__reconnect__(count)
+  File "/anaconda2/envs/fxcm/lib/python3.7/site-packages/fxcmpy/fxcmpy.py", line 2391, in __reconnect__
+    self.subscribe_data_model('Order')
+  File "/anaconda2/envs/fxcm/lib/python3.7/site-packages/fxcmpy/fxcmpy.py", line 794, in subscribe_data_model
+    params=params, protocol='post')
+  File "/anaconda2/envs/fxcm/lib/python3.7/site-packages/fxcmpy/fxcmpy.py", line 2423, in __handle_request__
+    self.__reconnect__(count)
+  File "/anaconda2/envs/fxcm/lib/python3.7/site-packages/fxcmpy/fxcmpy.py", line 2391, in __reconnect__
+    self.subscribe_data_model('Order')
+  File "/anaconda2/envs/fxcm/lib/python3.7/site-packages/fxcmpy/fxcmpy.py", line 794, in subscribe_data_model
+    params=params, protocol='post')
+  File "/anaconda2/envs/fxcm/lib/python3.7/site-packages/fxcmpy/fxcmpy.py", line 2423, in __handle_request__
+    self.__reconnect__(count)
+  File "/anaconda2/envs/fxcm/lib/python3.7/site-packages/fxcmpy/fxcmpy.py", line 2391, in __reconnect__
+    self.subscribe_data_model('Order')
+  File "/anaconda2/envs/fxcm/lib/python3.7/site-packages/fxcmpy/fxcmpy.py", line 794, in subscribe_data_model
+    params=params, protocol='post')
+  File "/anaconda2/envs/fxcm/lib/python3.7/site-packages/fxcmpy/fxcmpy.py", line 2423, in __handle_request__
+    self.__reconnect__(count)
+  File "/anaconda2/envs/fxcm/lib/python3.7/site-packages/fxcmpy/fxcmpy.py", line 2391, in __reconnect__
+    self.subscribe_data_model('Order')
+  File "/anaconda2/envs/fxcm/lib/python3.7/site-packages/fxcmpy/fxcmpy.py", line 794, in subscribe_data_model
+    params=params, protocol='post')
+  File "/anaconda2/envs/fxcm/lib/python3.7/site-packages/fxcmpy/fxcmpy.py", line 2423, in __handle_request__
+    self.__reconnect__(count)
+  File "/anaconda2/envs/fxcm/lib/python3.7/site-packages/fxcmpy/fxcmpy.py", line 2391, in __reconnect__
+    self.subscribe_data_model('Order')
+  File "/anaconda2/envs/fxcm/lib/python3.7/site-packages/fxcmpy/fxcmpy.py", line 794, in subscribe_data_model
+    params=params, protocol='post')
+  File "/anaconda2/envs/fxcm/lib/python3.7/site-packages/fxcmpy/fxcmpy.py", line 2423, in __handle_request__
+    self.__reconnect__(count)
+  File "/anaconda2/envs/fxcm/lib/python3.7/site-packages/fxcmpy/fxcmpy.py", line 2391, in __reconnect__
+    self.subscribe_data_model('Order')
+  File "/anaconda2/envs/fxcm/lib/python3.7/site-packages/fxcmpy/fxcmpy.py", line 794, in subscribe_data_model
+    params=params, protocol='post')
+  File "/anaconda2/envs/fxcm/lib/python3.7/site-packages/fxcmpy/fxcmpy.py", line 2423, in __handle_request__
+    self.__reconnect__(count)
+  File "/anaconda2/envs/fxcm/lib/python3.7/site-packages/fxcmpy/fxcmpy.py", line 2391, in __reconnect__
+    self.subscribe_data_model('Order')
+  File "/anaconda2/envs/fxcm/lib/python3.7/site-packages/fxcmpy/fxcmpy.py", line 794, in subscribe_data_model
+    params=params, protocol='post')
+  File "/anaconda2/envs/fxcm/lib/python3.7/site-packages/fxcmpy/fxcmpy.py", line 2423, in __handle_request__
+    self.__reconnect__(count)
+  File "/anaconda2/envs/fxcm/lib/python3.7/site-packages/fxcmpy/fxcmpy.py", line 2391, in __reconnect__
+    self.subscribe_data_model('Order')
+  File "/anaconda2/envs/fxcm/lib/python3.7/site-packages/fxcmpy/fxcmpy.py", line 794, in subscribe_data_model
+    params=params, protocol='post')
+  File "/anaconda2/envs/fxcm/lib/python3.7/site-packages/fxcmpy/fxcmpy.py", line 2423, in __handle_request__
+    self.__reconnect__(count)
+  File "/anaconda2/envs/fxcm/lib/python3.7/site-packages/fxcmpy/fxcmpy.py", line 2391, in __reconnect__
+    self.subscribe_data_model('Order')
+  File "/anaconda2/envs/fxcm/lib/python3.7/site-packages/fxcmpy/fxcmpy.py", line 794, in subscribe_data_model
+    params=params, protocol='post')
+  File "/anaconda2/envs/fxcm/lib/python3.7/site-packages/fxcmpy/fxcmpy.py", line 2423, in __handle_request__
+    self.__reconnect__(count)
+  File "/anaconda2/envs/fxcm/lib/python3.7/site-packages/fxcmpy/fxcmpy.py", line 2391, in __reconnect__
+    self.subscribe_data_model('Order')
+  File "/anaconda2/envs/fxcm/lib/python3.7/site-packages/fxcmpy/fxcmpy.py", line 794, in subscribe_data_model
+    params=params, protocol='post')
+  File "/anaconda2/envs/fxcm/lib/python3.7/site-packages/fxcmpy/fxcmpy.py", line 2423, in __handle_request__
+    self.__reconnect__(count)
+  File "/anaconda2/envs/fxcm/lib/python3.7/site-packages/fxcmpy/fxcmpy.py", line 2391, in __reconnect__
+    self.subscribe_data_model('Order')
+  File "/anaconda2/envs/fxcm/lib/python3.7/site-packages/fxcmpy/fxcmpy.py", line 794, in subscribe_data_model
+    params=params, protocol='post')
+  File "/anaconda2/envs/fxcm/lib/python3.7/site-packages/fxcmpy/fxcmpy.py", line 2423, in __handle_request__
+    self.__reconnect__(count)
+  File "/anaconda2/envs/fxcm/lib/python3.7/site-packages/fxcmpy/fxcmpy.py", line 2391, in __reconnect__
+    self.subscribe_data_model('Order')
+  File "/anaconda2/envs/fxcm/lib/python3.7/site-packages/fxcmpy/fxcmpy.py", line 794, in subscribe_data_model
+    params=params, protocol='post')
+  File "/anaconda2/envs/fxcm/lib/python3.7/site-packages/fxcmpy/fxcmpy.py", line 2423, in __handle_request__
+    self.__reconnect__(count)
+  File "/anaconda2/envs/fxcm/lib/python3.7/site-packages/fxcmpy/fxcmpy.py", line 2391, in __reconnect__
+    self.subscribe_data_model('Order')
+  File "/anaconda2/envs/fxcm/lib/python3.7/site-packages/fxcmpy/fxcmpy.py", line 794, in subscribe_data_model
+    params=params, protocol='post')
+  File "/anaconda2/envs/fxcm/lib/python3.7/site-packages/fxcmpy/fxcmpy.py", line 2423, in __handle_request__
+    self.__reconnect__(count)
+  File "/anaconda2/envs/fxcm/lib/python3.7/site-packages/fxcmpy/fxcmpy.py", line 2391, in __reconnect__
+    self.subscribe_data_model('Order')
+  File "/anaconda2/envs/fxcm/lib/python3.7/site-packages/fxcmpy/fxcmpy.py", line 794, in subscribe_data_model
+    params=params, protocol='post')
+  File "/anaconda2/envs/fxcm/lib/python3.7/site-packages/fxcmpy/fxcmpy.py", line 2423, in __handle_request__
+    self.__reconnect__(count)
+  File "/anaconda2/envs/fxcm/lib/python3.7/site-packages/fxcmpy/fxcmpy.py", line 2391, in __reconnect__
+    self.subscribe_data_model('Order')
+  File "/anaconda2/envs/fxcm/lib/python3.7/site-packages/fxcmpy/fxcmpy.py", line 794, in subscribe_data_model
+    params=params, protocol='post')
+  File "/anaconda2/envs/fxcm/lib/python3.7/site-packages/fxcmpy/fxcmpy.py", line 2423, in __handle_request__
+    self.__reconnect__(count)
+  File "/anaconda2/envs/fxcm/lib/python3.7/site-packages/fxcmpy/fxcmpy.py", line 2391, in __reconnect__
+    self.subscribe_data_model('Order')
+  File "/anaconda2/envs/fxcm/lib/python3.7/site-packages/fxcmpy/fxcmpy.py", line 794, in subscribe_data_model
+    params=params, protocol='post')
+  File "/anaconda2/envs/fxcm/lib/python3.7/site-packages/fxcmpy/fxcmpy.py", line 2423, in __handle_request__
+    self.__reconnect__(count)
+  File "/anaconda2/envs/fxcm/lib/python3.7/site-packages/fxcmpy/fxcmpy.py", line 2391, in __reconnect__
+    self.subscribe_data_model('Order')
+  File "/anaconda2/envs/fxcm/lib/python3.7/site-packages/fxcmpy/fxcmpy.py", line 794, in subscribe_data_model
+    params=params, protocol='post')
+  File "/anaconda2/envs/fxcm/lib/python3.7/site-packages/fxcmpy/fxcmpy.py", line 2423, in __handle_request__
+    self.__reconnect__(count)
+  File "/anaconda2/envs/fxcm/lib/python3.7/site-packages/fxcmpy/fxcmpy.py", line 2391, in __reconnect__
+    self.subscribe_data_model('Order')
+  File "/anaconda2/envs/fxcm/lib/python3.7/site-packages/fxcmpy/fxcmpy.py", line 794, in subscribe_data_model
+    params=params, protocol='post')
+  File "/anaconda2/envs/fxcm/lib/python3.7/site-packages/fxcmpy/fxcmpy.py", line 2423, in __handle_request__
+    self.__reconnect__(count)
+  File "/anaconda2/envs/fxcm/lib/python3.7/site-packages/fxcmpy/fxcmpy.py", line 2391, in __reconnect__
+    self.subscribe_data_model('Order')
+  File "/anaconda2/envs/fxcm/lib/python3.7/site-packages/fxcmpy/fxcmpy.py", line 794, in subscribe_data_model
+    params=params, protocol='post')
+  File "/anaconda2/envs/fxcm/lib/python3.7/site-packages/fxcmpy/fxcmpy.py", line 2423, in __handle_request__
+    self.__reconnect__(count)
+  File "/anaconda2/envs/fxcm/lib/python3.7/site-packages/fxcmpy/fxcmpy.py", line 2391, in __reconnect__
+    self.subscribe_data_model('Order')
+  File "/anaconda2/envs/fxcm/lib/python3.7/site-packages/fxcmpy/fxcmpy.py", line 794, in subscribe_data_model
+    params=params, protocol='post')
+  File "/anaconda2/envs/fxcm/lib/python3.7/site-packages/fxcmpy/fxcmpy.py", line 2423, in __handle_request__
+    self.__reconnect__(count)
+  File "/anaconda2/envs/fxcm/lib/python3.7/site-packages/fxcmpy/fxcmpy.py", line 2391, in __reconnect__
+    self.subscribe_data_model('Order')
+  File "/anaconda2/envs/fxcm/lib/python3.7/site-packages/fxcmpy/fxcmpy.py", line 794, in subscribe_data_model
+    params=params, protocol='post')
+  File "/anaconda2/envs/fxcm/lib/python3.7/site-packages/fxcmpy/fxcmpy.py", line 2423, in __handle_request__
+    self.__reconnect__(count)
+  File "/anaconda2/envs/fxcm/lib/python3.7/site-packages/fxcmpy/fxcmpy.py", line 2391, in __reconnect__
+    self.subscribe_data_model('Order')
+  File "/anaconda2/envs/fxcm/lib/python3.7/site-packages/fxcmpy/fxcmpy.py", line 794, in subscribe_data_model
+    params=params, protocol='post')
+  File "/anaconda2/envs/fxcm/lib/python3.7/site-packages/fxcmpy/fxcmpy.py", line 2423, in __handle_request__
+    self.__reconnect__(count)
+  File "/anaconda2/envs/fxcm/lib/python3.7/site-packages/fxcmpy/fxcmpy.py", line 2391, in __reconnect__
+    self.subscribe_data_model('Order')
+  File "/anaconda2/envs/fxcm/lib/python3.7/site-packages/fxcmpy/fxcmpy.py", line 794, in subscribe_data_model
+    params=params, protocol='post')
+  File "/anaconda2/envs/fxcm/lib/python3.7/site-packages/fxcmpy/fxcmpy.py", line 2423, in __handle_request__
+    self.__reconnect__(count)
+  File "/anaconda2/envs/fxcm/lib/python3.7/site-packages/fxcmpy/fxcmpy.py", line 2391, in __reconnect__
+    self.subscribe_data_model('Order')
+  File "/anaconda2/envs/fxcm/lib/python3.7/site-packages/fxcmpy/fxcmpy.py", line 794, in subscribe_data_model
+    params=params, protocol='post')
+  File "/anaconda2/envs/fxcm/lib/python3.7/site-packages/fxcmpy/fxcmpy.py", line 2423, in __handle_request__
+    self.__reconnect__(count)
+  File "/anaconda2/envs/fxcm/lib/python3.7/site-packages/fxcmpy/fxcmpy.py", line 2391, in __reconnect__
+    self.subscribe_data_model('Order')
+  File "/anaconda2/envs/fxcm/lib/python3.7/site-packages/fxcmpy/fxcmpy.py", line 794, in subscribe_data_model
+    params=params, protocol='post')
+  File "/anaconda2/envs/fxcm/lib/python3.7/site-packages/fxcmpy/fxcmpy.py", line 2423, in __handle_request__
+    self.__reconnect__(count)
+  File "/anaconda2/envs/fxcm/lib/python3.7/site-packages/fxcmpy/fxcmpy.py", line 2391, in __reconnect__
+    self.subscribe_data_model('Order')
+  File "/anaconda2/envs/fxcm/lib/python3.7/site-packages/fxcmpy/fxcmpy.py", line 794, in subscribe_data_model
+    params=params, protocol='post')
+  File "/anaconda2/envs/fxcm/lib/python3.7/site-packages/fxcmpy/fxcmpy.py", line 2423, in __handle_request__
+    self.__reconnect__(count)
+  File "/anaconda2/envs/fxcm/lib/python3.7/site-packages/fxcmpy/fxcmpy.py", line 2391, in __reconnect__
+    self.subscribe_data_model('Order')
+  File "/anaconda2/envs/fxcm/lib/python3.7/site-packages/fxcmpy/fxcmpy.py", line 794, in subscribe_data_model
+    params=params, protocol='post')
+  File "/anaconda2/envs/fxcm/lib/python3.7/site-packages/fxcmpy/fxcmpy.py", line 2423, in __handle_request__
+    self.__reconnect__(count)
+  File "/anaconda2/envs/fxcm/lib/python3.7/site-packages/fxcmpy/fxcmpy.py", line 2391, in __reconnect__
+    self.subscribe_data_model('Order')
+  File "/anaconda2/envs/fxcm/lib/python3.7/site-packages/fxcmpy/fxcmpy.py", line 794, in subscribe_data_model
+    params=params, protocol='post')
+  File "/anaconda2/envs/fxcm/lib/python3.7/site-packages/fxcmpy/fxcmpy.py", line 2423, in __handle_request__
+    self.__reconnect__(count)
+  File "/anaconda2/envs/fxcm/lib/python3.7/site-packages/fxcmpy/fxcmpy.py", line 2391, in __reconnect__
+    self.subscribe_data_model('Order')
+  File "/anaconda2/envs/fxcm/lib/python3.7/site-packages/fxcmpy/fxcmpy.py", line 794, in subscribe_data_model
+    params=params, protocol='post')
+  File "/anaconda2/envs/fxcm/lib/python3.7/site-packages/fxcmpy/fxcmpy.py", line 2514, in __handle_request__
+    % data['response']['error'])
+fxcmpy.fxcmpy.ServerError: FXCM Server reports an error: Unauthorized.
+|ERROR|2019-02-27 22:28:20,028|Error: Not authorized
+|ERROR|2019-02-27 22:29:06,316|Job "timed_job (trigger: interval[0:01:00], next run at: 2019-02-27 22:29:16 +07)" raised an exception
+Traceback (most recent call last):
+  File "/anaconda2/envs/fxcm/lib/python3.7/site-packages/apscheduler/executors/base.py", line 125, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+  File "<ipython-input-5-3130ce3c8265>", line 21, in timed_job
+    con = fxcmpy.fxcmpy(config_file = 'fxcm.cfg')
+  File "/anaconda2/envs/fxcm/lib/python3.7/site-packages/fxcmpy/fxcmpy.py", line 214, in __init__
+    raise ServerError('Can not find FXCM Server.')
+fxcmpy.fxcmpy.ServerError: Can not find FXCM Server.
+|ERROR|2019-02-27 22:29:22,720|Error: Not authorized
+|ERROR|2019-02-27 22:30:06,348|Job "timed_job (trigger: interval[0:01:00], next run at: 2019-02-27 22:30:16 +07)" raised an exception
+Traceback (most recent call last):
+  File "/anaconda2/envs/fxcm/lib/python3.7/site-packages/apscheduler/executors/base.py", line 125, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+  File "<ipython-input-5-3130ce3c8265>", line 21, in timed_job
+    con = fxcmpy.fxcmpy(config_file = 'fxcm.cfg')
+  File "/anaconda2/envs/fxcm/lib/python3.7/site-packages/fxcmpy/fxcmpy.py", line 214, in __init__
+    raise ServerError('Can not find FXCM Server.')
+fxcmpy.fxcmpy.ServerError: Can not find FXCM Server.
+|ERROR|2019-02-27 22:30:19,963|Error: Not authorized
+|ERROR|2019-02-27 22:31:06,310|Job "timed_job (trigger: interval[0:01:00], next run at: 2019-02-27 22:31:16 +07)" raised an exception
+Traceback (most recent call last):
+  File "/anaconda2/envs/fxcm/lib/python3.7/site-packages/apscheduler/executors/base.py", line 125, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+  File "<ipython-input-5-3130ce3c8265>", line 21, in timed_job
+    con = fxcmpy.fxcmpy(config_file = 'fxcm.cfg')
+  File "/anaconda2/envs/fxcm/lib/python3.7/site-packages/fxcmpy/fxcmpy.py", line 214, in __init__
+    raise ServerError('Can not find FXCM Server.')
+fxcmpy.fxcmpy.ServerError: Can not find FXCM Server.
+|ERROR|2019-02-27 22:31:20,110|Error: Not authorized
+|ERROR|2019-02-27 22:32:06,323|Job "timed_job (trigger: interval[0:01:00], next run at: 2019-02-27 22:32:16 +07)" raised an exception
+Traceback (most recent call last):
+  File "/anaconda2/envs/fxcm/lib/python3.7/site-packages/apscheduler/executors/base.py", line 125, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+  File "<ipython-input-5-3130ce3c8265>", line 21, in timed_job
+    con = fxcmpy.fxcmpy(config_file = 'fxcm.cfg')
+  File "/anaconda2/envs/fxcm/lib/python3.7/site-packages/fxcmpy/fxcmpy.py", line 214, in __init__
+    raise ServerError('Can not find FXCM Server.')
+fxcmpy.fxcmpy.ServerError: Can not find FXCM Server.
+|ERROR|2019-02-27 22:32:19,958|Error: Not authorized
+|ERROR|2019-02-27 22:33:06,334|Job "timed_job (trigger: interval[0:01:00], next run at: 2019-02-27 22:33:16 +07)" raised an exception
+Traceback (most recent call last):
+  File "/anaconda2/envs/fxcm/lib/python3.7/site-packages/apscheduler/executors/base.py", line 125, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+  File "<ipython-input-5-3130ce3c8265>", line 21, in timed_job
+    con = fxcmpy.fxcmpy(config_file = 'fxcm.cfg')
+  File "/anaconda2/envs/fxcm/lib/python3.7/site-packages/fxcmpy/fxcmpy.py", line 214, in __init__
+    raise ServerError('Can not find FXCM Server.')
+fxcmpy.fxcmpy.ServerError: Can not find FXCM Server.
+|ERROR|2019-02-27 22:33:19,459|Error: Not authorized
+|ERROR|2019-02-27 22:34:06,327|Job "timed_job (trigger: interval[0:01:00], next run at: 2019-02-27 22:34:16 +07)" raised an exception
+Traceback (most recent call last):
+  File "/anaconda2/envs/fxcm/lib/python3.7/site-packages/apscheduler/executors/base.py", line 125, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+  File "<ipython-input-5-3130ce3c8265>", line 21, in timed_job
+    con = fxcmpy.fxcmpy(config_file = 'fxcm.cfg')
+  File "/anaconda2/envs/fxcm/lib/python3.7/site-packages/fxcmpy/fxcmpy.py", line 214, in __init__
+    raise ServerError('Can not find FXCM Server.')
+fxcmpy.fxcmpy.ServerError: Can not find FXCM Server.
+|ERROR|2019-02-27 22:34:20,066|Error: Not authorized
+|ERROR|2019-02-27 22:34:22,152|Error: Not authorized
+|ERROR|2019-02-27 22:35:06,327|Job "timed_job (trigger: interval[0:01:00], next run at: 2019-02-27 22:35:16 +07)" raised an exception
+Traceback (most recent call last):
+  File "/anaconda2/envs/fxcm/lib/python3.7/site-packages/apscheduler/executors/base.py", line 125, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+  File "<ipython-input-5-3130ce3c8265>", line 21, in timed_job
+    con = fxcmpy.fxcmpy(config_file = 'fxcm.cfg')
+  File "/anaconda2/envs/fxcm/lib/python3.7/site-packages/fxcmpy/fxcmpy.py", line 214, in __init__
+    raise ServerError('Can not find FXCM Server.')
+fxcmpy.fxcmpy.ServerError: Can not find FXCM Server.
+|ERROR|2019-02-27 22:35:23,603|Error: Not authorized
+|ERROR|2019-02-27 22:36:14,903|Error: Not authorized
+|ERROR|2019-02-27 22:36:24,926|Error: Not authorized
+|ERROR|2019-02-27 22:36:34,635|Error: Not authorized
+|ERROR|2019-02-27 22:36:44,966|Error: Not authorized
+|ERROR|2019-02-27 22:36:54,968|Error: Not authorized
+|ERROR|2019-02-27 22:37:05,113|Error: Not authorized
+|ERROR|2019-02-27 22:37:18,636|Error: Not authorized
+|ERROR|2019-02-27 22:37:27,126|Error: Not authorized
+|ERROR|2019-02-27 22:37:37,507|Error: Not authorized
+|ERROR|2019-02-27 22:37:47,514|Error: Not authorized
+|ERROR|2019-02-27 22:37:56,884|Error: Not authorized
+|ERROR|2019-02-27 22:38:07,543|Error: Not authorized
+|ERROR|2019-02-27 22:38:19,997|Error: Not authorized
+|ERROR|2019-02-27 22:38:28,625|Error: Not authorized
+|ERROR|2019-02-27 22:38:38,865|Error: Not authorized
+|ERROR|2019-02-27 22:38:48,874|Error: Not authorized
+|ERROR|2019-02-27 22:38:58,153|Error: Not authorized
+|ERROR|2019-02-27 22:39:08,500|Error: Not authorized
+|ERROR|2019-02-27 22:39:18,150|Error: Not authorized
+|ERROR|2019-02-27 22:39:29,567|Error: Not authorized
+|ERROR|2019-02-27 22:39:38,477|Error: Not authorized
+|ERROR|2019-02-27 22:39:48,507|Error: Not authorized
+|ERROR|2019-02-27 22:39:58,595|Error: Not authorized
+|ERROR|2019-02-27 22:40:08,994|Error: Not authorized
+|ERROR|2019-02-27 22:40:19,137|Error: Not authorized
+|ERROR|2019-02-27 22:40:29,072|Error: Not authorized
+|ERROR|2019-02-27 22:40:38,557|Error: Not authorized
+|ERROR|2019-02-27 22:40:48,511|Error: Not authorized
+|ERROR|2019-02-27 22:40:59,410|Error: Not authorized
+|ERROR|2019-02-27 22:41:09,054|Error: Not authorized
+|ERROR|2019-02-27 22:41:21,564|Error: Not authorized
+|ERROR|2019-02-27 22:41:30,118|Error: Not authorized
+|ERROR|2019-02-27 22:41:40,489|Error: Not authorized
+|ERROR|2019-02-27 22:41:49,995|Error: Not authorized
+|ERROR|2019-02-27 22:42:00,522|Error: Not authorized
+|ERROR|2019-02-27 22:42:10,048|Error: Not authorized
+|ERROR|2019-02-27 22:42:23,599|Error: Not authorized
+|ERROR|2019-02-27 22:42:31,978|Error: Not authorized
+|ERROR|2019-02-27 22:42:42,529|Error: Not authorized
+|ERROR|2019-02-27 22:42:52,535|Error: Not authorized

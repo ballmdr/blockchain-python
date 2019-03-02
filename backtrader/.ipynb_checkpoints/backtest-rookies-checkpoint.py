@@ -1,18 +1,13 @@
 import backtrader as bt
 from datetime import datetime
-
-import os
-os_path = os.getcwd()
-
-import fxcmpy
-con = fxcmpy.fxcmpy(config_file = os_path + '/FXCM/fxcm.cfg', server='demo')
+import quandl
 
 indy = bt.indicators
 
 class rsi_overzone(bt.Strategy):
 
     def __init__(self):
-        self.rsi = indy.RSI_SMA(self.data.close, period=14)
+        self.rsi = indy.RSI_SMA(self.data.close, period=21)
     
     def next(self):
         if not self.position:
@@ -27,14 +22,13 @@ class rsi_overzone(bt.Strategy):
 
 if __name__ == "__main__":
     
-    symbol = 'EUR/USD'
-    df = con.get_candles(symbol, period='H1', number=1260) #1 Years
-    df['Close'] = (df['bidclose'] + df['askclose']) / 2
-
     cerebro = bt.Cerebro()
 
-    data = bt.feeds.PandasData(dataname=df)
+    df = quandl.get("PERTH/USD_JPY_D", authtoken="BtTbtBEhiWH3aJTHWhEP", start_date="2017-01-01", end_date="2018-12-31")
+    df.rename(columns={'Ask Average': 'Close'}, inplace=True)
 
+    data = bt.feeds.PandasData(dataname=df)
+    
     cerebro.adddata(data)
     cerebro.addstrategy(rsi_overzone)
     cerebro.run()
