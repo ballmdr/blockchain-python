@@ -31,7 +31,7 @@ if __name__ == "__main__":
     df = con.get_candles(symbol, period='H1', number=1260) #1 Years
     df['Close'] = (df['bidclose'] + df['askclose']) / 2
 
-    cerebro = bt.Cerebro()
+    cerebro = bt.Cerebro(stdstats=False)
 
     data = bt.feeds.PandasData(dataname=df)
 
