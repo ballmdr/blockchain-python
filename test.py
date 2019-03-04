@@ -1,14 +1,12 @@
 import pandas as pd
 import numpy as np
-import pylab as plt
-%matplotlib inline
+
 from datetime import datetime
 import time
 import fxcmpy
 con = fxcmpy.fxcmpy(config_file = '../data/fxcm.cfg')
 from functools import reduce
 
-plt.style.use('seaborn')
 
 symbol = 'EUR/USD'
 tf = 'D1'

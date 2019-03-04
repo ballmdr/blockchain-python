@@ -1,7 +1,6 @@
 import pandas as pd
 import numpy as np
 from datetime import datetime
-import time
 
 import fxcmpy
 from apscheduler.schedulers.blocking import BlockingScheduler
@@ -14,12 +13,12 @@ def z(df):
 
 sched = BlockingScheduler()
 lot = 100
-tf = 'm1'
+tf = 'm5'
+con = fxcmpy.fxcmpy(config_file = 'fxcm.cfg')
 
-#@sched.scheduled_job('interval', seconds=60)
+@sched.scheduled_job('interval', seconds=300)
 def timed_job():
     print('new time job')
-    con = fxcmpy.fxcmpy(config_file = 'fxcm.cfg')
     if (len(con.get_open_positions()) > 0):
         check_position(con)
     trading(con)
@@ -27,7 +26,7 @@ def timed_job():
 def check_position(con):
     i = 0
     for i in range(len(con.open_pos)):
-        print('i = %i' % i)
+        #print('i = %i' % i)
         trade_id = con.get_open_trade_ids()[i]
         pos = con.get_open_position(trade_id)
         amount = pos.get_amount()
@@ -35,7 +34,7 @@ def check_position(con):
         data = con.get_candles(symbol, period=tf, number=100)
         if (pos.get_isBuy()):
             data['Close_z'] = z(data['bidclose'])
-            print(data.iloc[-1]['Close_z'])
+            #print(data.iloc[-1]['Close_z'])
             if data.iloc[-1]['Close_z'] > -1:
                 con.close_trade(trade_id=trade_id, amount=amount)
                 print('close %s' % symbol)
@@ -43,7 +42,7 @@ def check_position(con):
                 print('no close')
         else:
             data['Close_z'] = z(data['askclose'])
-            print(data.iloc[-1]['Close_z'])
+            #print(data.iloc[-1]['Close_z'])
             if data.iloc[-1]['Close_z'] < 1:
                 con.close_trade(trade_id=trade_id, amount=amount)
                 print('close %s id: %i amount: %i' % (symbol, trade_id, amount))
@@ -96,6 +95,4 @@ def hasCurrency(con, symbol):
 #    print('This job is run every weekday at 10am.')
 
 if __name__ == "__main__":  
-    while True:
-        timed_job()
-        time.sleep(60)
+    sched.start()
