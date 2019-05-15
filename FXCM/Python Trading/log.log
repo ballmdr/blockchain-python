@@ -2440,3 +2440,4 @@ Traceback (most recent call last):
   File "<ipython-input-1-e21ae9617bdb>", line 85, in hasCurrency
     pos = con.get_open_position(trad5e_id)
 NameError: name 'trad5e_id' is not defined
+|ERROR|2019-05-15 11:01:35,744|Error: Your token is not authorized, please contact api@fxcm.com

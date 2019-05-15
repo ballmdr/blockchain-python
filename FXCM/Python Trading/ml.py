@@ -4,7 +4,7 @@ import fxcmpy
 import time
 from datetime import datetime
 import pickle
-from sklearn.preprocessing import MinMaxScaler, scale
+from sklearn.preprocessing import MinMaxScaler, scale, StandardScaler
 from sklearn.decomposition import PCA
 import tensorflow as tf
 import pandas as pd
@@ -30,6 +30,8 @@ max_amountK = 0
 limit = None
 stop = None
 
+sequence_len = 0
+
 def getNewPrice():
 	global price, con
 	# update pricedata on first attempt
@@ -52,71 +54,102 @@ def getNewPrice():
 	else:
 		return False
 
-# This function is run every time a candle closes
+def series_to_supervised(data, n_in=1, n_out=1, dropnan=True,feat_name=None):
+    
+    n_vars = 1 if type(data) is list else data.shape[1]
+    df = pd.DataFrame(data)
+    cols, names = list(), list()
+    
+    # input sequence (t-n, ... t-1)
+    for i in range(n_in, 0, -1):
+        cols.append(df.shift(i))
+        names += [f'{feat_name[j]}(t-{i})' for j in range(n_vars)]
+    
+    # forecast sequence (t, t+1, ... t+n)
+    for i in range(0, n_out):
+        cols.append(df.shift(-i))
+        if i == 0:
+            names += [f'{feat_name[j]}(t)' for j in range(n_vars)]
+        else:
+            names += [f'{feat_name[j]}(t+{i})' for j in range(n_vars)]
+    
+    # put it all together
+    agg = pd.concat(cols, axis=1)
+    agg.columns = names
+    
+    return agg
+
 def predictSignal():
 
-	global price, model, pca
+    global price, model, pca
 
-	df = pd.DataFrame()
-	df['Open'] = (price.askopen + price.bidopen) / 2
-	df['High'] = (price.askhigh + price.bidhigh) / 2
-	df['Low'] = (price.asklow + price.bidlow) / 2
-	df['Close'] = (price.askclose + price.bidclose) / 2
-	df.index = price.index
+    df = pd.DataFrame()
+    df['Open'] = (price.askopen + price.bidopen) / 2
+    df['High'] = (price.askhigh + price.bidhigh) / 2
+    df['Low'] = (price.asklow + price.bidlow) / 2
+    df['Close'] = (price.askclose + price.bidclose) / 2
+    df.index = price.index
 
-	df['Linear_regression'] = ta.LINEARREG(df.Close, timeperiod=14)
-	df['Linear_angle'] = ta.LINEARREG_ANGLE(df.Close, timeperiod=14)
-	df['Linear_slope'] = ta.LINEARREG_SLOPE(df.Close, timeperiod=14)
-	df['Linear_intercept'] = ta.LINEARREG_INTERCEPT(df.Close, timeperiod=14)
+    df['Returns'] = df.Close.pct_change()
+    df['Linear_regression'] = ta.LINEARREG(df.Close, timeperiod=14)
+    df['Linear_angle'] = ta.LINEARREG_ANGLE(df.Close, timeperiod=14)
+    df['Linear_slope'] = ta.LINEARREG_SLOPE(df.Close, timeperiod=14)
+    df['Linear_intercept'] = ta.LINEARREG_INTERCEPT(df.Close, timeperiod=14)
 
-	# features
-	df['body_candle'] = df.Open - df.Close
-	df['high_low'] = df.High - df.Low
-	macd, macdsignal, macdhist = ta.MACD(df['Close'].values, fastperiod=12, slowperiod=26, signalperiod=9)
-	df['macd'] = macd
-	df['macdsignal'] = macdsignal
-	df['macdhist'] = macdhist
-	df['macd-cross'] = np.where(df['macdsignal'] > df['macd'], 1, -1)
-	df['ma35'] = ta.SMA(df['Close'].values, timeperiod=35)
-	df['range_ma35'] = df.Close - df.ma35
-	df['ma35_valid'] = np.where(df.Close >= df.ma35, 1, 0)
-	df['ma200'] = ta.SMA(df['Close'].values, timeperiod=200)
-	df['ma200_valid'] = np.where(df.Close >= df.ma200, 1, 0)
-	df['35_200_cross'] = np.where(df.ma35 >= df.ma200, 1, 0)
-	df['Returns'] = np.log(df.Close/df.Close.shift(1))
-	df['ATR'] = ta.ATR(df['High'].values, df['Low'], df['Close'], timeperiod=14)
-	df['ATR_diff'] = df.ATR.diff()
-	df['ADX'] = ta.ADX(df.High, df.Low, df.Close, timeperiod=14)
-	df['ADX_diff'] = df.ADX.diff()
-	df['CCI'] = ta.CCI(df.High, df.Low, df.Close, timeperiod=14)
-	df['CCI_diff'] = df.CCI.diff()
-	df['MOM'] = ta.MOM(df.Close, timeperiod=10)
-	df['MOM_diff'] = df.MOM.diff()
-	df['RSI'] = ta.RSI(df.Close, timeperiod=14)
-	df['RSI_diff'] = df.RSI.diff()
-	df['Linear_regression_diff'] = df.Linear_regression.diff()
-	df['Linear_angle_diff'] = df.Linear_angle.diff()
-	df['Linear_slope_diff'] = df.Linear_slope.diff()
-	df['Linear_intercept_diff'] = df.Linear_intercept.diff()
+    df['body_candle'] = df.Open - df.Close
+    df['high_low'] = df.High - df.Low
+    macd, macdsignal, macdhist = ta.MACD(df['Close'].values, fastperiod=12, slowperiod=26, signalperiod=9)
+    df['macd'] = macd
+    df['macdsignal'] = macdsignal
+    df['macdhist'] = macdhist
+    df['ma35'] = ta.SMA(df['Close'].values, timeperiod=35)
+    df['range_ma35'] = df.Close - df.ma35
+    df['ma200'] = ta.SMA(df['Close'].values, timeperiod=200)
+    df['Returns'] = np.log(df.Close/df.Close.shift(1))
+    df['ATR'] = ta.ATR(df['High'].values, df['Low'], df['Close'], timeperiod=14)
+    df['ADX'] = ta.ADX(df.High, df.Low, df.Close, timeperiod=14)
+    df['CCI'] = ta.CCI(df.High, df.Low, df.Close, timeperiod=14)
+    df['MOM'] = ta.MOM(df.Close, timeperiod=10)
+    df['RSI'] = ta.RSI(df.Close, timeperiod=14)
 
-	df = df.dropna()
-	drop_cols = ['Open', 'High', 'Low', 'Close']
-	drop_cols_2 = ['ma200', 'ma35']
-	drop_cols_3 = ['Linear_regression', 'Linear_angle', 'Linear_slope', 'Linear_intercept']
-	drop_cols = drop_cols + drop_cols_2 + drop_cols_3
+    df['Median'] = ta.MEDPRICE(df.High, df.Low)
+    df['STD'] = np.std(df.Close)
+    df['Pearson_coef'] = ta.CORREL(df.High, df.Low, timeperiod=30)
+    df['Beta'] = ta.BETA(df.High, df.Low, timeperiod=5)
+    df['obv'] = ta.OBV(df.Close, df.Volume)
+    df['trendmode'] = ta.HT_TRENDMODE(df.Close)
+    df['sine'], df['leadsine'] = ta.HT_SINE(df.Close)
+    df['avgprice'] = ta.AVGPRICE(df.Open, df.High, df.Low, df.Close)
+    df['typical_price'] = ta.TYPPRICE(df.High, df.Low, df.Close)
+    df['weight_close'] = ta.WCLPRICE(df.High, df.Low, df.Close)
+    df['aroondown'], df['aroonup'] = ta.AROON(df.High, df.Low, timeperiod=14)
+    df['trendline'] = ta.HT_TRENDLINE(df.Close)
+    df['kama'] = ta.KAMA(df.Close, timeperiod=35)
+    df['midpoint'] = ta.MIDPRICE(df.High, df.Low, timeperiod=14)
+    df['sar'] = ta.SAR(df.High, df.Low, acceleration=0, maximum=0)
+    df['wma'] = ta.WMA(df.Close, timeperiod=35)
+    df['upperband'], df['middleband'], df['lowerband'] = ta.BBANDS(df.Close, timeperiod=20, nbdevup=2, nbdevdn=2, matype=0)
 
-	df = df.drop(drop_cols, axis=1)
-	predict_arr = pd.DataFrame(df.iloc[-1])
+    df.drop(['Date', 'Time', 'Open', 'High', 'Low', 'Close', 'Volume'], axis=1, inplace=True)
+    df.dropna(inplace=True)
 
-	predict_arr = scale(predict_arr.values).reshape(1,-1)
-	predict_arr = pca.transform(predict_arr)
-	pred = model.predict(predict_arr)
-	#print(predict_arr)
-	print('predicted: ', pred)
-	if pred > 0.5:
-		return True
-	else:
-		return False
+    reframed = series_to_supervised(df.values, sequence_len, 1, feat_name=df.columns)
+    reframed = reframed.dropna()
+    x = reframed.values
+    scaler = StandardScaler()
+    x = scaler.fit_transform(x)
+    predict_arr = pd.DataFrame(x[-1:])
+
+    #predict_arr = scale(predict_arr.values).reshape(1,-1)
+    #predict_arr = pca.transform(predict_arr)
+    pred = model.predict(predict_arr)
+    #print(predict_arr)
+    print('predicted: ', pred)
+    return pred
+    # if pred == 1:
+    #     return True
+    # else:
+    #     return False
 
 
 def Update(con):
@@ -157,12 +190,12 @@ def Update(con):
 #%%
 
 #load model
-#with open('EURUSD_dec_final_data3_h1.pickle', 'rb') as file:
-#	model = pickle.load(file)
-with open('pca_data3_m5.pickle', 'rb') as file:
-	pca = pickle.load(file)
+with open('log_final_data5_m30.pickle', 'rb') as file:
+	model = pickle.load(file)
+#with open('pca_data3_m5.pickle', 'rb') as file:
+#	pca = pickle.load(file)
 
-model = tf.keras.models.load_model('deep_25042019_data3_m5.h5')
+#model = tf.keras.models.load_model('deep_25042019_data3_m5.h5')
 
 con = fxcmpy.fxcmpy(config_file = os_path + '/fxcm.cfg')
 
