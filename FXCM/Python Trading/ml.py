@@ -88,6 +88,7 @@ def predictSignal():
     df['High'] = (price.askhigh + price.bidhigh) / 2
     df['Low'] = (price.asklow + price.bidlow) / 2
     df['Close'] = (price.askclose + price.bidclose) / 2
+    df['Volume'] = price.tickqty
     df.index = price.index
 
     df['Returns'] = df.Close.pct_change()
